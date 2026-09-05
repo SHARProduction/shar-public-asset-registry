@@ -108,6 +108,17 @@ shar-public.asset.github.wave09.makeup-scene-continuity-tools
 shar-public.asset.github.wave09.performer-welfare-tools
 shar-public.asset.github.wave09.styling-continuity-tools
 shar-public.asset.github.wave09.vfx-pipeline-tools
+shar-public.asset.github.wave10-orchestrator
+shar-public.asset.github.wave10.ai-provenance-tools
+shar-public.asset.github.wave10.case-study-evidence-tools
+shar-public.asset.github.wave10.feedback-resolution-tools
+shar-public.asset.github.wave10.inclusive-production-tools
+shar-public.asset.github.wave10.platform-export-tools
+shar-public.asset.github.wave10.production-cost-benchmark-tools
+shar-public.asset.github.wave10.schedule-critical-path-tools
+shar-public.asset.github.wave10.supplier-bid-comparison-tools
+shar-public.asset.github.wave10.sustainability-emissions-tools
+shar-public.asset.github.wave10.usage-rights-calendar-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -122,3 +133,4 @@ shar-public.asset.web.wave06
 shar-public.asset.web.wave07
 shar-public.asset.web.wave08
 shar-public.asset.web.wave09
+shar-public.asset.web.wave10

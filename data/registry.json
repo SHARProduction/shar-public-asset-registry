@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-05T23:08:52Z",
+  "updated_at": "2026-09-05T23:24:07Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -6034,6 +6034,611 @@
       "next_review": "2026-10-10"
     },
     {
+      "asset_id": "shar-public.asset.github.wave10-orchestrator",
+      "asset_type": "github_repository",
+      "title": "SHAR Production Public Engine Wave 10 Orchestrator",
+      "title_ru": "Оркестратор девятой волны SHAR Production Public Engine",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/shar-public-engine-wave-10",
+      "public_url": "https://github.com/SHARProduction/shar-public-engine-wave-10",
+      "canonical_url": "https://github.com/SHARProduction/shar-public-engine-wave-10",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.0"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PUBLIC_CLONE_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Fresh recursive public clone plus full manifest and repository tests",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.0.0 release is non-draft and non-prerelease.",
+          "Fresh recursive clone resolved all 10 pinned submodules at their v1.0.0 commits.",
+          "Fresh-clone test suite passed 5/5 and covered 20 distinct evaluators and 60 localized pages."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Reproducible source and verification orchestrator for Wave 10.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.ai-provenance-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production ai provenance tools",
+      "title_ru": "Инструменты SHAR Production: ai provenance",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/ai-provenance-tools",
+      "public_url": "https://github.com/SHARProduction/ai-provenance-tools",
+      "canonical_url": "https://github.com/SHARProduction/ai-provenance-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "c3046ffbc51cb552b668420eaa73fc52462eb9a4"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/ai-provenance-tools repository verified at exact main commit c3046ffbc51cb552b668420eaa73fc52462eb9a4.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for ai provenance with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.case-study-evidence-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production case evidence tools",
+      "title_ru": "Инструменты SHAR Production: case evidence",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/case-study-evidence-tools",
+      "public_url": "https://github.com/SHARProduction/case-study-evidence-tools",
+      "canonical_url": "https://github.com/SHARProduction/case-study-evidence-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "ebb7e2ee75ac97af10e203a7cd940cc0e419c1c7"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/case-study-evidence-tools repository verified at exact main commit ebb7e2ee75ac97af10e203a7cd940cc0e419c1c7.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for case evidence with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.feedback-resolution-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production feedback resolution tools",
+      "title_ru": "Инструменты SHAR Production: feedback resolution",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/feedback-resolution-tools",
+      "public_url": "https://github.com/SHARProduction/feedback-resolution-tools",
+      "canonical_url": "https://github.com/SHARProduction/feedback-resolution-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "4058a0117bff066741b53b155d4ca6acdb7d3db5"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/feedback-resolution-tools repository verified at exact main commit 4058a0117bff066741b53b155d4ca6acdb7d3db5.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for feedback resolution with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.inclusive-production-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production inclusive production tools",
+      "title_ru": "Инструменты SHAR Production: inclusive production",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/inclusive-production-tools",
+      "public_url": "https://github.com/SHARProduction/inclusive-production-tools",
+      "canonical_url": "https://github.com/SHARProduction/inclusive-production-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "05485a4e986cf3abab202e2c62de5de22b47a0b6"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/inclusive-production-tools repository verified at exact main commit 05485a4e986cf3abab202e2c62de5de22b47a0b6.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for inclusive production with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.platform-export-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production platform export tools",
+      "title_ru": "Инструменты SHAR Production: platform export",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/platform-export-tools",
+      "public_url": "https://github.com/SHARProduction/platform-export-tools",
+      "canonical_url": "https://github.com/SHARProduction/platform-export-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "621010c5dbf3a8b9e22ad2546b122553d0645e9e"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/platform-export-tools repository verified at exact main commit 621010c5dbf3a8b9e22ad2546b122553d0645e9e.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for platform export with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.production-cost-benchmark-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production cost benchmark tools",
+      "title_ru": "Инструменты SHAR Production: cost benchmark",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/production-cost-benchmark-tools",
+      "public_url": "https://github.com/SHARProduction/production-cost-benchmark-tools",
+      "canonical_url": "https://github.com/SHARProduction/production-cost-benchmark-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "ff1cf601b665dd34bfdf1c6ca8298c725634bf40"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/production-cost-benchmark-tools repository verified at exact main commit ff1cf601b665dd34bfdf1c6ca8298c725634bf40.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for cost benchmark with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.schedule-critical-path-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production schedule path tools",
+      "title_ru": "Инструменты SHAR Production: schedule path",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/schedule-critical-path-tools",
+      "public_url": "https://github.com/SHARProduction/schedule-critical-path-tools",
+      "canonical_url": "https://github.com/SHARProduction/schedule-critical-path-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "35a36dc9a931da4c174d4def817ac1c04c7a3488"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/schedule-critical-path-tools repository verified at exact main commit 35a36dc9a931da4c174d4def817ac1c04c7a3488.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for schedule path with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.supplier-bid-comparison-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production supplier bids tools",
+      "title_ru": "Инструменты SHAR Production: supplier bids",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/supplier-bid-comparison-tools",
+      "public_url": "https://github.com/SHARProduction/supplier-bid-comparison-tools",
+      "canonical_url": "https://github.com/SHARProduction/supplier-bid-comparison-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "c208de9c894b74883cfaf884b26e2d81c2e2f5b5"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/supplier-bid-comparison-tools repository verified at exact main commit c208de9c894b74883cfaf884b26e2d81c2e2f5b5.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for supplier bids with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.sustainability-emissions-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production sustainability tools",
+      "title_ru": "Инструменты SHAR Production: sustainability",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/sustainability-emissions-tools",
+      "public_url": "https://github.com/SHARProduction/sustainability-emissions-tools",
+      "canonical_url": "https://github.com/SHARProduction/sustainability-emissions-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "334c257950cd54c6286cd05d77d431224534fdef"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/sustainability-emissions-tools repository verified at exact main commit 334c257950cd54c6286cd05d77d431224534fdef.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for sustainability with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.wave10.usage-rights-calendar-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production rights calendar tools",
+      "title_ru": "Инструменты SHAR Production: rights calendar",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/usage-rights-calendar-tools",
+      "public_url": "https://github.com/SHARProduction/usage-rights-calendar-tools",
+      "canonical_url": "https://github.com/SHARProduction/usage-rights-calendar-tools",
+      "version": {
+        "kind": "git_commit",
+        "value": "a92c225b69c23072419f56a84c4ffbfeb69dc3c2"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Authenticated GitHub repository and release APIs plus exact local push commit and license text",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public SHARProduction/usage-rights-calendar-tools repository verified at exact main commit a92c225b69c23072419f56a84c4ffbfeb69dc3c2.",
+          "Public v1.0.0 release is non-draft and non-prerelease; LICENSE contains the complete MIT license issued by SHAR Production.",
+          "README and repository metadata identify SHAR Production and https://sharprod.com/. Pair contains 2 working bilingual tools."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.wave10"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Two bilingual browser tools for rights calendar with deterministic builds and local data processing.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
       "asset_id": "shar-public.asset.hf.production-brief-taxonomy",
       "asset_type": "huggingface_dataset",
       "title": "Production Brief Taxonomy",
@@ -6779,6 +7384,61 @@
         }
       ],
       "content_summary": "Primary public Wave 09 deployment with 20 bilingual crew-privacy, welfare, styling, localization, audio, color, VFX and final-handoff tools and zero trackers.",
+      "notes": [],
+      "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.web.wave10",
+      "asset_type": "website",
+      "title": "SHAR Production Public Engine Wave 10",
+      "title_ru": "Десятая волна SHAR Production Public Engine",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "Cloudflare Pages",
+      "namespace": "bullolaya/shar-production-wave-10",
+      "public_url": "https://shar-production-wave-10.pages.dev/",
+      "canonical_url": "https://shar-production-wave-10.pages.dev/",
+      "version": {
+        "kind": "content_sha256",
+        "value": "529334ffd7773af51c16558afbe99a90727bd9f8fc878a2056952ad8ecdeee79"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "LIVE_HTTP_CHECK",
+      "verified_at": "2026-09-05T23:24:07Z",
+      "verification_method": "Live crawl of all 62 public pages plus desktop/mobile and browser-function checks",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "All 62 EN/RU pages returned HTTP 200 with unique exact canonicals, indexable robots metadata and valid JSON-LD.",
+          "Root and sitemap expose 20 tools in 10 families; robots.txt and sitemap.xml returned HTTP 200.",
+          "Playwright at an exact 390px viewport measured innerWidth, document scrollWidth and body scrollWidth as 390; the live production cost benchmark calculator returned valid=true for amount 120000, band median-to-high and medianVariance 0."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        },
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.github.open-tools"
+        }
+      ],
+      "content_summary": "Primary public Wave 10 deployment with 20 bilingual cost benchmarking, supplier bids, scheduling, usage rights, platform export, sustainability, inclusion, feedback, AI provenance and case-study evidence tools and zero trackers.",
       "notes": [],
       "next_review": "2026-10-10"
     }

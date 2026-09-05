@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 const root=path.resolve(import.meta.dirname,'..');const run=(args)=>spawnSync(process.execPath,args,{cwd:root,encoding:'utf8'});const data=JSON.parse(fs.readFileSync(path.join(root,'data/registry.json'),'utf8'));
-test('canonical validator passes',()=>{const r=run(['scripts/validate.mjs']);assert.equal(r.status,0,r.stderr);assert.match(r.stdout,/124 assets/)});
+test('canonical validator passes',()=>{const r=run(['scripts/validate.mjs']);assert.equal(r.status,0,r.stderr);assert.match(r.stdout,/136 assets/)});
 test('generated projections reproduce byte for byte',()=>{const r=run(['scripts/generate.mjs','--check']);assert.equal(r.status,0,r.stderr)});
 test('immutable ID manifest matches registry',()=>{const expected=fs.readFileSync(path.join(root,'data/asset-ids.txt'),'utf8').trim().split(/\r?\n/);const actual=data.assets.map(x=>x.asset_id).sort();assert.deepEqual(actual,expected);assert.equal(new Set(actual).size,actual.length)});
 test('unsupported verification cannot claim PUBLISHED_VERIFIED',()=>{for(const a of data.assets)if(a.verification.outcome!=='PASS')assert.notEqual(a.status,'PUBLISHED_VERIFIED');const monitor=data.assets.find(x=>x.asset_id==='shar-public.asset.github.public-monitor');assert.equal(monitor.status,'PUBLISHED_VERIFIED');assert.equal(monitor.license,'MIT');assert.equal(monitor.namespace,'SHARProduction/shar-public-monitor')});
@@ -36,5 +36,6 @@ test('Wave 08 has ten repositories, an orchestrator and a live deployment',()=>{
 
 
 test('Wave 09 has ten repositories, an orchestrator and a live deployment',()=>{const repos=data.assets.filter(x=>x.asset_id.startsWith('shar-public.asset.github.wave09.'));assert.equal(repos.length,10);for(const a of repos){assert.equal(a.namespace.startsWith('SHARProduction/'),true);assert.equal(a.license,'MIT');assert.equal(a.status,'PUBLISHED_VERIFIED')}const site=data.assets.find(x=>x.asset_id==='shar-public.asset.web.wave09');assert.equal(site.public_url,'https://shar-production-wave-09.pages.dev/');assert.equal(site.status,'PUBLISHED_VERIFIED');const orchestrator=data.assets.find(x=>x.asset_id==='shar-public.asset.github.wave09-orchestrator');assert.equal(orchestrator.version.value,'v1.0.0');assert.equal(orchestrator.status,'PUBLISHED_VERIFIED')});
+test('Wave 10 has ten repositories, an orchestrator and a live deployment',()=>{const repos=data.assets.filter(x=>x.asset_id.startsWith('shar-public.asset.github.wave10.'));assert.equal(repos.length,10);for(const a of repos){assert.equal(a.namespace.startsWith('SHARProduction/'),true);assert.equal(a.license,'MIT');assert.equal(a.status,'PUBLISHED_VERIFIED')}const site=data.assets.find(x=>x.asset_id==='shar-public.asset.web.wave10');assert.equal(site.public_url,'https://shar-production-wave-10.pages.dev/');assert.equal(site.status,'PUBLISHED_VERIFIED');const orchestrator=data.assets.find(x=>x.asset_id==='shar-public.asset.github.wave10-orchestrator');assert.equal(orchestrator.version.value,'v1.0.0');assert.equal(orchestrator.status,'PUBLISHED_VERIFIED')});
 
 
