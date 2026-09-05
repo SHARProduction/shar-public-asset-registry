@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-05T21:24:15Z",
+  "updated_at": "2026-09-05T21:27:25Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -200,13 +200,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-open-tools",
       "version": {
         "kind": "release_tag",
-        "value": "v1.3.0"
+        "value": "v1.4.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T21:11:45Z",
+      "verified_at": "2026-09-05T21:27:25Z",
       "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
       "verification": {
         "outcome": "PASS",
@@ -216,8 +216,8 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public Open Tools Hub release v1.3.0 is non-draft and non-prerelease and its tag resolves to commit 5f646dd.",
-          "Live Cloudflare Pages EN/RU routes expose 40 registry assets with exact canonical metadata.",
+          "Public Open Tools Hub release v1.4.0 is non-draft and non-prerelease and its tag resolves to commit 20a2a32.",
+          "Live Cloudflare Pages EN/RU routes expose 52 registry assets with exact canonical metadata.",
           "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
         ]
       },
@@ -404,13 +404,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-public-asset-registry",
       "version": {
         "kind": "release_tag",
-        "value": "v1.3.0"
+        "value": "v1.4.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T21:11:45Z",
+      "verified_at": "2026-09-05T21:27:25Z",
       "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
       "verification": {
         "outcome": "PASS",
@@ -420,8 +420,8 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public Registry release v1.3.0 is non-draft and non-prerelease and its tag resolves to commit a348e57.",
-          "Release contains 40 immutable PUBLISHED_VERIFIED assets and passes 14/14 checks.",
+          "Public Registry release v1.4.0 is non-draft and non-prerelease and its tag resolves to commit 13f43ab.",
+          "Release contains 52 immutable PUBLISHED_VERIFIED assets and passes 15/15 checks.",
           "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
         ]
       },
@@ -2525,13 +2525,13 @@
       "canonical_url": "https://sharproduction-production-open-tools.static.hf.space/en/index.html",
       "version": {
         "kind": "hub_commit",
-        "value": "380c928"
+        "value": "81f799c"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-05T21:11:45Z",
+      "verified_at": "2026-09-05T21:27:25Z",
       "verification_method": "Hugging Face Space API plus live static HTML inspection",
       "verification": {
         "outcome": "PASS",
@@ -2541,8 +2541,8 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Hugging Face API exposes public static Space commit 380c928 with runtime content refreshed.",
-          "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 40 asset cards.",
+          "Hugging Face API exposes public static Space commit 81f799c with runtime content refreshed.",
+          "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 52 asset cards.",
           "BUILD-PROVENANCE records PUBLISHED_VERIFIED and SHAR Production ownership."
         ]
       },
