@@ -97,6 +97,17 @@ shar-public.asset.github.wave08.proxy-conform-readiness-tools
 shar-public.asset.github.wave08.qc-delivery-estimation-tools
 shar-public.asset.github.wave08.talent-rights-tools
 shar-public.asset.github.wave08.travel-accommodation-tools
+shar-public.asset.github.wave09-orchestrator
+shar-public.asset.github.wave09.approval-master-handoff-tools
+shar-public.asset.github.wave09.audio-delivery-compliance-tools
+shar-public.asset.github.wave09.color-hdr-metadata-tools
+shar-public.asset.github.wave09.crew-equipment-certification-tools
+shar-public.asset.github.wave09.crew-privacy-tools
+shar-public.asset.github.wave09.localization-dubbing-tools
+shar-public.asset.github.wave09.makeup-scene-continuity-tools
+shar-public.asset.github.wave09.performer-welfare-tools
+shar-public.asset.github.wave09.styling-continuity-tools
+shar-public.asset.github.wave09.vfx-pipeline-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -110,3 +121,4 @@ shar-public.asset.web.wave05
 shar-public.asset.web.wave06
 shar-public.asset.web.wave07
 shar-public.asset.web.wave08
+shar-public.asset.web.wave09
