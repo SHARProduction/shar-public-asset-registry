@@ -86,6 +86,17 @@ shar-public.asset.github.wave07.graphics-endboard-tools
 shar-public.asset.github.wave07.music-voiceover-tools
 shar-public.asset.github.wave07.reference-style-tools
 shar-public.asset.github.wave07.social-cta-tools
+shar-public.asset.github.wave08-orchestrator
+shar-public.asset.github.wave08.archive-knowledge-tools
+shar-public.asset.github.wave08.caption-quality-tools
+shar-public.asset.github.wave08.data-integrity-tools
+shar-public.asset.github.wave08.insurance-permit-tools
+shar-public.asset.github.wave08.location-power-assessment-tools
+shar-public.asset.github.wave08.packshot-continuity-tools
+shar-public.asset.github.wave08.proxy-conform-readiness-tools
+shar-public.asset.github.wave08.qc-delivery-estimation-tools
+shar-public.asset.github.wave08.talent-rights-tools
+shar-public.asset.github.wave08.travel-accommodation-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -98,3 +109,4 @@ shar-public.asset.web.wave04
 shar-public.asset.web.wave05
 shar-public.asset.web.wave06
 shar-public.asset.web.wave07
+shar-public.asset.web.wave08
