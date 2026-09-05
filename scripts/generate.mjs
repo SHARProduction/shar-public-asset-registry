@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const d=JSON.parse(fs.readFileSync(path.join(root,'data/registry.json'),'utf8'));
+const counts={};for(const a of d.assets)counts[a.status]=(counts[a.status]||0)+1;
+const rows=d.assets.map(a=>`| \`${a.asset_id}\` | ${a.asset_type} | [${a.title}](${a.public_url}) | ${a.status} | ${a.version.kind}: \`${a.version.value}\` | ${a.verified_at} |`).join('\n');
+const readme=`# SHAR Production Public Asset Registry\n\nGenerated from \`data/registry.json\`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: \`${d.schema_version}\`. Last evidence refresh: \`${d.updated_at}\`.\n\nThis is an evidence-gated inventory, not a claim of search visibility, adoption, citation, training use or commercial impact. \`PUBLISHED_VERIFIED\` requires checked ownership, public content or function, and an exact version. Unsupported acceptance evidence lowers status.\n\n## Assets\n\n| Immutable asset ID | Type | Public asset | Status | Checked version | Verified at |\n|---|---|---|---|---|---|\n${rows}\n\n## Scope\n\nIncluded:\n${d.scope.included.map(x=>`- ${x}`).join('\n')}\n\nExcluded:\n${d.scope.excluded.map(x=>`- ${x}`).join('\n')}\n\n## Use\n\n\`npm run validate\` validates the canonical JSON. \`npm run generate\` regenerates this file and \`STATUS.md\`.\n`;
+const statusRows=Object.keys(d.status_definitions).map(s=>`| ${s} | ${counts[s]||0} | ${d.status_definitions[s]} |`).join('\n');
+const partial=d.assets.filter(a=>a.status!=='PUBLISHED_VERIFIED').map(a=>`- \`${a.asset_id}\`: ${a.status}. ${a.notes.join(' ')||a.verification.details.join(' ')}`).join('\n')||'- None.';
+const status=`# Registry status\n\nSHAR Production · https://sharprod.com/ · generated ${d.updated_at}\n\n| Status | Count | Definition |\n|---|---:|---|\n${statusRows}\n\n## Assets below PUBLISHED_VERIFIED\n\n${partial}\n`;
+const targets=[['README.md',readme],['STATUS.md',status]];if(process.argv.includes('--check')){let bad=false;for(const [f,s] of targets){if(!fs.existsSync(path.join(root,f))||fs.readFileSync(path.join(root,f),'utf8')!==s){console.error(`${f} is stale`);bad=true}}if(bad)process.exit(1);console.log('generated projections are current')}else{for(const [f,s] of targets)fs.writeFileSync(path.join(root,f),s);console.log('generated README.md and STATUS.md')}

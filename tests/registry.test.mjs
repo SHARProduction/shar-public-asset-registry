@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+const root=path.resolve(import.meta.dirname,'..');const run=(args)=>spawnSync(process.execPath,args,{cwd:root,encoding:'utf8'});const data=JSON.parse(fs.readFileSync(path.join(root,'data/registry.json'),'utf8'));
+test('canonical validator passes',()=>{const r=run(['scripts/validate.mjs']);assert.equal(r.status,0,r.stderr);assert.match(r.stdout,/13 assets/)});
+test('generated projections reproduce byte for byte',()=>{const r=run(['scripts/generate.mjs','--check']);assert.equal(r.status,0,r.stderr)});
+test('immutable ID manifest matches registry',()=>{const expected=fs.readFileSync(path.join(root,'data/asset-ids.txt'),'utf8').trim().split(/\r?\n/);const actual=data.assets.map(x=>x.asset_id).sort();assert.deepEqual(actual,expected);assert.equal(new Set(actual).size,actual.length)});
+test('unsupported verification cannot claim PUBLISHED_VERIFIED',()=>{for(const a of data.assets)if(a.verification.outcome!=='PASS')assert.notEqual(a.status,'PUBLISHED_VERIFIED');const monitor=data.assets.find(x=>x.asset_id==='shar-public.asset.github.public-monitor');assert.equal(monitor.status,'SUBMITTED');assert.equal(monitor.license,'UNSUPPORTED')});
+test('all published assets carry complete proof gates',()=>{for(const a of data.assets.filter(x=>x.status==='PUBLISHED_VERIFIED')){assert.equal(a.verification.outcome,'PASS');assert.equal(a.verification.content_checked,true);assert.equal(a.verification.function_checked,true);assert.equal(a.verification.owner_checked,true);assert.equal(a.verification.version_checked,true);assert.match(a.public_url,/^https:\/\//);assert.ok(a.verification.details.length)}});
+test('scope excludes unrelated owner repositories',()=>{const urls=data.assets.map(x=>x.public_url).join('\n');for(const name of ['/Kinai','/OMNA','/WOMAN','/posture-mirror','/sgaer','/Shariksai','/vite-react-template'])assert.ok(!urls.includes(name));assert.match(data.scope.excluded.join(' '),/personal GitHub account/)});
+test('brand identity is exact on every asset',()=>{for(const a of data.assets){assert.equal(a.owner,'SHAR Production');assert.deepEqual(a.brand,{name:'SHAR Production',website:'https://sharprod.com/'})}});
+test('schema requires every evidence and lifecycle field',()=>{const s=JSON.parse(fs.readFileSync(path.join(root,'schema/asset-registry.schema.json')));const required=s.properties.assets.items.required;for(const f of ['asset_id','status','version','verified_at','verification','next_review','relationships','notes'])assert.ok(required.includes(f));assert.equal(s.additionalProperties,false);assert.deepEqual(s.properties.status_definitions.required,['PLANNED','LOCAL_READY','AWAITING_OWNER','SUBMITTED','PUBLISHED_VERIFIED','MEASURED','BLOCKED','REJECTED_WITH_REASON'])});

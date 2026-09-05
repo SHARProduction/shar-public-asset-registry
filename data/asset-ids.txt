@@ -1,0 +1,13 @@
+shar-public.asset.cloudflare.production-brief-browser
+shar-public.asset.github.ai-cgi-routing
+shar-public.asset.github.commercial-production-standard
+shar-public.asset.github.production-brief-schema
+shar-public.asset.github.production-deliverables-taxonomy
+shar-public.asset.github.profile
+shar-public.asset.github.public-monitor
+shar-public.asset.github.public-roadmap
+shar-public.asset.github.subtitle-delivery-checker
+shar-public.asset.hf.production-brief-taxonomy
+shar-public.asset.hf.production-deliverables-taxonomy
+shar-public.asset.mcp.public-knowledge
+shar-public.asset.web.sharprod-home
