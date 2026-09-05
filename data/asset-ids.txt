@@ -75,6 +75,17 @@ shar-public.asset.github.wave06.risk-incident-tools
 shar-public.asset.github.wave06.script-timing-density-tools
 shar-public.asset.github.wave06.storyboard-animatic-tools
 shar-public.asset.github.wave06.weather-readiness-tools
+shar-public.asset.github.wave07-orchestrator
+shar-public.asset.github.wave07.accessibility-content-tools
+shar-public.asset.github.wave07.brand-compliance-tools
+shar-public.asset.github.wave07.campaign-release-control-tools
+shar-public.asset.github.wave07.campaign-version-tools
+shar-public.asset.github.wave07.concept-treatment-tools
+shar-public.asset.github.wave07.creative-brief-strategy-tools
+shar-public.asset.github.wave07.graphics-endboard-tools
+shar-public.asset.github.wave07.music-voiceover-tools
+shar-public.asset.github.wave07.reference-style-tools
+shar-public.asset.github.wave07.social-cta-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -86,3 +97,4 @@ shar-public.asset.web.wave03
 shar-public.asset.web.wave04
 shar-public.asset.web.wave05
 shar-public.asset.web.wave06
+shar-public.asset.web.wave07
