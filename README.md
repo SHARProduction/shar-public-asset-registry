@@ -1,6 +1,6 @@
 # SHAR Production Public Asset Registry
 
-Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-05T19:58:00Z`.
+Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-05T20:24:54Z`.
 
 This is an evidence-gated inventory, not a claim of search visibility, adoption, citation, training use or commercial impact. `PUBLISHED_VERIFIED` requires checked ownership, public content or function, and an exact version. Unsupported acceptance evidence lowers status.
 
@@ -20,11 +20,22 @@ This is an evidence-gated inventory, not a claim of search visibility, adoption,
 | `shar-public.asset.github.public-roadmap` | github_repository | [SHAR Production Public Roadmap](https://github.com/SHARProduction/shar-production-public-roadmap) | PUBLISHED_VERIFIED | git_commit: `3d94c0fed46ca358fc16dec66dd0c87edee62bdf` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.github.subtitle-delivery-checker` | github_repository | [Subtitle Delivery Checker](https://github.com/SHARProduction/subtitle-delivery-checker) | PUBLISHED_VERIFIED | git_commit: `466a0ce891e7ae037031cacd19cdd57100eab7e7` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.github.tool-factory` | github_repository | [SHAR Tool Factory](https://github.com/SHARProduction/shar-tool-factory) | PUBLISHED_VERIFIED | git_commit: `f3c0c5d71761f0b0e4afefeb8e0df24dc5a1a933` | 2026-09-05T19:58:00Z |
+| `shar-public.asset.github.wave01.ai-cgi-readiness-tools` | github_repository | [SHAR Production ai cgi routing tools](https://github.com/SHARProduction/ai-cgi-readiness-tools) | PUBLISHED_VERIFIED | git_commit: `3a25a14cd0dd0aeb0af00eb9a1f37edfae40e414` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.delivery-archive-tools` | github_repository | [SHAR Production delivery archive tools](https://github.com/SHARProduction/delivery-archive-tools) | PUBLISHED_VERIFIED | git_commit: `9cffd44704c8546fca8a9cfbdf08add0502dc7fd` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.media-rights-readiness-tools` | github_repository | [SHAR Production rights readiness tools](https://github.com/SHARProduction/media-rights-readiness-tools) | PUBLISHED_VERIFIED | git_commit: `331305da4da91ea24b8c1e952edc53ade82916c8` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.production-briefing-tools` | github_repository | [SHAR Production briefing tools](https://github.com/SHARProduction/production-briefing-tools) | PUBLISHED_VERIFIED | git_commit: `b68e88357ebb9c6765760f664ea845b0ef74527e` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.production-budgeting-tools` | github_repository | [SHAR Production budgeting tools](https://github.com/SHARProduction/production-budgeting-tools) | PUBLISHED_VERIFIED | git_commit: `4542ad06d34b930dc86861757364abeb872bf821` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.production-calculators` | github_repository | [SHAR Production calculators tools](https://github.com/SHARProduction/production-calculators) | PUBLISHED_VERIFIED | git_commit: `5d5134e2297deeb8bb9e4598f27dbed0cda1cd0d` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.production-scheduling-tools` | github_repository | [SHAR Production scheduling tools](https://github.com/SHARProduction/production-scheduling-tools) | PUBLISHED_VERIFIED | git_commit: `80ef28614686c85fb7cee6864e11e4e24d66b5bd` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.script-storyboard-tools` | github_repository | [SHAR Production script storyboard tools](https://github.com/SHARProduction/script-storyboard-tools) | PUBLISHED_VERIFIED | git_commit: `0a60e2e6d58ee95c6f63df39bfb91eacaa59f01f` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.subtitle-localization-tools` | github_repository | [SHAR Production subtitles localization tools](https://github.com/SHARProduction/subtitle-localization-tools) | PUBLISHED_VERIFIED | git_commit: `0a9dfcc00fb12f56b8fbda7c0a2f6e9a933cd0a0` | 2026-09-05T20:24:09Z |
+| `shar-public.asset.github.wave01.technical-qc-tools` | github_repository | [SHAR Production technical qc tools](https://github.com/SHARProduction/technical-qc-tools) | PUBLISHED_VERIFIED | git_commit: `36c5451113bef34102864d2c92146058e3223467` | 2026-09-05T20:24:09Z |
 | `shar-public.asset.hf.production-brief-taxonomy` | huggingface_dataset | [Production Brief Taxonomy](https://huggingface.co/datasets/SHARProduction/production-brief-taxonomy) | PUBLISHED_VERIFIED | hub_commit: `368d5524ff24c5cbea6d2872b23dfd4c6f9051c8` | 2026-09-05T19:16:00Z |
 | `shar-public.asset.hf.production-deliverables-taxonomy` | huggingface_dataset | [Production Deliverables Taxonomy Dataset](https://huggingface.co/datasets/SHARProduction/production-deliverables-taxonomy) | PUBLISHED_VERIFIED | hub_commit: `7e20f3f7baaf7299be137ab667bb3fe2e860e763` | 2026-09-05T19:16:00Z |
 | `shar-public.asset.hf.production-open-tools` | huggingface_space | [SHAR Production Open Tools Static Space](https://sharproduction-production-open-tools.static.hf.space/en/index.html) | PUBLISHED_VERIFIED | hub_commit: `a089dcc0ca70f7d4c989aa47e0a1db05a1bed215` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.mcp.public-knowledge` | mcp_service | [SHAR Public Knowledge MCP](https://mcp.sharprod.com/public) | PUBLISHED_VERIFIED | semantic: `0.1.0` | 2026-09-05T19:16:00Z |
 | `shar-public.asset.web.sharprod-home` | website | [SHAR Production website](https://sharprod.com/) | PUBLISHED_VERIFIED | content_sha256: `5e5f72be6baac730649f4bc0616379d0bf277824e98933383eb21faf3bf7d28e` | 2026-09-05T19:16:00Z |
+| `shar-public.asset.web.wave01` | website | [SHAR Production Public Engine Wave 01](https://shar-production-wave-01.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `b4e22248f59d7e30e43e93590c886cc2cace8a6e264dbe8b3eea69b949e346a4` | 2026-09-05T20:24:09Z |
 
 ## Scope
 
