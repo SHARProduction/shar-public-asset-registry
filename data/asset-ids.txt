@@ -119,6 +119,18 @@ shar-public.asset.github.wave10.schedule-critical-path-tools
 shar-public.asset.github.wave10.supplier-bid-comparison-tools
 shar-public.asset.github.wave10.sustainability-emissions-tools
 shar-public.asset.github.wave10.usage-rights-calendar-tools
+shar-public.asset.github.wave11-orchestrator
+shar-public.asset.github.wave11.brief-quality-gates
+shar-public.asset.github.wave11.campaign-launch-tools
+shar-public.asset.github.wave11.data-retention-tools
+shar-public.asset.github.wave11.evidence-release-tools
+shar-public.asset.github.wave11.final-crew-rest-tools
+shar-public.asset.github.wave11.localization-quality-tools
+shar-public.asset.github.wave11.location-contingency-tools
+shar-public.asset.github.wave11.media-license-tools
+shar-public.asset.github.wave11.vendor-governance-tools
+shar-public.asset.github.wave11.version-mastering-tools
+shar-public.asset.github.wave11.visual-coverage-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -134,3 +146,4 @@ shar-public.asset.web.wave07
 shar-public.asset.web.wave08
 shar-public.asset.web.wave09
 shar-public.asset.web.wave10
+shar-public.asset.web.wave11
