@@ -53,6 +53,17 @@ shar-public.asset.github.wave04.delivery-checksum-tools
 shar-public.asset.github.wave04.edl-proxy-tools
 shar-public.asset.github.wave04.framerate-timecode-tools
 shar-public.asset.github.wave04.vfx-turnover-tools
+shar-public.asset.github.wave05-orchestrator
+shar-public.asset.github.wave05.approval-raci-tools
+shar-public.asset.github.wave05.change-scope-tools
+shar-public.asset.github.wave05.cost-control-tools
+shar-public.asset.github.wave05.distribution-rights-tools
+shar-public.asset.github.wave05.invoice-payment-tools
+shar-public.asset.github.wave05.license-renewal-tools
+shar-public.asset.github.wave05.platform-encoding-tools
+shar-public.asset.github.wave05.procurement-bid-tools
+shar-public.asset.github.wave05.review-feedback-tools
+shar-public.asset.github.wave05.sustainability-kpi-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -62,3 +73,4 @@ shar-public.asset.web.wave01
 shar-public.asset.web.wave02
 shar-public.asset.web.wave03
 shar-public.asset.web.wave04
+shar-public.asset.web.wave05
