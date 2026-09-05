@@ -64,6 +64,17 @@ shar-public.asset.github.wave05.platform-encoding-tools
 shar-public.asset.github.wave05.procurement-bid-tools
 shar-public.asset.github.wave05.review-feedback-tools
 shar-public.asset.github.wave05.sustainability-kpi-tools
+shar-public.asset.github.wave06-orchestrator
+shar-public.asset.github.wave06.casting-audition-tools
+shar-public.asset.github.wave06.catering-dietary-tools
+shar-public.asset.github.wave06.crew-time-tools
+shar-public.asset.github.wave06.equipment-media-tools
+shar-public.asset.github.wave06.lighting-generator-tools
+shar-public.asset.github.wave06.location-move-tools
+shar-public.asset.github.wave06.risk-incident-tools
+shar-public.asset.github.wave06.script-timing-density-tools
+shar-public.asset.github.wave06.storyboard-animatic-tools
+shar-public.asset.github.wave06.weather-readiness-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -74,3 +85,4 @@ shar-public.asset.web.wave02
 shar-public.asset.web.wave03
 shar-public.asset.web.wave04
 shar-public.asset.web.wave05
+shar-public.asset.web.wave06

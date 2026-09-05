@@ -1,6 +1,6 @@
 # SHAR Production Public Asset Registry
 
-Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-05T21:56:56Z`.
+Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-05T22:09:26Z`.
 
 This is an evidence-gated inventory, not a claim of search visibility, adoption, citation, training use or commercial impact. `PUBLISHED_VERIFIED` requires checked ownership, public content or function, and an exact version. Unsupported acceptance evidence lowers status.
 
@@ -74,6 +74,17 @@ This is an evidence-gated inventory, not a claim of search visibility, adoption,
 | `shar-public.asset.github.wave05.procurement-bid-tools` | github_repository | [SHAR Production procurement tools](https://github.com/SHARProduction/procurement-bid-tools) | PUBLISHED_VERIFIED | git_commit: `1638e8b5e47671ed278ec0822fb2b8425d36e695` | 2026-09-05T21:53:32Z |
 | `shar-public.asset.github.wave05.review-feedback-tools` | github_repository | [SHAR Production review tools](https://github.com/SHARProduction/review-feedback-tools) | PUBLISHED_VERIFIED | git_commit: `64e10236aa8c78fc30e742f4ec2a4cc2e62fe73c` | 2026-09-05T21:53:32Z |
 | `shar-public.asset.github.wave05.sustainability-kpi-tools` | github_repository | [SHAR Production sustainability tools](https://github.com/SHARProduction/sustainability-kpi-tools) | PUBLISHED_VERIFIED | git_commit: `ab18dd3177003e8ea32ff77311d5f8ee346f8fa9` | 2026-09-05T21:53:32Z |
+| `shar-public.asset.github.wave06-orchestrator` | github_repository | [SHAR Production Public Engine Wave 06 Orchestrator](https://github.com/SHARProduction/shar-public-engine-wave-06) | PUBLISHED_VERIFIED | release_tag: `v1.0.0` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.casting-audition-tools` | github_repository | [SHAR Production casting tools](https://github.com/SHARProduction/casting-audition-tools) | PUBLISHED_VERIFIED | git_commit: `62f6f4b67bfe268b735fd0ca445ee50a76500af5` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.catering-dietary-tools` | github_repository | [SHAR Production catering tools](https://github.com/SHARProduction/catering-dietary-tools) | PUBLISHED_VERIFIED | git_commit: `98c72657348bb6785686eeff0e47ea0326052256` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.crew-time-tools` | github_repository | [SHAR Production crew time tools](https://github.com/SHARProduction/crew-time-tools) | PUBLISHED_VERIFIED | git_commit: `5a82b0c743f219e82f8ce1eeb4ada28a1cab3e1b` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.equipment-media-tools` | github_repository | [SHAR Production equipment media tools](https://github.com/SHARProduction/equipment-media-tools) | PUBLISHED_VERIFIED | git_commit: `07101f4703d680f15508f2d78db23941ad11b0f2` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.lighting-generator-tools` | github_repository | [SHAR Production power tools](https://github.com/SHARProduction/lighting-generator-tools) | PUBLISHED_VERIFIED | git_commit: `3288aeb29735559590c43dfd7e2359174d5ca0bb` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.location-move-tools` | github_repository | [SHAR Production location logistics tools](https://github.com/SHARProduction/location-move-tools) | PUBLISHED_VERIFIED | git_commit: `e4f26d930d3b60b77d52f97040e882217f22688e` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.risk-incident-tools` | github_repository | [SHAR Production safety tools](https://github.com/SHARProduction/risk-incident-tools) | PUBLISHED_VERIFIED | git_commit: `b4ff48f97407d68cae519f8a2b68eb4a9c7792e1` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.script-timing-density-tools` | github_repository | [SHAR Production script story tools](https://github.com/SHARProduction/script-timing-density-tools) | PUBLISHED_VERIFIED | git_commit: `7c1e782411201039a8404ab9aee9ce31bdbc29eb` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.storyboard-animatic-tools` | github_repository | [SHAR Production script story tools](https://github.com/SHARProduction/storyboard-animatic-tools) | PUBLISHED_VERIFIED | git_commit: `bddced2476ef483d5d4d13a4f7aa27ebe5983ab5` | 2026-09-05T22:09:26Z |
+| `shar-public.asset.github.wave06.weather-readiness-tools` | github_repository | [SHAR Production readiness tools](https://github.com/SHARProduction/weather-readiness-tools) | PUBLISHED_VERIFIED | git_commit: `bf02428eba4f0d2974876afa06d02a12cd109da1` | 2026-09-05T22:09:26Z |
 | `shar-public.asset.hf.production-brief-taxonomy` | huggingface_dataset | [Production Brief Taxonomy](https://huggingface.co/datasets/SHARProduction/production-brief-taxonomy) | PUBLISHED_VERIFIED | hub_commit: `368d5524ff24c5cbea6d2872b23dfd4c6f9051c8` | 2026-09-05T19:16:00Z |
 | `shar-public.asset.hf.production-deliverables-taxonomy` | huggingface_dataset | [Production Deliverables Taxonomy Dataset](https://huggingface.co/datasets/SHARProduction/production-deliverables-taxonomy) | PUBLISHED_VERIFIED | hub_commit: `7e20f3f7baaf7299be137ab667bb3fe2e860e763` | 2026-09-05T19:16:00Z |
 | `shar-public.asset.hf.production-open-tools` | huggingface_space | [SHAR Production Open Tools Static Space](https://sharproduction-production-open-tools.static.hf.space/en/index.html) | PUBLISHED_VERIFIED | hub_commit: `efaefab` | 2026-09-05T21:56:56Z |
@@ -84,6 +95,7 @@ This is an evidence-gated inventory, not a claim of search visibility, adoption,
 | `shar-public.asset.web.wave03` | website | [SHAR Production Public Engine Wave 03](https://shar-production-wave-03.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `4142a8900c1c2b42ded9878bd01a5e1bccac06cde04ee60ebabb6add0c000141` | 2026-09-05T21:24:15Z |
 | `shar-public.asset.web.wave04` | website | [SHAR Production Public Engine Wave 04](https://shar-production-wave-04.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `5f9a38a7979ed3690b5558f1d971480355752ad5f220e4dcbb8f5bdb58e8a40c` | 2026-09-05T21:39:00Z |
 | `shar-public.asset.web.wave05` | website | [SHAR Production Public Engine Wave 05](https://shar-production-wave-05.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `34f7f2b336ef0b9f59dd147e685baa9847c479180561215e52c459b051180bcc` | 2026-09-05T21:53:32Z |
+| `shar-public.asset.web.wave06` | website | [SHAR Production Public Engine Wave 06](https://shar-production-wave-06.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `3eb7fbb8ac3fdabe2c240bfc9a9e11b7ae7dd6a4e52623d06f5c943110951b7a` | 2026-09-05T22:09:26Z |
 
 ## Scope
 
