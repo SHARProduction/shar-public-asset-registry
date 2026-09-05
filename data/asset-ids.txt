@@ -42,6 +42,17 @@ shar-public.asset.github.wave03.production-sound-tools
 shar-public.asset.github.wave03.release-rights-tools
 shar-public.asset.github.wave03.safety-weather-tools
 shar-public.asset.github.wave03.transport-sustainability-tools
+shar-public.asset.github.wave04-orchestrator
+shar-public.asset.github.wave04.archive-retention-tools
+shar-public.asset.github.wave04.aspect-safearea-tools
+shar-public.asset.github.wave04.audio-post-tools
+shar-public.asset.github.wave04.campaign-lineage-tools
+shar-public.asset.github.wave04.caption-localization-tools
+shar-public.asset.github.wave04.color-lut-tools
+shar-public.asset.github.wave04.delivery-checksum-tools
+shar-public.asset.github.wave04.edl-proxy-tools
+shar-public.asset.github.wave04.framerate-timecode-tools
+shar-public.asset.github.wave04.vfx-turnover-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -50,3 +61,4 @@ shar-public.asset.web.sharprod-home
 shar-public.asset.web.wave01
 shar-public.asset.web.wave02
 shar-public.asset.web.wave03
+shar-public.asset.web.wave04
