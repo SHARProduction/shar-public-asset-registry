@@ -14,4 +14,6 @@
 
 ## Discovery scope
 
-Discovery queried the public GitHub provider API for `Ares3333333`, the Hugging Face dataset API for `SHARProduction`, and direct public HTTP/protocol endpoints. Inclusion then required explicit SHAR Production identity. This avoids assigning unrelated personal repositories to the brand.
+Current discovery queries the public GitHub organization API for `SHARProduction`, the Hugging Face APIs for the same namespace, and direct public HTTP/protocol endpoints. Inclusion requires explicit SHAR Production identity. This avoids assigning unrelated repositories to the brand.
+
+After organization transfer, GitHub repository evidence is resolved under `SHARProduction`. A conceptual asset keeps its immutable `asset_id` when its provider namespace changes. Release-backed assets may use `release_tag`; the evidence details must also record the commit resolved by that tag. A Hugging Face static Space is registered at the exact live page that passes its indexability and content checks, while service-root behavior is recorded separately.

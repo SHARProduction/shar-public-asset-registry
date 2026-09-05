@@ -127,7 +127,8 @@
               "browser_tool",
               "github_profile",
               "github_repository",
-              "huggingface_dataset"
+              "huggingface_dataset",
+              "huggingface_space"
             ]
           },
           "title": {
@@ -189,6 +190,7 @@
                   "content_sha256",
                   "git_commit",
                   "hub_commit",
+                  "release_tag",
                   "semantic"
                 ]
               },

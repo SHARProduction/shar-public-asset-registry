@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-05T19:16:00Z",
+  "updated_at": "2026-09-05T19:58:00Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -93,9 +93,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/ai-cgi-routing",
-      "public_url": "https://github.com/Ares3333333/ai-cgi-routing",
-      "canonical_url": "https://github.com/Ares3333333/ai-cgi-routing",
+      "namespace": "SHARProduction/ai-cgi-routing",
+      "public_url": "https://github.com/SHARProduction/ai-cgi-routing",
+      "canonical_url": "https://github.com/SHARProduction/ai-cgi-routing",
       "version": {
         "kind": "git_commit",
         "value": "169ed32da348d1fa82d62dbab4200da844e4ee56"
@@ -104,8 +104,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -114,9 +114,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/ai-cgi-routing at exact default-branch commit 169ed32da348d1fa82d62dbab4200da844e4ee56.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -144,9 +144,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/commercial-production-standard",
-      "public_url": "https://github.com/Ares3333333/commercial-production-standard",
-      "canonical_url": "https://github.com/Ares3333333/commercial-production-standard",
+      "namespace": "SHARProduction/commercial-production-standard",
+      "public_url": "https://github.com/SHARProduction/commercial-production-standard",
+      "canonical_url": "https://github.com/SHARProduction/commercial-production-standard",
       "version": {
         "kind": "git_commit",
         "value": "7551d9df2bd09c293b03bc92bef889bae23107c5"
@@ -155,8 +155,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -165,9 +165,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/commercial-production-standard at exact default-branch commit 7551d9df2bd09c293b03bc92bef889bae23107c5.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -185,6 +185,57 @@
       "next_review": "2026-10-05"
     },
     {
+      "asset_id": "shar-public.asset.github.open-tools",
+      "asset_type": "github_repository",
+      "title": "SHAR Production Open Tools Hub",
+      "title_ru": "Каталог открытых инструментов SHAR Production",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/shar-open-tools",
+      "public_url": "https://github.com/SHARProduction/shar-open-tools",
+      "canonical_url": "https://github.com/SHARProduction/shar-open-tools",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.1"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public organization repository main commit f71485545cdb482a0e56cc1df7a050d98a647a1b verified.",
+          "Release v1.0.1 is public, non-draft and non-prerelease; its tag resolves to the checked main commit.",
+          "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Versioned browser-first hub for open SHAR Production utilities.",
+      "notes": [],
+      "next_review": "2026-10-05"
+    },
+    {
       "asset_id": "shar-public.asset.github.production-brief-schema",
       "asset_type": "github_repository",
       "title": "Production Brief Schema",
@@ -195,9 +246,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/production-brief-schema",
-      "public_url": "https://github.com/Ares3333333/production-brief-schema",
-      "canonical_url": "https://github.com/Ares3333333/production-brief-schema",
+      "namespace": "SHARProduction/production-brief-schema",
+      "public_url": "https://github.com/SHARProduction/production-brief-schema",
+      "canonical_url": "https://github.com/SHARProduction/production-brief-schema",
       "version": {
         "kind": "git_commit",
         "value": "053c137026259e9e06b1babb5df7c6024e8dba8e"
@@ -206,8 +257,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -216,9 +267,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/production-brief-schema at exact default-branch commit 053c137026259e9e06b1babb5df7c6024e8dba8e.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -246,9 +297,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/production-deliverables-taxonomy",
-      "public_url": "https://github.com/Ares3333333/production-deliverables-taxonomy",
-      "canonical_url": "https://github.com/Ares3333333/production-deliverables-taxonomy",
+      "namespace": "SHARProduction/production-deliverables-taxonomy",
+      "public_url": "https://github.com/SHARProduction/production-deliverables-taxonomy",
+      "canonical_url": "https://github.com/SHARProduction/production-deliverables-taxonomy",
       "version": {
         "kind": "git_commit",
         "value": "7f74183d829d4c93f2208fdf8c00d1182399fe67"
@@ -257,8 +308,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -267,9 +318,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/production-deliverables-taxonomy at exact default-branch commit 7f74183d829d4c93f2208fdf8c00d1182399fe67.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -297,19 +348,19 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/Ares3333333",
-      "public_url": "https://github.com/Ares3333333/Ares3333333",
-      "canonical_url": "https://github.com/Ares3333333/Ares3333333",
+      "namespace": "SHARProduction/.github",
+      "public_url": "https://github.com/SHARProduction/.github",
+      "canonical_url": "https://github.com/SHARProduction/.github",
       "version": {
         "kind": "git_commit",
-        "value": "5adf64fd4f8b13ee2804e2d21fbf80497fdae619"
+        "value": "5095e0eb5fedffc5a6291d9176da9a3dac0357f0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub organization repository, profile/README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -318,9 +369,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "Public SHARProduction/.github repository returned exact main commit 5095e0eb5fedffc5a6291d9176da9a3dac0357f0.",
+          "profile/README.md identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -333,7 +384,58 @@
           "target": "shar-public.asset.web.sharprod-home"
         }
       ],
-      "content_summary": "Official GitHub profile and verified public resources for SHAR Production.",
+      "content_summary": "Public GitHub organization profile and contribution policies for SHAR Production.",
+      "notes": [],
+      "next_review": "2026-10-05"
+    },
+    {
+      "asset_id": "shar-public.asset.github.public-asset-registry",
+      "asset_type": "github_repository",
+      "title": "SHAR Public Asset Registry",
+      "title_ru": "Публичный реестр активов SHAR",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/shar-public-asset-registry",
+      "public_url": "https://github.com/SHARProduction/shar-public-asset-registry",
+      "canonical_url": "https://github.com/SHARProduction/shar-public-asset-registry",
+      "version": {
+        "kind": "git_commit",
+        "value": "3c5956b2be8f69a665d3e29c4e059f12c3eb3c96"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public organization repository and main commit 3c5956b2be8f69a665d3e29c4e059f12c3eb3c96 verified.",
+          "README identifies SHAR Production and https://sharprod.com/.",
+          "Public LICENSE is SPDX MIT."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Evidence-gated public inventory of SHAR Production assets.",
       "notes": [],
       "next_review": "2026-10-05"
     },
@@ -348,31 +450,30 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/shar-public-monitor",
-      "public_url": "https://github.com/Ares3333333/shar-public-monitor",
-      "canonical_url": "https://github.com/Ares3333333/shar-public-monitor",
+      "namespace": "SHARProduction/shar-public-monitor",
+      "public_url": "https://github.com/SHARProduction/shar-public-monitor",
+      "canonical_url": "https://github.com/SHARProduction/shar-public-monitor",
       "version": {
         "kind": "git_commit",
-        "value": "f6fc1e9dd1e8ba255b0deef11d21e0be3ddb8e5e"
+        "value": "78605a8c33320ddf791f64bf76553ba18ecf4929"
       },
       "visibility": "public",
-      "license": "UNSUPPORTED",
-      "status": "SUBMITTED",
-      "evidence_class": "PARTIAL_PROVIDER_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
-        "outcome": "PARTIAL",
+        "outcome": "PASS",
         "http_status": 200,
         "content_checked": true,
         "function_checked": true,
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit.",
-          "GitHub API did not expose an SPDX license and raw LICENSE returned 404; license acceptance is unsupported, so status is lowered."
+          "GitHub API returned public SHARProduction/shar-public-monitor at exact default-branch commit 78605a8c33320ddf791f64bf76553ba18ecf4929.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -386,9 +487,7 @@
         }
       ],
       "content_summary": "Public black-box availability and read-only MCP contract monitor.",
-      "notes": [
-        "Public existence is verified, but PUBLISHED_VERIFIED is withheld pending a public license file or documented license decision."
-      ],
+      "notes": [],
       "next_review": "2026-10-05"
     },
     {
@@ -402,9 +501,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/shar-production-public-roadmap",
-      "public_url": "https://github.com/Ares3333333/shar-production-public-roadmap",
-      "canonical_url": "https://github.com/Ares3333333/shar-production-public-roadmap",
+      "namespace": "SHARProduction/shar-production-public-roadmap",
+      "public_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
+      "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "git_commit",
         "value": "3d94c0fed46ca358fc16dec66dd0c87edee62bdf"
@@ -413,8 +512,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -423,9 +522,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/shar-production-public-roadmap at exact default-branch commit 3d94c0fed46ca358fc16dec66dd0c87edee62bdf.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -453,9 +552,9 @@
         "website": "https://sharprod.com/"
       },
       "provider": "GitHub",
-      "namespace": "Ares3333333/subtitle-delivery-checker",
-      "public_url": "https://github.com/Ares3333333/subtitle-delivery-checker",
-      "canonical_url": "https://github.com/Ares3333333/subtitle-delivery-checker",
+      "namespace": "SHARProduction/subtitle-delivery-checker",
+      "public_url": "https://github.com/SHARProduction/subtitle-delivery-checker",
+      "canonical_url": "https://github.com/SHARProduction/subtitle-delivery-checker",
       "version": {
         "kind": "git_commit",
         "value": "466a0ce891e7ae037031cacd19cdd57100eab7e7"
@@ -464,8 +563,8 @@
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:16:00Z",
-      "verification_method": "GitHub public repository, branch and README APIs",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -474,9 +573,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub provider API returned a public repository, default branch commit and README.",
-          "Repository homepage points to https://sharprod.com/.",
-          "Version is the checked default-branch commit."
+          "GitHub API returned public SHARProduction/subtitle-delivery-checker at exact default-branch commit 466a0ce891e7ae037031cacd19cdd57100eab7e7.",
+          "README identifies SHAR Production and links to https://sharprod.com/.",
+          "Public LICENSE is detected as SPDX MIT."
         ]
       },
       "languages": [
@@ -490,6 +589,57 @@
         }
       ],
       "content_summary": "Dependency-free WebVTT and SRT structural delivery checker.",
+      "notes": [],
+      "next_review": "2026-10-05"
+    },
+    {
+      "asset_id": "shar-public.asset.github.tool-factory",
+      "asset_type": "github_repository",
+      "title": "SHAR Tool Factory",
+      "title_ru": "Фабрика инструментов SHAR",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "GitHub",
+      "namespace": "SHARProduction/shar-tool-factory",
+      "public_url": "https://github.com/SHARProduction/shar-tool-factory",
+      "canonical_url": "https://github.com/SHARProduction/shar-tool-factory",
+      "version": {
+        "kind": "git_commit",
+        "value": "f3c0c5d71761f0b0e4afefeb8e0df24dc5a1a933"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "PROVIDER_API_CHECK",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public organization repository and main commit f3c0c5d71761f0b0e4afefeb8e0df24dc5a1a933 verified.",
+          "README identifies SHAR Production and https://sharprod.com/.",
+          "Public LICENSE is SPDX MIT."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Deterministic generator for bilingual public SHAR Production tools.",
       "notes": [],
       "next_review": "2026-10-05"
     },
@@ -597,6 +747,57 @@
       "notes": [
         "Publication does not imply model training, adoption, independent use or measured impact."
       ],
+      "next_review": "2026-10-05"
+    },
+    {
+      "asset_id": "shar-public.asset.hf.production-open-tools",
+      "asset_type": "huggingface_space",
+      "title": "SHAR Production Open Tools Static Space",
+      "title_ru": "Статический Space открытых инструментов SHAR Production",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "provider": "Hugging Face",
+      "namespace": "SHARProduction/production-open-tools",
+      "public_url": "https://sharproduction-production-open-tools.static.hf.space/en/index.html",
+      "canonical_url": "https://sharproduction-production-open-tools.static.hf.space/en/index.html",
+      "version": {
+        "kind": "hub_commit",
+        "value": "a089dcc0ca70f7d4c989aa47e0a1db05a1bed215"
+      },
+      "visibility": "public",
+      "license": "MIT",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "LIVE_HTTP_CHECK",
+      "verified_at": "2026-09-05T19:58:00Z",
+      "verification_method": "Hugging Face Space API plus live static HTML inspection",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Hugging Face API reports a public, ungated, enabled static Space at commit a089dcc0ca70f7d4c989aa47e0a1db05a1bed215 with runtime stage RUNNING.",
+          "Live EN page returned HTTP 200 and contains SHAR Production branding, canonical, hreflang, index,follow robots and SoftwareApplication JSON-LD.",
+          "The Space root returns HTTP 200 with a meta refresh and noindex,follow; the registered public URL is the indexable EN page."
+        ]
+      },
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "content_summary": "Static Hugging Face deployment of the bilingual SHAR Production open tools hub.",
+      "notes": [],
       "next_review": "2026-10-05"
     },
     {
