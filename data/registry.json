@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-05T23:24:07Z",
+  "updated_at": "2026-09-05T23:27:55Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -200,13 +200,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-open-tools",
       "version": {
         "kind": "release_tag",
-        "value": "v1.10.0"
+        "value": "v1.11.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T23:08:52Z",
+      "verified_at": "2026-09-05T23:27:55Z",
       "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
       "verification": {
         "outcome": "PASS",
@@ -216,8 +216,8 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public Open Tools Hub release v1.10.0 is non-draft and non-prerelease and its tag resolves to commit 0ccae72.",
-          "Live Cloudflare Pages EN/RU routes expose 124 registry assets with exact canonical metadata.",
+          "Public Open Tools Hub release v1.11.0 is non-draft and non-prerelease and its tag resolves to commit 16fbc79.",
+          "Live Cloudflare Pages EN/RU routes expose 136 registry assets with exact canonical metadata.",
           "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
         ]
       },
@@ -404,13 +404,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-public-asset-registry",
       "version": {
         "kind": "release_tag",
-        "value": "v1.10.0"
+        "value": "v1.11.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T23:08:52Z",
+      "verified_at": "2026-09-05T23:27:55Z",
       "verification_method": "GitHub repository, commit, README, LICENSE and release APIs",
       "verification": {
         "outcome": "PASS",
@@ -420,8 +420,8 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public Registry release v1.10.0 is non-draft and non-prerelease and its tag resolves to commit 8e7d59a.",
-          "Release contains 124 immutable PUBLISHED_VERIFIED assets and passes 21/21 checks.",
+          "Public Registry release v1.11.0 is non-draft and non-prerelease and its tag resolves to commit 63398bc.",
+          "Release contains 136 immutable PUBLISHED_VERIFIED assets and passes 22/22 checks.",
           "README identifies SHAR Production and https://sharprod.com/; public LICENSE is SPDX MIT."
         ]
       },
@@ -6760,13 +6760,13 @@
       "canonical_url": "https://sharproduction-production-open-tools.static.hf.space/en/index.html",
       "version": {
         "kind": "hub_commit",
-        "value": "be8bb9c"
+        "value": "feb257d"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-05T23:08:52Z",
+      "verified_at": "2026-09-05T23:27:55Z",
       "verification_method": "Hugging Face Space API plus live static HTML inspection",
       "verification": {
         "outcome": "PASS",
@@ -6776,9 +6776,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Hugging Face API exposes public static Space commit be8bb9c with PUBLISHED_VERIFIED provenance.",
-          "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 124 asset cards.",
-          "BUILD-PROVENANCE records PUBLISHED_VERIFIED, 124 assets and SHAR Production ownership."
+          "Hugging Face API exposes public static Space commit feb257d with PUBLISHED_VERIFIED provenance.",
+          "Live EN and RU index.html routes each return HTTP 200, exact runtime canonical, index,follow and 136 asset cards.",
+          "BUILD-PROVENANCE records PUBLISHED_VERIFIED, 136 assets and SHAR Production ownership."
         ]
       },
       "languages": [
