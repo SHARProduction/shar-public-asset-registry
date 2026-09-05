@@ -31,6 +31,17 @@ shar-public.asset.github.wave02.milestone-review-tools
 shar-public.asset.github.wave02.revision-resource-tools
 shar-public.asset.github.wave02.script-timing-tools
 shar-public.asset.github.wave02.shot-storyboard-tools
+shar-public.asset.github.wave03-orchestrator
+shar-public.asset.github.wave03.art-wardrobe-tools
+shar-public.asset.github.wave03.call-sheet-tools
+shar-public.asset.github.wave03.crew-cast-tools
+shar-public.asset.github.wave03.data-media-tools
+shar-public.asset.github.wave03.lighting-power-tools
+shar-public.asset.github.wave03.location-permit-tools
+shar-public.asset.github.wave03.production-sound-tools
+shar-public.asset.github.wave03.release-rights-tools
+shar-public.asset.github.wave03.safety-weather-tools
+shar-public.asset.github.wave03.transport-sustainability-tools
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
@@ -38,3 +49,4 @@ shar-public.asset.mcp.public-knowledge
 shar-public.asset.web.sharprod-home
 shar-public.asset.web.wave01
 shar-public.asset.web.wave02
+shar-public.asset.web.wave03
