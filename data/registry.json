@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T04:58:13.910Z",
+  "updated_at": "2026-09-06T05:18:43Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -505,15 +505,15 @@
       "public_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
-        "kind": "git_commit",
-        "value": "3d94c0fed46ca358fc16dec66dd0c87edee62bdf"
+        "kind": "release_tag",
+        "value": "v1.5.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-05T19:58:00Z",
-      "verification_method": "GitHub public organization repository, default-branch commit, README and LICENSE APIs",
+      "verified_at": "2026-09-06T05:18:43Z",
+      "verification_method": "Public repository, immutable release and controlled search-measurement evidence check",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -522,9 +522,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "GitHub API returned public SHARProduction/shar-production-public-roadmap at exact default-branch commit 3d94c0fed46ca358fc16dec66dd0c87edee62bdf.",
-          "README identifies SHAR Production and links to https://sharprod.com/.",
-          "Public LICENSE is detected as SPDX MIT."
+          "Public repository and v1.5.0 release returned HTTP 200.",
+          "The tagged search evidence contains all 72 Google/Bing/Yandex slots: 33 MEASURED and 39 NOT_MEASURED.",
+          "Five Google rows link to directly inspected SHAR Production pages: four observed rank 1 and one observed rank 2; no stable-rank, traffic or causation claim is made."
         ]
       },
       "languages": [
@@ -537,9 +537,11 @@
           "target": "shar-public.asset.web.sharprod-home"
         }
       ],
-      "content_summary": "Evidence-gated public GEO program roadmap.",
-      "notes": [],
-      "next_review": "2026-10-05"
+      "content_summary": "Public operational roadmap with a controlled 24-query RU/EN search panel, evidence-gated task states and a 72-slot Google/Bing/Yandex measurement record.",
+      "notes": [
+        "Search observations are dated and requested-locale specific. Bing/Yandex unavailable slots remain NOT_MEASURED rather than zero."
+      ],
+      "next_review": "2026-09-13"
     },
     {
       "asset_id": "shar-public.asset.github.subtitle-delivery-checker",
