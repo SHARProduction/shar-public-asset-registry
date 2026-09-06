@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "registry_extension_id": "SHAR_PUBLIC_DISTRIBUTION_REGISTRY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "updated_at": "2026-09-06T00:16:00Z",
+  "incremental_spend_rub": 0,
+  "counts": {
+    "minimum_target": 1500,
+    "planning_model_slots": 1551,
+    "verified_counted_placements": 580,
+    "gap_to_minimum": 920,
+    "localized_tool_pages": 444,
+    "github_public_repositories": 133,
+    "hugging_face_datasets": 2,
+    "hugging_face_static_spaces": 1
+  },
+  "counting_note": "The baseline count is a verified category rollup. Detailed work/representation/placement migration begins with the release below and grows through reconciliation; registry assets and sitemap navigation pages are not added again.",
+  "works": [
+    {
+      "work_id": "shar.work.tool-factory",
+      "title": "SHAR Production Tool Factory",
+      "kind": "software",
+      "license": "MIT"
+    }
+  ],
+  "representations": [
+    {
+      "representation_id": "shar.representation.tool-factory.source",
+      "work_id": "shar.work.tool-factory",
+      "language": "language-neutral",
+      "format": "javascript-source"
+    },
+    {
+      "representation_id": "shar.representation.tool-factory.schema",
+      "work_id": "shar.work.tool-factory",
+      "language": "language-neutral",
+      "format": "json-schema"
+    }
+  ],
+  "releases": [
+    {
+      "release_id": "shar.release.tool-factory.1.1.0",
+      "work_id": "shar.work.tool-factory",
+      "version": "1.1.0",
+      "immutable_ref": "bf2067d6d446e59f5f0bb62d00ea4caafdaf16cb"
+    }
+  ],
+  "placements": [
+    {
+      "placement_id": "shar.placement.tool-factory.github",
+      "work_id": "shar.work.tool-factory",
+      "representation_ids": [
+        "shar.representation.tool-factory.source",
+        "shar.representation.tool-factory.schema"
+      ],
+      "release_id": "shar.release.tool-factory.1.1.0",
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/shar-tool-factory/releases/tag/v1.1.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:16:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Release page returned HTTP 200 with SHAR Production and sharprod.com.",
+          "Public raw distribution schema returned HTTP 200.",
+          "Local test suite passed 13/13 and npm pack dry-run contained the distribution module and schema."
+        ]
+      },
+      "counted_in_baseline": true
+    }
+  ],
+  "link_observations": [
+    {
+      "link_observation_id": "shar.link.tool-factory.release-1.1.0",
+      "source_url": "https://github.com/SHARProduction/shar-tool-factory/releases/tag/v1.1.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:16:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    }
+  ]
+}

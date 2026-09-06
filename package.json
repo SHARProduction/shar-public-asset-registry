@@ -1,13 +1,13 @@
 {
   "name": "@shar-production/public-asset-registry",
-  "version": "1.12.1",
+  "version": "1.13.0",
   "description": "Canonical evidence-gated registry of verified SHAR Production public assets",
   "type": "module",
   "license": "MIT",
   "author": "SHAR Production (https://sharprod.com/)",
   "scripts": {
     "generate": "node scripts/generate.mjs",
-    "validate": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-distribution.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "npm run validate && npm run generate -- --check && npm test"
   },

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sharprod.com/schemas/distribution-registry.schema.json",
+  "title": "SHAR Production Distribution Registry Extension",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "registry_extension_id", "publisher", "updated_at", "incremental_spend_rub", "counts", "counting_note", "works", "representations", "releases", "placements", "link_observations"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "registry_extension_id": { "const": "SHAR_PUBLIC_DISTRIBUTION_REGISTRY" },
+    "publisher": {
+      "type": "object", "additionalProperties": false, "required": ["name", "website"],
+      "properties": { "name": { "const": "SHAR Production" }, "website": { "const": "https://sharprod.com/" } }
+    },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "incremental_spend_rub": { "const": 0 },
+    "counts": { "type": "object" },
+    "counting_note": { "type": "string", "minLength": 1 },
+    "works": {
+      "type": "array", "items": { "type": "object", "required": ["work_id", "title", "kind", "license"], "properties": { "work_id": { "type": "string" }, "title": { "type": "string" }, "kind": { "type": "string" }, "license": { "enum": ["MIT", "CC-BY-4.0", "MIXED"] } } }
+    },
+    "representations": {
+      "type": "array", "items": { "type": "object", "required": ["representation_id", "work_id", "language", "format"], "properties": { "representation_id": { "type": "string" }, "work_id": { "type": "string" }, "language": { "enum": ["en", "ru", "language-neutral"] }, "format": { "type": "string" } } }
+    },
+    "releases": {
+      "type": "array", "items": { "type": "object", "required": ["release_id", "work_id", "version", "immutable_ref"], "properties": { "release_id": { "type": "string" }, "work_id": { "type": "string" }, "version": { "type": "string" }, "immutable_ref": { "type": "string" } } }
+    },
+    "placements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["work_id", "placement_id", "representation_ids", "release_id", "provider", "ownership_group", "public_url", "status", "verified_at", "verification", "counted_in_baseline"],
+        "properties": {
+          "work_id": { "type": "string" }, "placement_id": { "type": "string" }, "representation_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+          "release_id": { "type": "string" }, "provider": { "type": "string" }, "ownership_group": { "type": "string" }, "public_url": { "type": "string", "format": "uri" },
+          "status": { "enum": ["PLANNED", "LOCAL_READY", "AWAITING_OWNER", "SUBMITTED", "PUBLISHED_VERIFIED", "MEASURED", "BLOCKED", "REJECTED_WITH_REASON"] },
+          "verified_at": { "type": "string", "format": "date-time" }, "verification": { "type": "object" }, "counted_in_baseline": { "type": "boolean" }
+        }
+      }
+    },
+    "link_observations": { "type": "array" }
+  }
+}
