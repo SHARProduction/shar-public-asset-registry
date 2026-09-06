@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T04:44:26Z",
+  "updated_at": "2026-09-06T04:54:14.604Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -8168,7 +8168,7 @@
       "canonical_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
       "version": {
         "kind": "release_tag",
-        "value": "v1.0.0"
+        "value": "v1.1.0"
       },
       "license": "MIT",
       "verification_method": "Public repository, immutable release and source-content check",
@@ -8180,9 +8180,9 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.0.0 release returned HTTP 200.",
+          "Public repository and v1.1.0 release returned HTTP 200.",
           "README contains SHAR Production and https://sharprod.com/.",
-          "Validation passes for 14 nodes, 14 provenance-backed edges and zero sameAs relations."
+          "Validation passes for 17 nodes, 17 provenance-backed edges and zero sameAs relations."
         ]
       },
       "content_summary": "MIT source and documentation for a bilingual provenance-first SHAR Production entity evidence graph.",
@@ -8194,7 +8194,7 @@
       "visibility": "public",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-06T04:44:26Z",
+      "verified_at": "2026-09-06T04:54:14.604Z",
       "languages": [
         "en",
         "ru"
@@ -8221,7 +8221,7 @@
       "canonical_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
       "version": {
         "kind": "provider_commit",
-        "value": "42041eda6fc7767b2f77c3f56a3732f75c85b05d"
+        "value": "2ba0ecf6d84bb56a35f82b6d40631344857c697c"
       },
       "license": "CC-BY-4.0",
       "verification_method": "Public Hub API, dataset card and immutable data-file checks",
@@ -8247,7 +8247,7 @@
       "visibility": "public",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-06T04:44:26Z",
+      "verified_at": "2026-09-06T04:54:14.604Z",
       "languages": [
         "en",
         "ru"
@@ -8274,7 +8274,7 @@
       "canonical_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
       "version": {
         "kind": "content_sha256",
-        "value": "4e1393983d2b5e0b9a04dc6c4e29453cf8532ec14ce4a15039763c55a0a10bde"
+        "value": "91f582943b298bfe670a77482a89f84705d2025e9a8e91f1617b8760624f6c11"
       },
       "license": "MIT",
       "verification_method": "Live EN/RU HTTP, canonical, browser interaction and 390px viewport checks",
@@ -8300,7 +8300,7 @@
       "visibility": "public",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-06T04:44:26Z",
+      "verified_at": "2026-09-06T04:54:14.604Z",
       "languages": [
         "en",
         "ru"

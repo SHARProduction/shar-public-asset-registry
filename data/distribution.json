@@ -5,7 +5,7 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T04:49:14.791Z",
+  "updated_at": "2026-09-06T04:54:14.604Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
@@ -58,7 +58,7 @@
     "localized_indexing_observatory_pages": 2,
     "indexing_observatory_repository_placements": 1,
     "indexing_observatory_dataset_placements": 1,
-    "indexnow_accepted_url_submissions": 508,
+    "indexnow_accepted_url_submissions": 510,
     "localized_production_option_matrix_pages": 50,
     "production_option_matrix_repository_placements": 1,
     "production_option_matrix_dataset_placements": 1,
@@ -9305,6 +9305,14 @@
       "release_id": "shar.release.entity-knowledge-graph.1.0.0",
       "version": "1.0.0",
       "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ]
+    },
+    {
+      "release_id": "shar.release.entity-knowledge-graph.1.1.0",
+      "version": "1.1.0",
+      "immutable_ref": "v1.1.0",
       "work_ids": [
         "shar.work.entity-knowledge-graph"
       ]
@@ -38659,6 +38667,96 @@
       },
       "release_id": "shar.release.entity-knowledge-graph.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.github.v1-1",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:54:14.604Z",
+      "provider_version": "b0bd9c3b4be0831719f3ff8bb38fdc75f355d6de",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.1 graph returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "17 nodes, 17 provenance-backed relations and zero sameAs assertions verified."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.1.0",
+      "counted_in_baseline": false
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.huggingface.v1-1",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:54:14.604Z",
+      "provider_version": "2ba0ecf6d84bb56a35f82b6d40631344857c697c",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.1 graph returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "17 nodes, 17 provenance-backed relations and zero sameAs assertions verified."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.1.0",
+      "counted_in_baseline": false
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.cloudflare.v1-1",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:54:14.604Z",
+      "provider_version": "91f582943b298bfe670a77482a89f84705d2025e9a8e91f1617b8760624f6c11",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.1 graph returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "17 nodes, 17 provenance-backed relations and zero sameAs assertions verified."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.1.0",
+      "counted_in_baseline": false
     }
   ],
   "link_observations": [
