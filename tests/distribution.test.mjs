@@ -10,24 +10,28 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /726 verified counted placements/);
+  assert.match(result.stdout, /730 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 726);
-  assert.equal(data.counts.gap_to_minimum, 774);
-  assert.equal(data.works.length, 66);
-  assert.equal(data.representations.length, 132);
-  assert.equal(data.placements.length, 147);
+  assert.equal(data.counts.verified_counted_placements, 730);
+  assert.equal(data.counts.gap_to_minimum, 770);
+  assert.equal(data.works.length, 67);
+  assert.equal(data.representations.length, 134);
+  assert.equal(data.placements.length, 151);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
   assert.equal(placement.status, 'PUBLISHED_VERIFIED');
   assert.equal(placement.ownership_group, 'SHARProduction');
   assert.equal(placement.release_id, 'shar.release.tool-factory.1.1.0');
+  const explorer = data.placements.find(item => item.placement_id === 'shar.placement.validation-error-explorer.hf-space');
+  assert.ok(explorer);
+  assert.equal(explorer.status, 'PUBLISHED_VERIFIED');
+  assert.equal(explorer.release_id, 'shar.release.validation-error-explorer.1.0.0');
 });
 
 test('distribution schema gates verified placement evidence', () => {

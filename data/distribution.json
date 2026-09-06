@@ -10,12 +10,12 @@
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 726,
-    "gap_to_minimum": 774,
+    "verified_counted_placements": 730,
+    "gap_to_minimum": 770,
     "localized_tool_pages": 444,
-    "github_public_repositories": 141,
+    "github_public_repositories": 142,
     "hugging_face_datasets": 10,
-    "hugging_face_static_spaces": 1,
+    "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
     "integration_recipe_dataset_placements": 1,
@@ -39,9 +39,12 @@
     "media_conformance_dataset_placements": 1,
     "localized_validation_benchmark_pages": 20,
     "validation_benchmark_repository_placements": 1,
-    "validation_benchmark_dataset_placements": 1
+    "validation_benchmark_dataset_placements": 1,
+    "localized_validation_error_explorer_pages": 2,
+    "validation_error_explorer_repository_placements": 1,
+    "validation_error_explorer_space_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmark placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -568,6 +571,13 @@
       "kind": "measured_validation_benchmark",
       "license": "MIT",
       "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.validation-error-explorer",
+      "title": "Production Validation Error Explorer",
+      "title_ru": "Проводник ошибок проверки продакшена",
+      "kind": "interactive_validation_explorer",
+      "license": "MIT"
     }
   ],
   "representations": [
@@ -1362,6 +1372,18 @@
       "work_id": "shar.work.benchmark.approval-order-audit",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.validation-error-explorer.en",
+      "work_id": "shar.work.validation-error-explorer",
+      "language": "en",
+      "format": "interactive_html"
+    },
+    {
+      "representation_id": "shar.representation.validation-error-explorer.ru",
+      "work_id": "shar.work.validation-error-explorer",
+      "language": "ru",
+      "format": "interactive_html"
     }
   ],
   "releases": [
@@ -1490,6 +1512,14 @@
         "shar.work.benchmark.relative-path-safety-scan",
         "shar.work.benchmark.manifest-duplicate-detection",
         "shar.work.benchmark.approval-order-audit"
+      ]
+    },
+    {
+      "release_id": "shar.release.validation-error-explorer.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.validation-error-explorer"
       ]
     }
   ],
@@ -6114,6 +6144,124 @@
       },
       "release_id": "shar.release.validation-benchmarks.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-error-explorer.cloudflare.en",
+      "work_ids": [
+        "shar.work.validation-error-explorer"
+      ],
+      "representation_ids": [
+        "shar.representation.validation-error-explorer.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/error-explorer/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:51:02Z",
+      "provider_version": "bc42f252-d5ba-4ad7-8594-4372dbbb7eaf@b1a4bc7afb74246b87282817b51789ecb7d8e120",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact EN route returned HTTP 200 with its exact canonical, indexable robots metadata, SHAR Production and https://sharprod.com/.",
+          "Chrome executed CHECKSUM_MISMATCH and returned the SHA-256 remediation, publisher and website.",
+          "Chrome 390x900 and 1440x900 reported document and body widths equal to the viewport without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-error-explorer.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-error-explorer.cloudflare.ru",
+      "work_ids": [
+        "shar.work.validation-error-explorer"
+      ],
+      "representation_ids": [
+        "shar.representation.validation-error-explorer.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/error-explorer/ru/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:51:02Z",
+      "provider_version": "bc42f252-d5ba-4ad7-8594-4372dbbb7eaf@b1a4bc7afb74246b87282817b51789ecb7d8e120",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact RU route returned HTTP 200 with its exact canonical, indexable robots metadata, SHAR Production and https://sharprod.com/.",
+          "Chrome executed CHECKSUM_MISMATCH and returned the localized SHA-256 remediation, publisher and website.",
+          "Chrome 390x900 and 1440x900 reported document and body widths equal to the viewport without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-error-explorer.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-error-explorer.github",
+      "work_ids": [
+        "shar.work.validation-error-explorer"
+      ],
+      "representation_ids": [
+        "shar.representation.validation-error-explorer.en",
+        "shar.representation.validation-error-explorer.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-validation-error-explorer",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:51:02Z",
+      "provider_version": "v1.0.0@f46a7eee6debba6dbba1f7799bd9286f976afa47",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and v1.0.0 release are available under SHARProduction with SHAR Production and https://sharprod.com/ metadata.",
+          "GitHub Actions runs 34004609904 and 34004608325 completed successfully for the release source commit.",
+          "Release source contains the ten-code bilingual explorer and MIT license."
+        ]
+      },
+      "release_id": "shar.release.validation-error-explorer.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-error-explorer.hf-space",
+      "work_ids": [
+        "shar.work.validation-error-explorer"
+      ],
+      "representation_ids": [
+        "shar.representation.validation-error-explorer.en",
+        "shar.representation.validation-error-explorer.ru"
+      ],
+      "provider": "Hugging Face Space",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/spaces/SHARProduction/production-validation-error-explorer",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:51:02Z",
+      "provider_version": "b3e613c4be3a773b1130aac0a52c33083e1a36a1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public Static Space, EN index.html and RU index.html returned HTTP 200 with SHAR Production and https://sharprod.com/.",
+          "Both mirror pages declare the exact Cloudflare primary canonical and indexable robots metadata.",
+          "Chrome executed CHECKSUM_MISMATCH on both locales at 390x900 and 1440x900 without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-error-explorer.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -7290,6 +7438,38 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-validation-benchmarks",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-error-explorer-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/error-explorer/en/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:51:02Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-error-explorer-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/error-explorer/ru/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:51:02Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-error-explorer-github.website",
+      "source_url": "https://github.com/SHARProduction/production-validation-error-explorer",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:51:02Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-error-explorer-hf-space.website",
+      "source_url": "https://huggingface.co/spaces/SHARProduction/production-validation-error-explorer",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:51:02Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
