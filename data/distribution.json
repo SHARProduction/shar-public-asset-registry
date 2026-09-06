@@ -5,22 +5,25 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T00:35:00Z",
+  "updated_at": "2026-09-06T00:48:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 592,
-    "gap_to_minimum": 908,
+    "verified_counted_placements": 604,
+    "gap_to_minimum": 896,
     "localized_tool_pages": 444,
     "github_public_repositories": 133,
     "hugging_face_datasets": 2,
     "hugging_face_static_spaces": 1,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
-    "integration_recipe_dataset_placements": 1
+    "integration_recipe_dataset_placements": 1,
+    "localized_conformance_suite_pages": 10,
+    "conformance_repository_placements": 1,
+    "conformance_dataset_placements": 1
   },
-  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 reconciled Wave 01 placements. Registry asset records, navigation pages and releases are not counted again.",
+  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe and 12 conformance-suite placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -65,6 +68,46 @@
       "title": "Checksum inventory verification",
       "title_ru": "Проверка реестра контрольных сумм",
       "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.conformance.webvtt-cue-timing",
+      "title": "WebVTT cue timing profile",
+      "title_ru": "Профиль таймингов WebVTT",
+      "kind": "conformance_suite",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.conformance.bcp47-locale-profile",
+      "title": "BCP 47 production locale profile",
+      "title_ru": "Продакшен-профиль локалей BCP 47",
+      "kind": "conformance_suite",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.conformance.json-schema-contract-profile",
+      "title": "JSON Schema 2020-12 object contract",
+      "title_ru": "Контракт объекта JSON Schema 2020-12",
+      "kind": "conformance_suite",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.conformance.spdx-license-profile",
+      "title": "Approved SPDX license-expression profile",
+      "title_ru": "Профиль разрешённых SPDX license expressions",
+      "kind": "conformance_suite",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.conformance.sha256-manifest-profile",
+      "title": "SHA-256 delivery manifest profile",
+      "title_ru": "Профиль SHA-256 манифеста передачи",
+      "kind": "conformance_suite",
       "license": "MIT",
       "fixtures_license": "CC-BY-4.0"
     }
@@ -141,6 +184,66 @@
       "work_id": "shar.work.recipe.checksum-inventory",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.webvtt-cue-timing.en",
+      "work_id": "shar.work.conformance.webvtt-cue-timing",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.webvtt-cue-timing.ru",
+      "work_id": "shar.work.conformance.webvtt-cue-timing",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.bcp47-locale-profile.en",
+      "work_id": "shar.work.conformance.bcp47-locale-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.bcp47-locale-profile.ru",
+      "work_id": "shar.work.conformance.bcp47-locale-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.json-schema-contract-profile.en",
+      "work_id": "shar.work.conformance.json-schema-contract-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.json-schema-contract-profile.ru",
+      "work_id": "shar.work.conformance.json-schema-contract-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.spdx-license-profile.en",
+      "work_id": "shar.work.conformance.spdx-license-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.spdx-license-profile.ru",
+      "work_id": "shar.work.conformance.spdx-license-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.sha256-manifest-profile.en",
+      "work_id": "shar.work.conformance.sha256-manifest-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.conformance.sha256-manifest-profile.ru",
+      "work_id": "shar.work.conformance.sha256-manifest-profile",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -158,6 +261,18 @@
         "shar.work.recipe.localized-file-naming",
         "shar.work.recipe.production-handoff-gate",
         "shar.work.recipe.checksum-inventory"
+      ],
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0"
+    },
+    {
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "work_ids": [
+        "shar.work.conformance.webvtt-cue-timing",
+        "shar.work.conformance.bcp47-locale-profile",
+        "shar.work.conformance.json-schema-contract-profile",
+        "shar.work.conformance.spdx-license-profile",
+        "shar.work.conformance.sha256-manifest-profile"
       ],
       "version": "1.0.0",
       "immutable_ref": "v1.0.0"
@@ -566,6 +681,380 @@
         ]
       },
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.webvtt-cue-timing.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance.webvtt-cue-timing"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.webvtt-cue-timing.en"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/en/webvtt-cue-timing/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.webvtt-cue-timing.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance.webvtt-cue-timing"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.webvtt-cue-timing.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/ru/webvtt-cue-timing/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.bcp47-locale-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance.bcp47-locale-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.bcp47-locale-profile.en"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/en/bcp47-locale-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.bcp47-locale-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance.bcp47-locale-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.bcp47-locale-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/ru/bcp47-locale-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.json-schema-contract-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance.json-schema-contract-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.json-schema-contract-profile.en"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/en/json-schema-contract-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.json-schema-contract-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance.json-schema-contract-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.json-schema-contract-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/ru/json-schema-contract-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.spdx-license-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance.spdx-license-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.spdx-license-profile.en"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/en/spdx-license-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.spdx-license-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance.spdx-license-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.spdx-license-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/ru/spdx-license-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.sha256-manifest-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance.sha256-manifest-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.sha256-manifest-profile.en"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/en/sha256-manifest-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance.sha256-manifest-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance.sha256-manifest-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.sha256-manifest-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-conformance-suites.pages.dev/ru/sha256-manifest-profile/",
+      "provider_version": "36142f19-8cd7-4e1f-ae28-b63c86ce3910",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact URL, canonical, normative source, brand and website passed.",
+          "Chrome 390x844 and 1440x900 passed without overflow.",
+          "Suite positive and negative cases passed locally and in CI."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-suites.github",
+      "work_ids": [
+        "shar.work.conformance.webvtt-cue-timing",
+        "shar.work.conformance.bcp47-locale-profile",
+        "shar.work.conformance.json-schema-contract-profile",
+        "shar.work.conformance.spdx-license-profile",
+        "shar.work.conformance.sha256-manifest-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.webvtt-cue-timing.en",
+        "shar.representation.conformance.webvtt-cue-timing.ru",
+        "shar.representation.conformance.bcp47-locale-profile.en",
+        "shar.representation.conformance.bcp47-locale-profile.ru",
+        "shar.representation.conformance.json-schema-contract-profile.en",
+        "shar.representation.conformance.json-schema-contract-profile.ru",
+        "shar.representation.conformance.spdx-license-profile.en",
+        "shar.representation.conformance.spdx-license-profile.ru",
+        "shar.representation.conformance.sha256-manifest-profile.en",
+        "shar.representation.conformance.sha256-manifest-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-conformance-suites",
+      "provider_version": "v1.0.0@44a9acc43332bcb87d7c3125be2344ada924d834",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository and release returned HTTP 200.",
+          "GitHub Actions run 34001725378 succeeded.",
+          "MIT code and CC-BY-4.0 dataset boundary verified."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-suites.huggingface",
+      "work_ids": [
+        "shar.work.conformance.webvtt-cue-timing",
+        "shar.work.conformance.bcp47-locale-profile",
+        "shar.work.conformance.json-schema-contract-profile",
+        "shar.work.conformance.spdx-license-profile",
+        "shar.work.conformance.sha256-manifest-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance.webvtt-cue-timing.en",
+        "shar.representation.conformance.webvtt-cue-timing.ru",
+        "shar.representation.conformance.bcp47-locale-profile.en",
+        "shar.representation.conformance.bcp47-locale-profile.ru",
+        "shar.representation.conformance.json-schema-contract-profile.en",
+        "shar.representation.conformance.json-schema-contract-profile.ru",
+        "shar.representation.conformance.spdx-license-profile.en",
+        "shar.representation.conformance.spdx-license-profile.ru",
+        "shar.representation.conformance.sha256-manifest-profile.en",
+        "shar.representation.conformance.sha256-manifest-profile.ru"
+      ],
+      "release_id": "shar.release.conformance-suites.1.0.0",
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-conformance-suites",
+      "provider_version": "8f219d0224e26ef0f5a99cee7bb1271848c9d683",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:43:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset, README and suites.jsonl returned HTTP 200.",
+          "Five records include normative sources and reproduced results.",
+          "Namespace SHARProduction and exact website verified."
+        ]
+      },
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -670,6 +1159,102 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-integration-recipes",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.webvtt-cue-timing.cloudflare.en.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/en/webvtt-cue-timing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.webvtt-cue-timing.cloudflare.ru.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/ru/webvtt-cue-timing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.bcp47-locale-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/en/bcp47-locale-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.bcp47-locale-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/ru/bcp47-locale-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.json-schema-contract-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/en/json-schema-contract-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.json-schema-contract-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/ru/json-schema-contract-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.spdx-license-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/en/spdx-license-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.spdx-license-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/ru/spdx-license-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.sha256-manifest-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/en/sha256-manifest-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance.sha256-manifest-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-conformance-suites.pages.dev/ru/sha256-manifest-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-suites.github.website",
+      "source_url": "https://github.com/SHARProduction/production-conformance-suites",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-suites.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-conformance-suites",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:43:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
