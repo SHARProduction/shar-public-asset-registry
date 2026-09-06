@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.2"
+        "value": "v1.7.3"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T12:45:00Z",
+      "verified_at": "2026-09-06T13:10:00Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,10 +522,10 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.2 release returned HTTP 200 and the tag resolves to commit f388c97db500f341e95cd87792c847934ad7cab9.",
+          "Public repository and v1.7.3 release returned HTTP 200 and the tag resolves to commit 32c492692d57b01dc5ad2e8249369d3a25b9adb5.",
           "Controlled search and AI measurement evidence remains unchanged and explicit about unmeasured slots.",
-          "Exact-profile recovery now stands at 13/47 after rendered-browser verification of the SHAR Production Google Groups page; 34 source rows remain unknown.",
-          "Twitch, Mixcloud, LiveJournal, ReverbNation and X handle candidates were not counted because attribution or existence failed the evidence gate.",
+          "Exact-profile recovery remains 13/47; Clutch is resolved as a provider refusal with no public profile, leaving 33 unresolved rows.",
+          "Disqus signup and incomplete installation evidence is retained but not counted as a public placement.",
           "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
         ]
       },
