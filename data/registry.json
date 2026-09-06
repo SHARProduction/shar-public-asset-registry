@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.1"
+        "value": "v1.7.2"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T12:12:00Z",
+      "verified_at": "2026-09-06T12:45:00Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,11 +522,11 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.1 release returned HTTP 200 and the tag resolves to commit 2a674e9977225a2188785622d52d92d08d326cc2.",
-          "The tagged evidence retains the 72-slot Google/Bing/Yandex search record and complete 24-query Alice and Gemini consumer measurement waves.",
-          "Exact-profile recovery now stands at 12/47 after rendered-browser verification of DEV.to, GitBook, Hashnode, Ko-fi, Linktree and Pastebin; 35 source rows remain unknown.",
-          "Five newly recovered pages are indexable by page metadata. Ko-fi is live but explicitly provider-noindex and is reported separately.",
-          "These are dated observations and make no stable-rank, traffic, lead, causation, account-ownership or third-party-endorsement claim."
+          "Public repository and v1.7.2 release returned HTTP 200 and the tag resolves to commit f388c97db500f341e95cd87792c847934ad7cab9.",
+          "Controlled search and AI measurement evidence remains unchanged and explicit about unmeasured slots.",
+          "Exact-profile recovery now stands at 13/47 after rendered-browser verification of the SHAR Production Google Groups page; 34 source rows remain unknown.",
+          "Twitch, Mixcloud, LiveJournal, ReverbNation and X handle candidates were not counted because attribution or existence failed the evidence gate.",
+          "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
         ]
       },
       "languages": [
