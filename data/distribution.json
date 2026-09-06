@@ -5,7 +5,7 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T04:44:26Z",
+  "updated_at": "2026-09-06T04:49:14.791Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
@@ -58,7 +58,7 @@
     "localized_indexing_observatory_pages": 2,
     "indexing_observatory_repository_placements": 1,
     "indexing_observatory_dataset_placements": 1,
-    "indexnow_accepted_url_submissions": 506,
+    "indexnow_accepted_url_submissions": 508,
     "localized_production_option_matrix_pages": 50,
     "production_option_matrix_repository_placements": 1,
     "production_option_matrix_dataset_placements": 1,

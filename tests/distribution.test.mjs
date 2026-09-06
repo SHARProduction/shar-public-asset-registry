@@ -83,7 +83,7 @@ test('distribution baseline separates works, representations, placements, releas
   const entityGraph = data.placements.filter(item => item.placement_id.startsWith('shar.placement.entity-knowledge-graph.'));
   assert.equal(entityGraph.length, 3);
   for (const item of entityGraph) { assert.equal(item.status, 'PUBLISHED_VERIFIED'); assert.equal(item.release_id, 'shar.release.entity-knowledge-graph.1.0.0'); }
-  assert.equal(data.counts.indexnow_accepted_url_submissions, 506);
+  assert.equal(data.counts.indexnow_accepted_url_submissions, 508);
 });
 
 test('distribution schema gates verified placement evidence', () => {
@@ -94,4 +94,5 @@ test('distribution schema gates verified placement evidence', () => {
   const required = schema.properties.placements.items.required;
   for (const field of ['work_ids', 'placement_id', 'release_id', 'ownership_group', 'public_url', 'status', 'verification']) assert.ok(required.includes(field));
 });
+
 
