@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /1200 verified counted placements/);
+  assert.match(result.stdout, /1302 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 1200);
-  assert.equal(data.counts.gap_to_minimum, 300);
-  assert.equal(data.works.length, 293);
-  assert.equal(data.representations.length, 586);
-  assert.equal(data.placements.length, 621);
+  assert.equal(data.counts.verified_counted_placements, 1302);
+  assert.equal(data.counts.gap_to_minimum, 198);
+  assert.equal(data.works.length, 343);
+  assert.equal(data.representations.length, 686);
+  assert.equal(data.placements.length, 723);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -68,7 +68,11 @@ test('distribution baseline separates works, representations, placements, releas
   assert.ok(glossary);
   assert.equal(glossary.status, 'PUBLISHED_VERIFIED');
   assert.equal(glossary.release_id, 'shar.release.production-glossary.1.0.0');
-  assert.equal(data.counts.indexnow_accepted_url_submissions, 206);
+  const troubleshooting = data.placements.find(item => item.placement_id === 'shar.placement.production-troubleshooting-library.huggingface');
+  assert.ok(troubleshooting);
+  assert.equal(troubleshooting.status, 'PUBLISHED_VERIFIED');
+  assert.equal(troubleshooting.release_id, 'shar.release.production-troubleshooting-library.1.0.0');
+  assert.equal(data.counts.indexnow_accepted_url_submissions, 308);
 });
 
 test('distribution schema gates verified placement evidence', () => {
