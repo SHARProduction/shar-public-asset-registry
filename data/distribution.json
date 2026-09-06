@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T01:05:00Z",
+  "updated_at": "2026-09-06T01:22:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 638,
-    "gap_to_minimum": 862,
+    "verified_counted_placements": 660,
+    "gap_to_minimum": 840,
     "localized_tool_pages": 444,
-    "github_public_repositories": 137,
-    "hugging_face_datasets": 6,
+    "github_public_repositories": 138,
+    "hugging_face_datasets": 7,
     "hugging_face_static_spaces": 1,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -27,9 +27,12 @@
     "research_dataset_placements": 1,
     "localized_data_contract_pages": 20,
     "data_contract_repository_placements": 1,
-    "data_contract_dataset_placements": 1
+    "data_contract_dataset_placements": 1,
+    "localized_reference_corpus_pages": 20,
+    "reference_corpora_repository_placements": 1,
+    "reference_corpora_dataset_placements": 1
   },
-  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe, 12 conformance-suite, 12 compatibility-research and 22 production-data-contract placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe, 12 conformance-suite, 12 compatibility-research, 22 production-data-contract and 22 reference-corpora placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -235,6 +238,86 @@
       "title_ru": "Журнал инцидентов без персональных данных",
       "kind": "production_data_contract",
       "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.bilingual-production-vocabulary",
+      "title": "Bilingual Production Vocabulary",
+      "title_ru": "Двуязычная лексика продакшена",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.localized-filename-fixtures",
+      "title": "Localized Filename Fixtures",
+      "title_ru": "Примеры локализованных имён файлов",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.subtitle-edge-cases",
+      "title": "Subtitle Edge Cases",
+      "title_ru": "Пограничные случаи субтитров",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.delivery-matrix-scenarios",
+      "title": "Delivery Matrix Scenarios",
+      "title_ru": "Сценарии матриц доставки",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.production-dependency-graphs",
+      "title": "Production Dependency Graphs",
+      "title_ru": "Графы зависимостей продакшена",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.valid-invalid-briefs",
+      "title": "Valid and Invalid Briefs",
+      "title_ru": "Корректные и ошибочные брифы",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.sanitized-package-layouts",
+      "title": "Sanitized Package Layouts",
+      "title_ru": "Очищенные структуры пакетов",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.accessibility-metadata",
+      "title": "Accessibility Metadata",
+      "title_ru": "Метаданные доступности",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.rights-scenario-fixtures",
+      "title": "Rights Scenario Fixtures",
+      "title_ru": "Сценарии прав",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.corpus.handoff-error-catalog",
+      "title": "Handoff Error Catalog",
+      "title_ru": "Каталог ошибок передачи",
+      "kind": "synthetic_reference_corpus",
+      "license": "CC-BY-4.0",
       "data_license": "CC-BY-4.0"
     }
   ],
@@ -550,6 +633,126 @@
       "work_id": "shar.work.contract.privacy-safe-incident-log",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.bilingual-production-vocabulary.en",
+      "work_id": "shar.work.corpus.bilingual-production-vocabulary",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.bilingual-production-vocabulary.ru",
+      "work_id": "shar.work.corpus.bilingual-production-vocabulary",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.localized-filename-fixtures.en",
+      "work_id": "shar.work.corpus.localized-filename-fixtures",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.localized-filename-fixtures.ru",
+      "work_id": "shar.work.corpus.localized-filename-fixtures",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.subtitle-edge-cases.en",
+      "work_id": "shar.work.corpus.subtitle-edge-cases",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.subtitle-edge-cases.ru",
+      "work_id": "shar.work.corpus.subtitle-edge-cases",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.delivery-matrix-scenarios.en",
+      "work_id": "shar.work.corpus.delivery-matrix-scenarios",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.delivery-matrix-scenarios.ru",
+      "work_id": "shar.work.corpus.delivery-matrix-scenarios",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.production-dependency-graphs.en",
+      "work_id": "shar.work.corpus.production-dependency-graphs",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.production-dependency-graphs.ru",
+      "work_id": "shar.work.corpus.production-dependency-graphs",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.valid-invalid-briefs.en",
+      "work_id": "shar.work.corpus.valid-invalid-briefs",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.valid-invalid-briefs.ru",
+      "work_id": "shar.work.corpus.valid-invalid-briefs",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.sanitized-package-layouts.en",
+      "work_id": "shar.work.corpus.sanitized-package-layouts",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.sanitized-package-layouts.ru",
+      "work_id": "shar.work.corpus.sanitized-package-layouts",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.accessibility-metadata.en",
+      "work_id": "shar.work.corpus.accessibility-metadata",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.accessibility-metadata.ru",
+      "work_id": "shar.work.corpus.accessibility-metadata",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.rights-scenario-fixtures.en",
+      "work_id": "shar.work.corpus.rights-scenario-fixtures",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.rights-scenario-fixtures.ru",
+      "work_id": "shar.work.corpus.rights-scenario-fixtures",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.handoff-error-catalog.en",
+      "work_id": "shar.work.corpus.handoff-error-catalog",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.corpus.handoff-error-catalog.ru",
+      "work_id": "shar.work.corpus.handoff-error-catalog",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -610,6 +813,23 @@
         "shar.work.contract.retention-policy",
         "shar.work.contract.vendor-bid-comparison",
         "shar.work.contract.privacy-safe-incident-log"
+      ]
+    },
+    {
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.corpus.bilingual-production-vocabulary",
+        "shar.work.corpus.localized-filename-fixtures",
+        "shar.work.corpus.subtitle-edge-cases",
+        "shar.work.corpus.delivery-matrix-scenarios",
+        "shar.work.corpus.production-dependency-graphs",
+        "shar.work.corpus.valid-invalid-briefs",
+        "shar.work.corpus.sanitized-package-layouts",
+        "shar.work.corpus.accessibility-metadata",
+        "shar.work.corpus.rights-scenario-fixtures",
+        "shar.work.corpus.handoff-error-catalog"
       ]
     }
   ],
@@ -2458,6 +2678,700 @@
       },
       "release_id": "shar.release.data-contracts.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.bilingual-production-vocabulary.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.bilingual-production-vocabulary"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.bilingual-production-vocabulary.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/bilingual-production-vocabulary/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.bilingual-production-vocabulary.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.bilingual-production-vocabulary"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.bilingual-production-vocabulary.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/bilingual-production-vocabulary/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.localized-filename-fixtures.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.localized-filename-fixtures"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.localized-filename-fixtures.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/localized-filename-fixtures/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.localized-filename-fixtures.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.localized-filename-fixtures"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.localized-filename-fixtures.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/localized-filename-fixtures/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.subtitle-edge-cases.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.subtitle-edge-cases"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.subtitle-edge-cases.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/subtitle-edge-cases/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.subtitle-edge-cases.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.subtitle-edge-cases"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.subtitle-edge-cases.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/subtitle-edge-cases/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.delivery-matrix-scenarios.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.delivery-matrix-scenarios"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.delivery-matrix-scenarios.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/delivery-matrix-scenarios/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.delivery-matrix-scenarios.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.delivery-matrix-scenarios"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.delivery-matrix-scenarios.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/delivery-matrix-scenarios/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.production-dependency-graphs.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.production-dependency-graphs"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.production-dependency-graphs.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/production-dependency-graphs/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.production-dependency-graphs.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.production-dependency-graphs"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.production-dependency-graphs.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/production-dependency-graphs/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.valid-invalid-briefs.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.valid-invalid-briefs"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.valid-invalid-briefs.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/valid-invalid-briefs/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.valid-invalid-briefs.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.valid-invalid-briefs"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.valid-invalid-briefs.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/valid-invalid-briefs/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.sanitized-package-layouts.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.sanitized-package-layouts"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.sanitized-package-layouts.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/sanitized-package-layouts/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.sanitized-package-layouts.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.sanitized-package-layouts"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.sanitized-package-layouts.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/sanitized-package-layouts/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.accessibility-metadata.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.accessibility-metadata"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.accessibility-metadata.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/accessibility-metadata/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.accessibility-metadata.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.accessibility-metadata"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.accessibility-metadata.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/accessibility-metadata/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.rights-scenario-fixtures.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.rights-scenario-fixtures"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.rights-scenario-fixtures.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/rights-scenario-fixtures/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.rights-scenario-fixtures.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.rights-scenario-fixtures"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.rights-scenario-fixtures.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/rights-scenario-fixtures/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.handoff-error-catalog.cloudflare.en",
+      "work_ids": [
+        "shar.work.corpus.handoff-error-catalog"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.handoff-error-catalog.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/en/handoff-error-catalog/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.corpus.handoff-error-catalog.cloudflare.ru",
+      "work_ids": [
+        "shar.work.corpus.handoff-error-catalog"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.handoff-error-catalog.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-reference-corpora.pages.dev/ru/handoff-error-catalog/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "5226dd62-b1ff-4deb-9539-e069281d1aad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains corpus purpose, validation summary, sample records, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.reference-corpora.github",
+      "work_ids": [
+        "shar.work.corpus.bilingual-production-vocabulary",
+        "shar.work.corpus.localized-filename-fixtures",
+        "shar.work.corpus.subtitle-edge-cases",
+        "shar.work.corpus.delivery-matrix-scenarios",
+        "shar.work.corpus.production-dependency-graphs",
+        "shar.work.corpus.valid-invalid-briefs",
+        "shar.work.corpus.sanitized-package-layouts",
+        "shar.work.corpus.accessibility-metadata",
+        "shar.work.corpus.rights-scenario-fixtures",
+        "shar.work.corpus.handoff-error-catalog"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.bilingual-production-vocabulary.en",
+        "shar.representation.corpus.bilingual-production-vocabulary.ru",
+        "shar.representation.corpus.localized-filename-fixtures.en",
+        "shar.representation.corpus.localized-filename-fixtures.ru",
+        "shar.representation.corpus.subtitle-edge-cases.en",
+        "shar.representation.corpus.subtitle-edge-cases.ru",
+        "shar.representation.corpus.delivery-matrix-scenarios.en",
+        "shar.representation.corpus.delivery-matrix-scenarios.ru",
+        "shar.representation.corpus.production-dependency-graphs.en",
+        "shar.representation.corpus.production-dependency-graphs.ru",
+        "shar.representation.corpus.valid-invalid-briefs.en",
+        "shar.representation.corpus.valid-invalid-briefs.ru",
+        "shar.representation.corpus.sanitized-package-layouts.en",
+        "shar.representation.corpus.sanitized-package-layouts.ru",
+        "shar.representation.corpus.accessibility-metadata.en",
+        "shar.representation.corpus.accessibility-metadata.ru",
+        "shar.representation.corpus.rights-scenario-fixtures.en",
+        "shar.representation.corpus.rights-scenario-fixtures.ru",
+        "shar.representation.corpus.handoff-error-catalog.en",
+        "shar.representation.corpus.handoff-error-catalog.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-reference-corpora",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "v1.0.0@9252f63ae726f8ef05284f17e9fe2f94294843e2",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository, release and raw corpus returned HTTP 200.",
+          "GitHub Actions run 34003157035 completed successfully.",
+          "Release contains 240 synthetic records and leakage validation."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.reference-corpora.huggingface",
+      "work_ids": [
+        "shar.work.corpus.bilingual-production-vocabulary",
+        "shar.work.corpus.localized-filename-fixtures",
+        "shar.work.corpus.subtitle-edge-cases",
+        "shar.work.corpus.delivery-matrix-scenarios",
+        "shar.work.corpus.production-dependency-graphs",
+        "shar.work.corpus.valid-invalid-briefs",
+        "shar.work.corpus.sanitized-package-layouts",
+        "shar.work.corpus.accessibility-metadata",
+        "shar.work.corpus.rights-scenario-fixtures",
+        "shar.work.corpus.handoff-error-catalog"
+      ],
+      "representation_ids": [
+        "shar.representation.corpus.bilingual-production-vocabulary.en",
+        "shar.representation.corpus.bilingual-production-vocabulary.ru",
+        "shar.representation.corpus.localized-filename-fixtures.en",
+        "shar.representation.corpus.localized-filename-fixtures.ru",
+        "shar.representation.corpus.subtitle-edge-cases.en",
+        "shar.representation.corpus.subtitle-edge-cases.ru",
+        "shar.representation.corpus.delivery-matrix-scenarios.en",
+        "shar.representation.corpus.delivery-matrix-scenarios.ru",
+        "shar.representation.corpus.production-dependency-graphs.en",
+        "shar.representation.corpus.production-dependency-graphs.ru",
+        "shar.representation.corpus.valid-invalid-briefs.en",
+        "shar.representation.corpus.valid-invalid-briefs.ru",
+        "shar.representation.corpus.sanitized-package-layouts.en",
+        "shar.representation.corpus.sanitized-package-layouts.ru",
+        "shar.representation.corpus.accessibility-metadata.en",
+        "shar.representation.corpus.accessibility-metadata.ru",
+        "shar.representation.corpus.rights-scenario-fixtures.en",
+        "shar.representation.corpus.rights-scenario-fixtures.ru",
+        "shar.representation.corpus.handoff-error-catalog.en",
+        "shar.representation.corpus.handoff-error-catalog.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-reference-corpora",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:22:00Z",
+      "provider_version": "dfe0d14db27192b6f278ba07a8174a36b7372eda",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset page and raw records.jsonl returned HTTP 200.",
+          "Dataset contains 240 bilingual synthetic records across ten corpora.",
+          "CC-BY-4.0 card, split grouping and AI assistance disclosure verified."
+        ]
+      },
+      "release_id": "shar.release.reference-corpora.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -2930,6 +3844,182 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-data-contracts",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T01:05:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.bilingual-production-vocabulary.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/bilingual-production-vocabulary/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.bilingual-production-vocabulary.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/bilingual-production-vocabulary/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.localized-filename-fixtures.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/localized-filename-fixtures/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.localized-filename-fixtures.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/localized-filename-fixtures/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.subtitle-edge-cases.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/subtitle-edge-cases/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.subtitle-edge-cases.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/subtitle-edge-cases/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.delivery-matrix-scenarios.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/delivery-matrix-scenarios/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.delivery-matrix-scenarios.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/delivery-matrix-scenarios/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.production-dependency-graphs.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/production-dependency-graphs/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.production-dependency-graphs.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/production-dependency-graphs/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.valid-invalid-briefs.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/valid-invalid-briefs/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.valid-invalid-briefs.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/valid-invalid-briefs/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.sanitized-package-layouts.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/sanitized-package-layouts/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.sanitized-package-layouts.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/sanitized-package-layouts/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.accessibility-metadata.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/accessibility-metadata/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.accessibility-metadata.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/accessibility-metadata/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.rights-scenario-fixtures.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/rights-scenario-fixtures/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.rights-scenario-fixtures.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/rights-scenario-fixtures/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.handoff-error-catalog.cloudflare.en.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/en/handoff-error-catalog/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.corpus.handoff-error-catalog.cloudflare.ru.website",
+      "source_url": "https://shar-production-reference-corpora.pages.dev/ru/handoff-error-catalog/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.reference-corpora.github.website",
+      "source_url": "https://github.com/SHARProduction/production-reference-corpora",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.reference-corpora.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-reference-corpora",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:22:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
