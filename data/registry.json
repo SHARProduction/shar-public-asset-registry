@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T08:17:53Z",
+  "updated_at": "2026-09-06T09:01:03Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.5"
+        "value": "v1.7.6"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T08:17:53Z",
+      "verified_at": "2026-09-06T09:01:03Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,9 +522,10 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.5 release returned HTTP 200 and the tag resolves to commit 860664eec785bece8643c8c6ad194492393efb2e.",
-          "ChatGPT Wave 04 records 24/24 unsigned guest consumer observations: 12 RU and 12 EN, zero SHAR Production mentions and zero direct verified SHAR citations.",
-          "Complete controlled search and consumer-AI coverage is 105/192 slots; inaccessible slots remain explicitly unmeasured.",
+          "Public repository and v1.7.6 release returned HTTP 200 and the tag resolves to commit 46b45376c3b6aecb2e299875e9b827c05834b570.",
+          "Claude Wave 05 records 24/24 signed-in consumer observations: 12 RU and 12 EN, zero SHAR Production mentions and zero direct SHAR citations.",
+          "The dated transport check reached 12 of 13 unique source URLs extracted from the Claude answers.",
+          "Complete controlled search and consumer-AI coverage is 129/192 slots; inaccessible slots remain explicitly unmeasured.",
           "Recovery scope remains 40 owner-reported rows: 12 exact owner-account URLs recovered, one provider refusal closed and 27 unresolved.",
           "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
         ]
