@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T09:16:51Z",
+  "updated_at": "2026-09-06T09:32:11Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.7"
+        "value": "v1.7.8"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T09:16:51Z",
+      "verified_at": "2026-09-06T09:32:11Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,12 +522,13 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.7 release returned HTTP 200 and the tag resolves to commit f7dbb4d4e404291958cd3fe906f002f54018ceed.",
-          "Bing is complete at 24/24 dated non-brand consumer-search observations with zero SHAR Production results and zero direct sharprod.com result links.",
-          "Claude Wave 05 records 24/24 signed-in consumer observations: 12 RU and 12 EN, zero SHAR Production mentions and zero direct SHAR citations; 12 of 13 extracted source URLs were reachable in the dated transport check.",
-          "Complete controlled search and consumer-AI coverage is 144/192 slots; inaccessible slots remain explicitly unmeasured.",
+          "Public repository and v1.7.8 release returned HTTP 200 and the tag resolves to commit 059e75f939151ee9051787d0c5518d87fa143308.",
+          "Google, Bing and Yandex consumer-search panels are complete at 24/24 each; Yandex exposed ten direct SHAR-controlled result links across nine queries.",
+          "All ten Yandex SHAR result URLs returned HTTP 200 and exposed exact canonical metadata in the dated verification.",
+          "Alice, Gemini, ChatGPT and Claude are complete at 24/24 each; only Perplexity remains unmeasured.",
+          "Complete controlled search and consumer-AI coverage is 168/192 slots.",
           "Recovery scope remains 40 owner-reported rows: 12 exact owner-account URLs recovered, one provider refusal closed and 27 unresolved.",
-          "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
+          "These are dated observations and make no stable ranking, traffic, account-ownership or third-party-endorsement claim."
         ]
       },
       "languages": [
