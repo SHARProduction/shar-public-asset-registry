@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T01:58:00Z",
+  "updated_at": "2026-09-06T02:20:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 704,
-    "gap_to_minimum": 796,
+    "verified_counted_placements": 726,
+    "gap_to_minimum": 774,
     "localized_tool_pages": 444,
-    "github_public_repositories": 140,
-    "hugging_face_datasets": 9,
+    "github_public_repositories": 141,
+    "hugging_face_datasets": 10,
     "hugging_face_static_spaces": 1,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -36,9 +36,12 @@
     "workflow_recipe_dataset_placements": 1,
     "localized_media_conformance_pages": 20,
     "media_conformance_repository_placements": 1,
-    "media_conformance_dataset_placements": 1
+    "media_conformance_dataset_placements": 1,
+    "localized_validation_benchmark_pages": 20,
+    "validation_benchmark_repository_placements": 1,
+    "validation_benchmark_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmark placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -483,6 +486,86 @@
       "title": "Archive Inventory Profile",
       "title_ru": "Профиль реестра архива",
       "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.filename-batch-scan",
+      "title": "Filename Batch Scan",
+      "title_ru": "Пакетная проверка имён файлов",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.caption-readability-scan",
+      "title": "Caption Readability Scan",
+      "title_ru": "Проверка читаемости субтитров",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.dependency-dag-walk",
+      "title": "Dependency DAG Walk",
+      "title_ru": "Обход графа зависимостей",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.image-sequence-gap-scan",
+      "title": "Image Sequence Gap Scan",
+      "title_ru": "Поиск пропусков image sequence",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.locale-matrix-completeness",
+      "title": "Locale Matrix Completeness",
+      "title_ru": "Полнота матрицы локализации",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.jsonl-roundtrip-batch",
+      "title": "JSONL Round-trip Batch",
+      "title_ru": "Пакетный round-trip JSONL",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.unicode-normalization-collisions",
+      "title": "Unicode Normalization Collisions",
+      "title_ru": "Коллизии Unicode-нормализации",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.relative-path-safety-scan",
+      "title": "Relative Path Safety Scan",
+      "title_ru": "Проверка безопасности относительных путей",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.manifest-duplicate-detection",
+      "title": "Manifest Duplicate Detection",
+      "title_ru": "Поиск дублей в манифесте",
+      "kind": "measured_validation_benchmark",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.benchmark.approval-order-audit",
+      "title": "Approval Order Audit",
+      "title_ru": "Аудит порядка согласований",
+      "kind": "measured_validation_benchmark",
       "license": "MIT",
       "data_license": "CC-BY-4.0"
     }
@@ -1159,6 +1242,126 @@
       "work_id": "shar.work.media-conformance.archive-inventory-profile",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.filename-batch-scan.en",
+      "work_id": "shar.work.benchmark.filename-batch-scan",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.filename-batch-scan.ru",
+      "work_id": "shar.work.benchmark.filename-batch-scan",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.caption-readability-scan.en",
+      "work_id": "shar.work.benchmark.caption-readability-scan",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.caption-readability-scan.ru",
+      "work_id": "shar.work.benchmark.caption-readability-scan",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.dependency-dag-walk.en",
+      "work_id": "shar.work.benchmark.dependency-dag-walk",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.dependency-dag-walk.ru",
+      "work_id": "shar.work.benchmark.dependency-dag-walk",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.image-sequence-gap-scan.en",
+      "work_id": "shar.work.benchmark.image-sequence-gap-scan",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.image-sequence-gap-scan.ru",
+      "work_id": "shar.work.benchmark.image-sequence-gap-scan",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.locale-matrix-completeness.en",
+      "work_id": "shar.work.benchmark.locale-matrix-completeness",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.locale-matrix-completeness.ru",
+      "work_id": "shar.work.benchmark.locale-matrix-completeness",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.jsonl-roundtrip-batch.en",
+      "work_id": "shar.work.benchmark.jsonl-roundtrip-batch",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.jsonl-roundtrip-batch.ru",
+      "work_id": "shar.work.benchmark.jsonl-roundtrip-batch",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.unicode-normalization-collisions.en",
+      "work_id": "shar.work.benchmark.unicode-normalization-collisions",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.unicode-normalization-collisions.ru",
+      "work_id": "shar.work.benchmark.unicode-normalization-collisions",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.relative-path-safety-scan.en",
+      "work_id": "shar.work.benchmark.relative-path-safety-scan",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.relative-path-safety-scan.ru",
+      "work_id": "shar.work.benchmark.relative-path-safety-scan",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.manifest-duplicate-detection.en",
+      "work_id": "shar.work.benchmark.manifest-duplicate-detection",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.manifest-duplicate-detection.ru",
+      "work_id": "shar.work.benchmark.manifest-duplicate-detection",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.approval-order-audit.en",
+      "work_id": "shar.work.benchmark.approval-order-audit",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.benchmark.approval-order-audit.ru",
+      "work_id": "shar.work.benchmark.approval-order-audit",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -1270,6 +1473,23 @@
         "shar.work.media-conformance.audio-channel-map-profile",
         "shar.work.media-conformance.image-sequence-profile",
         "shar.work.media-conformance.archive-inventory-profile"
+      ]
+    },
+    {
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.benchmark.filename-batch-scan",
+        "shar.work.benchmark.caption-readability-scan",
+        "shar.work.benchmark.dependency-dag-walk",
+        "shar.work.benchmark.image-sequence-gap-scan",
+        "shar.work.benchmark.locale-matrix-completeness",
+        "shar.work.benchmark.jsonl-roundtrip-batch",
+        "shar.work.benchmark.unicode-normalization-collisions",
+        "shar.work.benchmark.relative-path-safety-scan",
+        "shar.work.benchmark.manifest-duplicate-detection",
+        "shar.work.benchmark.approval-order-audit"
       ]
     }
   ],
@@ -5200,6 +5420,700 @@
       },
       "release_id": "shar.release.media-conformance.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.filename-batch-scan.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.filename-batch-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.filename-batch-scan.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/filename-batch-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.filename-batch-scan.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.filename-batch-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.filename-batch-scan.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/filename-batch-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.caption-readability-scan.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.caption-readability-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.caption-readability-scan.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/caption-readability-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.caption-readability-scan.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.caption-readability-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.caption-readability-scan.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/caption-readability-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.dependency-dag-walk.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.dependency-dag-walk"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.dependency-dag-walk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/dependency-dag-walk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.dependency-dag-walk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.dependency-dag-walk"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.dependency-dag-walk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/dependency-dag-walk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.image-sequence-gap-scan.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.image-sequence-gap-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.image-sequence-gap-scan.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/image-sequence-gap-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.image-sequence-gap-scan.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.image-sequence-gap-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.image-sequence-gap-scan.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/image-sequence-gap-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.locale-matrix-completeness.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.locale-matrix-completeness"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.locale-matrix-completeness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/locale-matrix-completeness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.locale-matrix-completeness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.locale-matrix-completeness"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.locale-matrix-completeness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/locale-matrix-completeness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.jsonl-roundtrip-batch.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.jsonl-roundtrip-batch"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.jsonl-roundtrip-batch.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/jsonl-roundtrip-batch/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.jsonl-roundtrip-batch.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.jsonl-roundtrip-batch"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.jsonl-roundtrip-batch.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/jsonl-roundtrip-batch/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.unicode-normalization-collisions.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.unicode-normalization-collisions"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.unicode-normalization-collisions.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/unicode-normalization-collisions/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.unicode-normalization-collisions.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.unicode-normalization-collisions"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.unicode-normalization-collisions.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/unicode-normalization-collisions/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.relative-path-safety-scan.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.relative-path-safety-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.relative-path-safety-scan.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/relative-path-safety-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.relative-path-safety-scan.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.relative-path-safety-scan"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.relative-path-safety-scan.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/relative-path-safety-scan/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.manifest-duplicate-detection.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.manifest-duplicate-detection"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.manifest-duplicate-detection.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/manifest-duplicate-detection/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.manifest-duplicate-detection.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.manifest-duplicate-detection"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.manifest-duplicate-detection.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/manifest-duplicate-detection/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.approval-order-audit.cloudflare.en",
+      "work_ids": [
+        "shar.work.benchmark.approval-order-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.approval-order-audit.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/en/approval-order-audit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.benchmark.approval-order-audit.cloudflare.ru",
+      "work_ids": [
+        "shar.work.benchmark.approval-order-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.approval-order-audit.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-validation-benchmarks.pages.dev/ru/approval-order-audit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "4b582882-0568-454e-b08e-7efa548f70ef",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains measured PASS metrics, environment, SHA-256, limitations, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-benchmarks.github",
+      "work_ids": [
+        "shar.work.benchmark.filename-batch-scan",
+        "shar.work.benchmark.caption-readability-scan",
+        "shar.work.benchmark.dependency-dag-walk",
+        "shar.work.benchmark.image-sequence-gap-scan",
+        "shar.work.benchmark.locale-matrix-completeness",
+        "shar.work.benchmark.jsonl-roundtrip-batch",
+        "shar.work.benchmark.unicode-normalization-collisions",
+        "shar.work.benchmark.relative-path-safety-scan",
+        "shar.work.benchmark.manifest-duplicate-detection",
+        "shar.work.benchmark.approval-order-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.filename-batch-scan.en",
+        "shar.representation.benchmark.filename-batch-scan.ru",
+        "shar.representation.benchmark.caption-readability-scan.en",
+        "shar.representation.benchmark.caption-readability-scan.ru",
+        "shar.representation.benchmark.dependency-dag-walk.en",
+        "shar.representation.benchmark.dependency-dag-walk.ru",
+        "shar.representation.benchmark.image-sequence-gap-scan.en",
+        "shar.representation.benchmark.image-sequence-gap-scan.ru",
+        "shar.representation.benchmark.locale-matrix-completeness.en",
+        "shar.representation.benchmark.locale-matrix-completeness.ru",
+        "shar.representation.benchmark.jsonl-roundtrip-batch.en",
+        "shar.representation.benchmark.jsonl-roundtrip-batch.ru",
+        "shar.representation.benchmark.unicode-normalization-collisions.en",
+        "shar.representation.benchmark.unicode-normalization-collisions.ru",
+        "shar.representation.benchmark.relative-path-safety-scan.en",
+        "shar.representation.benchmark.relative-path-safety-scan.ru",
+        "shar.representation.benchmark.manifest-duplicate-detection.en",
+        "shar.representation.benchmark.manifest-duplicate-detection.ru",
+        "shar.representation.benchmark.approval-order-audit.en",
+        "shar.representation.benchmark.approval-order-audit.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-validation-benchmarks",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "v1.0.0@b7c471a4cd55500d5974e08af635c5f7b8234304",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository, release and raw results returned HTTP 200.",
+          "GitHub Actions run 34004203844 completed successfully.",
+          "Ten bounded experiments passed across three repetitions."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.validation-benchmarks.huggingface",
+      "work_ids": [
+        "shar.work.benchmark.filename-batch-scan",
+        "shar.work.benchmark.caption-readability-scan",
+        "shar.work.benchmark.dependency-dag-walk",
+        "shar.work.benchmark.image-sequence-gap-scan",
+        "shar.work.benchmark.locale-matrix-completeness",
+        "shar.work.benchmark.jsonl-roundtrip-batch",
+        "shar.work.benchmark.unicode-normalization-collisions",
+        "shar.work.benchmark.relative-path-safety-scan",
+        "shar.work.benchmark.manifest-duplicate-detection",
+        "shar.work.benchmark.approval-order-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.benchmark.filename-batch-scan.en",
+        "shar.representation.benchmark.filename-batch-scan.ru",
+        "shar.representation.benchmark.caption-readability-scan.en",
+        "shar.representation.benchmark.caption-readability-scan.ru",
+        "shar.representation.benchmark.dependency-dag-walk.en",
+        "shar.representation.benchmark.dependency-dag-walk.ru",
+        "shar.representation.benchmark.image-sequence-gap-scan.en",
+        "shar.representation.benchmark.image-sequence-gap-scan.ru",
+        "shar.representation.benchmark.locale-matrix-completeness.en",
+        "shar.representation.benchmark.locale-matrix-completeness.ru",
+        "shar.representation.benchmark.jsonl-roundtrip-batch.en",
+        "shar.representation.benchmark.jsonl-roundtrip-batch.ru",
+        "shar.representation.benchmark.unicode-normalization-collisions.en",
+        "shar.representation.benchmark.unicode-normalization-collisions.ru",
+        "shar.representation.benchmark.relative-path-safety-scan.en",
+        "shar.representation.benchmark.relative-path-safety-scan.ru",
+        "shar.representation.benchmark.manifest-duplicate-detection.en",
+        "shar.representation.benchmark.manifest-duplicate-detection.ru",
+        "shar.representation.benchmark.approval-order-audit.en",
+        "shar.representation.benchmark.approval-order-audit.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-validation-benchmarks",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:20:00Z",
+      "provider_version": "8ab12fec1cd6a572991b66033468eb93859cee62",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset page and raw results.jsonl returned HTTP 200.",
+          "Ten measured records include environment, metrics, hashes and limitations.",
+          "CC-BY-4.0 results card and AI assistance disclosure verified."
+        ]
+      },
+      "release_id": "shar.release.validation-benchmarks.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -6200,6 +7114,182 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-media-conformance",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.filename-batch-scan.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/filename-batch-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.filename-batch-scan.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/filename-batch-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.caption-readability-scan.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/caption-readability-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.caption-readability-scan.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/caption-readability-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.dependency-dag-walk.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/dependency-dag-walk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.dependency-dag-walk.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/dependency-dag-walk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.image-sequence-gap-scan.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/image-sequence-gap-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.image-sequence-gap-scan.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/image-sequence-gap-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.locale-matrix-completeness.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/locale-matrix-completeness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.locale-matrix-completeness.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/locale-matrix-completeness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.jsonl-roundtrip-batch.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/jsonl-roundtrip-batch/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.jsonl-roundtrip-batch.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/jsonl-roundtrip-batch/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.unicode-normalization-collisions.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/unicode-normalization-collisions/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.unicode-normalization-collisions.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/unicode-normalization-collisions/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.relative-path-safety-scan.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/relative-path-safety-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.relative-path-safety-scan.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/relative-path-safety-scan/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.manifest-duplicate-detection.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/manifest-duplicate-detection/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.manifest-duplicate-detection.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/manifest-duplicate-detection/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.approval-order-audit.cloudflare.en.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/en/approval-order-audit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.benchmark.approval-order-audit.cloudflare.ru.website",
+      "source_url": "https://shar-production-validation-benchmarks.pages.dev/ru/approval-order-audit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-benchmarks.github.website",
+      "source_url": "https://github.com/SHARProduction/production-validation-benchmarks",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.validation-benchmarks.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-validation-benchmarks",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:20:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
