@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T02:31:29Z",
+  "updated_at": "2026-09-06T02:42:34Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 886,
-    "gap_to_minimum": 614,
+    "verified_counted_placements": 938,
+    "gap_to_minimum": 562,
     "localized_tool_pages": 444,
-    "github_public_repositories": 145,
-    "hugging_face_datasets": 13,
+    "github_public_repositories": 146,
+    "hugging_face_datasets": 14,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -51,9 +51,12 @@
     "production_verification_workflow_dataset_placements": 1,
     "localized_production_conformance_catalog_pages": 50,
     "production_conformance_catalog_repository_placements": 1,
-    "production_conformance_catalog_dataset_placements": 1
+    "production_conformance_catalog_dataset_placements": 1,
+    "localized_production_readiness_scorecard_pages": 50,
+    "production_readiness_scorecard_repository_placements": 1,
+    "production_readiness_scorecard_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -1187,6 +1190,206 @@
       "license": "MIT",
       "results_license": "CC-BY-4.0",
       "title_ru": "Соответствие URL доказательства релиза"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.brief-readiness",
+      "title": "Brief readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность брифа"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.rights-readiness",
+      "title": "Rights readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность прав"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.budget-readiness",
+      "title": "Budget readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность бюджета"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.schedule-readiness",
+      "title": "Schedule readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность графика"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.location-readiness",
+      "title": "Location readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность локаций"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.talent-readiness",
+      "title": "Talent readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность талантов"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.crew-readiness",
+      "title": "Crew readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность команды"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.safety-readiness",
+      "title": "Safety readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность безопасности"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.camera-readiness",
+      "title": "Camera readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность камеры"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.sound-readiness",
+      "title": "Sound readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность звука"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.dit-readiness",
+      "title": "DIT readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность DIT"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.editorial-readiness",
+      "title": "Editorial readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность монтажа"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.vfx-readiness",
+      "title": "VFX readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность VFX"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.color-readiness",
+      "title": "Color readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность цветокоррекции"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.mix-readiness",
+      "title": "Mix readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность сведения"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.caption-readiness",
+      "title": "Caption readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность субтитров"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.accessibility-readiness",
+      "title": "Accessibility readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность доступности"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.localization-readiness",
+      "title": "Localization readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность локализации"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.platform-readiness",
+      "title": "Platform readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность платформ"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.archive-readiness",
+      "title": "Archive readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность архива"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.provenance-readiness",
+      "title": "Provenance readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность происхождения"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.privacy-readiness",
+      "title": "Privacy readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность приватности"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.supplier-readiness",
+      "title": "Supplier readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность поставщиков"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.sustainability-readiness",
+      "title": "Sustainability readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность устойчивости"
+    },
+    {
+      "work_id": "shar.work.readiness-scorecard.release-readiness",
+      "title": "Release readiness",
+      "kind": "weighted_production_readiness_scorecard",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Готовность релиза"
     }
   ],
   "representations": [
@@ -2893,6 +3096,306 @@
       "work_id": "shar.work.conformance-catalog.release-evidence-suite",
       "language": "ru",
       "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.brief-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.brief-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.brief-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.brief-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.rights-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.rights-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.rights-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.rights-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.budget-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.budget-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.budget-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.budget-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.schedule-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.schedule-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.schedule-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.schedule-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.location-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.location-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.location-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.location-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.talent-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.talent-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.talent-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.talent-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.crew-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.crew-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.crew-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.crew-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.safety-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.safety-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.safety-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.safety-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.camera-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.camera-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.camera-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.camera-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.sound-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.sound-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.sound-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.sound-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.dit-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.dit-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.dit-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.dit-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.editorial-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.editorial-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.editorial-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.editorial-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.vfx-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.vfx-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.vfx-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.vfx-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.color-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.color-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.color-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.color-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.mix-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.mix-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.mix-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.mix-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.caption-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.caption-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.caption-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.caption-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.accessibility-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.accessibility-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.accessibility-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.accessibility-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.localization-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.localization-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.localization-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.localization-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.platform-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.platform-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.platform-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.platform-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.archive-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.archive-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.archive-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.archive-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.provenance-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.provenance-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.provenance-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.provenance-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.privacy-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.privacy-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.privacy-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.privacy-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.supplier-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.supplier-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.supplier-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.supplier-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.sustainability-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.sustainability-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.sustainability-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.sustainability-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.release-readiness.en",
+      "work_id": "shar.work.readiness-scorecard.release-readiness",
+      "language": "en",
+      "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.readiness-scorecard.release-readiness.ru",
+      "work_id": "shar.work.readiness-scorecard.release-readiness",
+      "language": "ru",
+      "format": "interactive_html_weighted_scorecard"
     }
   ],
   "releases": [
@@ -3125,6 +3628,38 @@
         "shar.work.conformance-catalog.archive-inventory-suite",
         "shar.work.conformance-catalog.provenance-disclosure-suite",
         "shar.work.conformance-catalog.release-evidence-suite"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.readiness-scorecard.brief-readiness",
+        "shar.work.readiness-scorecard.rights-readiness",
+        "shar.work.readiness-scorecard.budget-readiness",
+        "shar.work.readiness-scorecard.schedule-readiness",
+        "shar.work.readiness-scorecard.location-readiness",
+        "shar.work.readiness-scorecard.talent-readiness",
+        "shar.work.readiness-scorecard.crew-readiness",
+        "shar.work.readiness-scorecard.safety-readiness",
+        "shar.work.readiness-scorecard.camera-readiness",
+        "shar.work.readiness-scorecard.sound-readiness",
+        "shar.work.readiness-scorecard.dit-readiness",
+        "shar.work.readiness-scorecard.editorial-readiness",
+        "shar.work.readiness-scorecard.vfx-readiness",
+        "shar.work.readiness-scorecard.color-readiness",
+        "shar.work.readiness-scorecard.mix-readiness",
+        "shar.work.readiness-scorecard.caption-readiness",
+        "shar.work.readiness-scorecard.accessibility-readiness",
+        "shar.work.readiness-scorecard.localization-readiness",
+        "shar.work.readiness-scorecard.platform-readiness",
+        "shar.work.readiness-scorecard.archive-readiness",
+        "shar.work.readiness-scorecard.provenance-readiness",
+        "shar.work.readiness-scorecard.privacy-readiness",
+        "shar.work.readiness-scorecard.supplier-readiness",
+        "shar.work.readiness-scorecard.sustainability-readiness",
+        "shar.work.readiness-scorecard.release-readiness"
       ]
     }
   ],
@@ -12829,6 +13364,1660 @@
       },
       "release_id": "shar.release.production-conformance-catalog.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.brief-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.brief-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.brief-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/brief-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.brief-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.brief-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.brief-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/brief-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.rights-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.rights-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.rights-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/rights-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.rights-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.rights-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.rights-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/rights-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.budget-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.budget-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.budget-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/budget-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.budget-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.budget-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.budget-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/budget-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.schedule-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.schedule-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.schedule-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/schedule-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.schedule-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.schedule-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.schedule-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/schedule-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.location-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.location-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.location-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/location-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.location-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.location-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.location-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/location-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.talent-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.talent-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.talent-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/talent-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.talent-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.talent-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.talent-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/talent-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.crew-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.crew-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.crew-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/crew-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.crew-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.crew-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.crew-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/crew-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.safety-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.safety-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.safety-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/safety-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.safety-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.safety-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.safety-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/safety-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.camera-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.camera-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.camera-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/camera-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.camera-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.camera-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.camera-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/camera-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.sound-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.sound-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.sound-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/sound-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.sound-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.sound-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.sound-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/sound-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.dit-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.dit-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.dit-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/dit-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.dit-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.dit-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.dit-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/dit-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.editorial-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.editorial-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.editorial-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/editorial-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.editorial-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.editorial-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.editorial-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/editorial-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.vfx-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.vfx-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.vfx-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/vfx-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.vfx-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.vfx-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.vfx-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/vfx-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.color-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.color-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.color-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/color-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.color-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.color-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.color-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/color-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.mix-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.mix-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.mix-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/mix-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.mix-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.mix-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.mix-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/mix-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.caption-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.caption-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.caption-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/caption-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.caption-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.caption-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.caption-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/caption-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.accessibility-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.accessibility-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.accessibility-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/accessibility-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.accessibility-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.accessibility-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.accessibility-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/accessibility-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.localization-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.localization-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.localization-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/localization-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.localization-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.localization-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.localization-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/localization-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.platform-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.platform-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.platform-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/platform-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.platform-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.platform-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.platform-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/platform-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.archive-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.archive-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.archive-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/archive-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.archive-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.archive-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.archive-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/archive-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.provenance-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.provenance-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.provenance-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/provenance-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.provenance-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.provenance-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.provenance-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/provenance-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.privacy-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.privacy-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.privacy-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/privacy-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.privacy-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.privacy-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.privacy-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/privacy-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.supplier-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.supplier-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.supplier-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/supplier-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.supplier-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.supplier-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.supplier-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/supplier-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.sustainability-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.sustainability-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.sustainability-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/sustainability-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.sustainability-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.sustainability-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.sustainability-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/sustainability-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.release-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.readiness-scorecard.release-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.release-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/release-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.readiness-scorecard.release-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.readiness-scorecard.release-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.release-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/release-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "75ac0d24-6e3b-4a3e-9177-f8e9272d2962@2736d8f7eb559b72ec797a8f1a1ba19334f5c445",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser set all eight criteria to 100 and returned score 100 with decision READY.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-readiness-scorecards.github",
+      "work_ids": [
+        "shar.work.readiness-scorecard.brief-readiness",
+        "shar.work.readiness-scorecard.rights-readiness",
+        "shar.work.readiness-scorecard.budget-readiness",
+        "shar.work.readiness-scorecard.schedule-readiness",
+        "shar.work.readiness-scorecard.location-readiness",
+        "shar.work.readiness-scorecard.talent-readiness",
+        "shar.work.readiness-scorecard.crew-readiness",
+        "shar.work.readiness-scorecard.safety-readiness",
+        "shar.work.readiness-scorecard.camera-readiness",
+        "shar.work.readiness-scorecard.sound-readiness",
+        "shar.work.readiness-scorecard.dit-readiness",
+        "shar.work.readiness-scorecard.editorial-readiness",
+        "shar.work.readiness-scorecard.vfx-readiness",
+        "shar.work.readiness-scorecard.color-readiness",
+        "shar.work.readiness-scorecard.mix-readiness",
+        "shar.work.readiness-scorecard.caption-readiness",
+        "shar.work.readiness-scorecard.accessibility-readiness",
+        "shar.work.readiness-scorecard.localization-readiness",
+        "shar.work.readiness-scorecard.platform-readiness",
+        "shar.work.readiness-scorecard.archive-readiness",
+        "shar.work.readiness-scorecard.provenance-readiness",
+        "shar.work.readiness-scorecard.privacy-readiness",
+        "shar.work.readiness-scorecard.supplier-readiness",
+        "shar.work.readiness-scorecard.sustainability-readiness",
+        "shar.work.readiness-scorecard.release-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.brief-readiness.en",
+        "shar.representation.readiness-scorecard.brief-readiness.ru",
+        "shar.representation.readiness-scorecard.rights-readiness.en",
+        "shar.representation.readiness-scorecard.rights-readiness.ru",
+        "shar.representation.readiness-scorecard.budget-readiness.en",
+        "shar.representation.readiness-scorecard.budget-readiness.ru",
+        "shar.representation.readiness-scorecard.schedule-readiness.en",
+        "shar.representation.readiness-scorecard.schedule-readiness.ru",
+        "shar.representation.readiness-scorecard.location-readiness.en",
+        "shar.representation.readiness-scorecard.location-readiness.ru",
+        "shar.representation.readiness-scorecard.talent-readiness.en",
+        "shar.representation.readiness-scorecard.talent-readiness.ru",
+        "shar.representation.readiness-scorecard.crew-readiness.en",
+        "shar.representation.readiness-scorecard.crew-readiness.ru",
+        "shar.representation.readiness-scorecard.safety-readiness.en",
+        "shar.representation.readiness-scorecard.safety-readiness.ru",
+        "shar.representation.readiness-scorecard.camera-readiness.en",
+        "shar.representation.readiness-scorecard.camera-readiness.ru",
+        "shar.representation.readiness-scorecard.sound-readiness.en",
+        "shar.representation.readiness-scorecard.sound-readiness.ru",
+        "shar.representation.readiness-scorecard.dit-readiness.en",
+        "shar.representation.readiness-scorecard.dit-readiness.ru",
+        "shar.representation.readiness-scorecard.editorial-readiness.en",
+        "shar.representation.readiness-scorecard.editorial-readiness.ru",
+        "shar.representation.readiness-scorecard.vfx-readiness.en",
+        "shar.representation.readiness-scorecard.vfx-readiness.ru",
+        "shar.representation.readiness-scorecard.color-readiness.en",
+        "shar.representation.readiness-scorecard.color-readiness.ru",
+        "shar.representation.readiness-scorecard.mix-readiness.en",
+        "shar.representation.readiness-scorecard.mix-readiness.ru",
+        "shar.representation.readiness-scorecard.caption-readiness.en",
+        "shar.representation.readiness-scorecard.caption-readiness.ru",
+        "shar.representation.readiness-scorecard.accessibility-readiness.en",
+        "shar.representation.readiness-scorecard.accessibility-readiness.ru",
+        "shar.representation.readiness-scorecard.localization-readiness.en",
+        "shar.representation.readiness-scorecard.localization-readiness.ru",
+        "shar.representation.readiness-scorecard.platform-readiness.en",
+        "shar.representation.readiness-scorecard.platform-readiness.ru",
+        "shar.representation.readiness-scorecard.archive-readiness.en",
+        "shar.representation.readiness-scorecard.archive-readiness.ru",
+        "shar.representation.readiness-scorecard.provenance-readiness.en",
+        "shar.representation.readiness-scorecard.provenance-readiness.ru",
+        "shar.representation.readiness-scorecard.privacy-readiness.en",
+        "shar.representation.readiness-scorecard.privacy-readiness.ru",
+        "shar.representation.readiness-scorecard.supplier-readiness.en",
+        "shar.representation.readiness-scorecard.supplier-readiness.ru",
+        "shar.representation.readiness-scorecard.sustainability-readiness.en",
+        "shar.representation.readiness-scorecard.sustainability-readiness.ru",
+        "shar.representation.readiness-scorecard.release-readiness.en",
+        "shar.representation.readiness-scorecard.release-readiness.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-readiness-scorecards/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "v1.0.0@875d6e32c44f43b227e484d0450c9c85ae841c01",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable v1.0.0 release returned HTTP 200.",
+          "Repository identifies SHAR Production, https://sharprod.com/, MIT code and CC-BY-4.0 synthetic results.",
+          "GitHub Actions run 34007017645 completed successfully for the tagged source commit."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-readiness-scorecards.huggingface",
+      "work_ids": [
+        "shar.work.readiness-scorecard.brief-readiness",
+        "shar.work.readiness-scorecard.rights-readiness",
+        "shar.work.readiness-scorecard.budget-readiness",
+        "shar.work.readiness-scorecard.schedule-readiness",
+        "shar.work.readiness-scorecard.location-readiness",
+        "shar.work.readiness-scorecard.talent-readiness",
+        "shar.work.readiness-scorecard.crew-readiness",
+        "shar.work.readiness-scorecard.safety-readiness",
+        "shar.work.readiness-scorecard.camera-readiness",
+        "shar.work.readiness-scorecard.sound-readiness",
+        "shar.work.readiness-scorecard.dit-readiness",
+        "shar.work.readiness-scorecard.editorial-readiness",
+        "shar.work.readiness-scorecard.vfx-readiness",
+        "shar.work.readiness-scorecard.color-readiness",
+        "shar.work.readiness-scorecard.mix-readiness",
+        "shar.work.readiness-scorecard.caption-readiness",
+        "shar.work.readiness-scorecard.accessibility-readiness",
+        "shar.work.readiness-scorecard.localization-readiness",
+        "shar.work.readiness-scorecard.platform-readiness",
+        "shar.work.readiness-scorecard.archive-readiness",
+        "shar.work.readiness-scorecard.provenance-readiness",
+        "shar.work.readiness-scorecard.privacy-readiness",
+        "shar.work.readiness-scorecard.supplier-readiness",
+        "shar.work.readiness-scorecard.sustainability-readiness",
+        "shar.work.readiness-scorecard.release-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.readiness-scorecard.brief-readiness.en",
+        "shar.representation.readiness-scorecard.brief-readiness.ru",
+        "shar.representation.readiness-scorecard.rights-readiness.en",
+        "shar.representation.readiness-scorecard.rights-readiness.ru",
+        "shar.representation.readiness-scorecard.budget-readiness.en",
+        "shar.representation.readiness-scorecard.budget-readiness.ru",
+        "shar.representation.readiness-scorecard.schedule-readiness.en",
+        "shar.representation.readiness-scorecard.schedule-readiness.ru",
+        "shar.representation.readiness-scorecard.location-readiness.en",
+        "shar.representation.readiness-scorecard.location-readiness.ru",
+        "shar.representation.readiness-scorecard.talent-readiness.en",
+        "shar.representation.readiness-scorecard.talent-readiness.ru",
+        "shar.representation.readiness-scorecard.crew-readiness.en",
+        "shar.representation.readiness-scorecard.crew-readiness.ru",
+        "shar.representation.readiness-scorecard.safety-readiness.en",
+        "shar.representation.readiness-scorecard.safety-readiness.ru",
+        "shar.representation.readiness-scorecard.camera-readiness.en",
+        "shar.representation.readiness-scorecard.camera-readiness.ru",
+        "shar.representation.readiness-scorecard.sound-readiness.en",
+        "shar.representation.readiness-scorecard.sound-readiness.ru",
+        "shar.representation.readiness-scorecard.dit-readiness.en",
+        "shar.representation.readiness-scorecard.dit-readiness.ru",
+        "shar.representation.readiness-scorecard.editorial-readiness.en",
+        "shar.representation.readiness-scorecard.editorial-readiness.ru",
+        "shar.representation.readiness-scorecard.vfx-readiness.en",
+        "shar.representation.readiness-scorecard.vfx-readiness.ru",
+        "shar.representation.readiness-scorecard.color-readiness.en",
+        "shar.representation.readiness-scorecard.color-readiness.ru",
+        "shar.representation.readiness-scorecard.mix-readiness.en",
+        "shar.representation.readiness-scorecard.mix-readiness.ru",
+        "shar.representation.readiness-scorecard.caption-readiness.en",
+        "shar.representation.readiness-scorecard.caption-readiness.ru",
+        "shar.representation.readiness-scorecard.accessibility-readiness.en",
+        "shar.representation.readiness-scorecard.accessibility-readiness.ru",
+        "shar.representation.readiness-scorecard.localization-readiness.en",
+        "shar.representation.readiness-scorecard.localization-readiness.ru",
+        "shar.representation.readiness-scorecard.platform-readiness.en",
+        "shar.representation.readiness-scorecard.platform-readiness.ru",
+        "shar.representation.readiness-scorecard.archive-readiness.en",
+        "shar.representation.readiness-scorecard.archive-readiness.ru",
+        "shar.representation.readiness-scorecard.provenance-readiness.en",
+        "shar.representation.readiness-scorecard.provenance-readiness.ru",
+        "shar.representation.readiness-scorecard.privacy-readiness.en",
+        "shar.representation.readiness-scorecard.privacy-readiness.ru",
+        "shar.representation.readiness-scorecard.supplier-readiness.en",
+        "shar.representation.readiness-scorecard.supplier-readiness.ru",
+        "shar.representation.readiness-scorecard.sustainability-readiness.en",
+        "shar.representation.readiness-scorecard.sustainability-readiness.ru",
+        "shar.representation.readiness-scorecard.release-readiness.en",
+        "shar.representation.readiness-scorecard.release-readiness.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-readiness-scorecards",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:42:34Z",
+      "provider_version": "1069579c94e6bc0e4bb76e57e27aab51d70ae7d8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public dataset page and commit-pinned scenarios.jsonl returned HTTP 200.",
+          "Dataset card identifies SHAR Production, https://sharprod.com/, CC-BY-4.0 synthetic results, MIT source and AI assistance disclosure.",
+          "Commit-pinned scenarios.jsonl exposes exactly 100 deterministic synthetic scenarios."
+        ]
+      },
+      "release_id": "shar.release.production-readiness-scorecards.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -15285,6 +17474,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-conformance-catalog",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-brief-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/brief-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-brief-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/brief-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-rights-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/rights-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-rights-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/rights-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-budget-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/budget-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-budget-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/budget-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-schedule-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/schedule-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-schedule-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/schedule-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-location-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/location-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-location-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/location-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-talent-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/talent-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-talent-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/talent-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-crew-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/crew-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-crew-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/crew-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-safety-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/safety-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-safety-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/safety-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-camera-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/camera-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-camera-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/camera-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-sound-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/sound-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-sound-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/sound-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-dit-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/dit-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-dit-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/dit-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-editorial-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/editorial-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-editorial-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/editorial-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-vfx-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/vfx-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-vfx-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/vfx-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-color-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/color-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-color-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/color-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-mix-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/mix-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-mix-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/mix-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-caption-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/caption-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-caption-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/caption-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-accessibility-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/accessibility-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-accessibility-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/accessibility-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-localization-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/localization-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-localization-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/localization-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-platform-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/platform-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-platform-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/platform-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-archive-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/archive-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-archive-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/archive-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-provenance-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/provenance-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-provenance-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/provenance-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-privacy-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/privacy-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-privacy-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/privacy-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-supplier-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/supplier-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-supplier-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/supplier-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-sustainability-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/sustainability-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-sustainability-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/sustainability-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-release-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/en/release-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.readiness-scorecard-release-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/readiness-scorecards/ru/release-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-readiness-scorecards-github.website",
+      "source_url": "https://github.com/SHARProduction/production-readiness-scorecards/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-readiness-scorecards-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-readiness-scorecards",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:42:34Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }

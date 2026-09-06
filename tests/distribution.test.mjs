@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /886 verified counted placements/);
+  assert.match(result.stdout, /938 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 886);
-  assert.equal(data.counts.gap_to_minimum, 614);
-  assert.equal(data.works.length, 142);
-  assert.equal(data.representations.length, 284);
-  assert.equal(data.placements.length, 307);
+  assert.equal(data.counts.verified_counted_placements, 938);
+  assert.equal(data.counts.gap_to_minimum, 562);
+  assert.equal(data.works.length, 167);
+  assert.equal(data.representations.length, 334);
+  assert.equal(data.placements.length, 359);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -44,6 +44,10 @@ test('distribution baseline separates works, representations, placements, releas
   assert.ok(conformance);
   assert.equal(conformance.status, 'PUBLISHED_VERIFIED');
   assert.equal(conformance.release_id, 'shar.release.production-conformance-catalog.1.0.0');
+  const scorecards = data.placements.find(item => item.placement_id === 'shar.placement.production-readiness-scorecards.huggingface');
+  assert.ok(scorecards);
+  assert.equal(scorecards.status, 'PUBLISHED_VERIFIED');
+  assert.equal(scorecards.release_id, 'shar.release.production-readiness-scorecards.1.0.0');
 });
 
 test('distribution schema gates verified placement evidence', () => {
