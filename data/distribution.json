@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T02:53:31Z",
+  "updated_at": "2026-09-06T03:05:29Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 942,
-    "gap_to_minimum": 558,
+    "verified_counted_placements": 994,
+    "gap_to_minimum": 506,
     "localized_tool_pages": 444,
-    "github_public_repositories": 147,
-    "hugging_face_datasets": 15,
+    "github_public_repositories": 148,
+    "hugging_face_datasets": 16,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -58,9 +58,12 @@
     "localized_indexing_observatory_pages": 2,
     "indexing_observatory_repository_placements": 1,
     "indexing_observatory_dataset_placements": 1,
-    "indexnow_accepted_url_submissions": 52
+    "indexnow_accepted_url_submissions": 52,
+    "localized_production_option_matrix_pages": 50,
+    "production_option_matrix_repository_placements": 1,
+    "production_option_matrix_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -1401,6 +1404,206 @@
       "kind": "search_discovery_submission_observation",
       "license": "CC-BY-4.0",
       "title_ru": "Наблюдение IndexNow для Wave 13"
+    },
+    {
+      "work_id": "shar.work.option-matrix.camera-coverage",
+      "title": "Camera coverage strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия камерного покрытия"
+    },
+    {
+      "work_id": "shar.work.option-matrix.capture-codec",
+      "title": "Capture codec strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия кодека съёмки"
+    },
+    {
+      "work_id": "shar.work.option-matrix.audio-capture",
+      "title": "Audio capture strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия записи звука"
+    },
+    {
+      "work_id": "shar.work.option-matrix.proxy-generation",
+      "title": "Proxy generation strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия создания прокси"
+    },
+    {
+      "work_id": "shar.work.option-matrix.review-mode",
+      "title": "Review mode strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия просмотра"
+    },
+    {
+      "work_id": "shar.work.option-matrix.approval-model",
+      "title": "Approval model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель согласования"
+    },
+    {
+      "work_id": "shar.work.option-matrix.media-backup",
+      "title": "Media backup strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия резервных копий"
+    },
+    {
+      "work_id": "shar.work.option-matrix.edit-collaboration",
+      "title": "Editorial collaboration",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Совместная работа в монтаже"
+    },
+    {
+      "work_id": "shar.work.option-matrix.vfx-turnover",
+      "title": "VFX turnover strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия передачи VFX"
+    },
+    {
+      "work_id": "shar.work.option-matrix.color-pipeline",
+      "title": "Color pipeline strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия цветового pipeline"
+    },
+    {
+      "work_id": "shar.work.option-matrix.mix-delivery",
+      "title": "Mix delivery strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия выдачи звука"
+    },
+    {
+      "work_id": "shar.work.option-matrix.caption-format",
+      "title": "Caption packaging",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Упаковка субтитров"
+    },
+    {
+      "work_id": "shar.work.option-matrix.localization-model",
+      "title": "Localization production model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель локализации"
+    },
+    {
+      "work_id": "shar.work.option-matrix.asset-naming",
+      "title": "Asset naming governance",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Управление именованием"
+    },
+    {
+      "work_id": "shar.work.option-matrix.metadata-carriage",
+      "title": "Metadata carriage",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Передача метаданных"
+    },
+    {
+      "work_id": "shar.work.option-matrix.delivery-channel",
+      "title": "Delivery channel",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Канал доставки"
+    },
+    {
+      "work_id": "shar.work.option-matrix.qc-model",
+      "title": "Quality control model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель контроля качества"
+    },
+    {
+      "work_id": "shar.work.option-matrix.archive-tier",
+      "title": "Archive storage tier",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Уровень архивного хранения"
+    },
+    {
+      "work_id": "shar.work.option-matrix.restore-testing",
+      "title": "Restore testing strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия тестирования восстановления"
+    },
+    {
+      "work_id": "shar.work.option-matrix.rights-tracking",
+      "title": "Rights tracking model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель учёта прав"
+    },
+    {
+      "work_id": "shar.work.option-matrix.supplier-selection",
+      "title": "Supplier selection model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель выбора поставщика"
+    },
+    {
+      "work_id": "shar.work.option-matrix.incident-response",
+      "title": "Incident response model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель реакции на инциденты"
+    },
+    {
+      "work_id": "shar.work.option-matrix.release-rollout",
+      "title": "Release rollout strategy",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Стратегия выпуска"
+    },
+    {
+      "work_id": "shar.work.option-matrix.accessibility-production",
+      "title": "Accessibility production model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель производства доступности"
+    },
+    {
+      "work_id": "shar.work.option-matrix.provenance-carriage",
+      "title": "Provenance carriage model",
+      "kind": "interactive_weighted_option_matrix",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Модель передачи происхождения"
     }
   ],
   "representations": [
@@ -3419,6 +3622,306 @@
       "work_id": "shar.work.indexing-observatory.indexnow-wave13",
       "language": "ru",
       "format": "html_observation_report"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.camera-coverage.en",
+      "work_id": "shar.work.option-matrix.camera-coverage",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.camera-coverage.ru",
+      "work_id": "shar.work.option-matrix.camera-coverage",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.capture-codec.en",
+      "work_id": "shar.work.option-matrix.capture-codec",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.capture-codec.ru",
+      "work_id": "shar.work.option-matrix.capture-codec",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.audio-capture.en",
+      "work_id": "shar.work.option-matrix.audio-capture",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.audio-capture.ru",
+      "work_id": "shar.work.option-matrix.audio-capture",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.proxy-generation.en",
+      "work_id": "shar.work.option-matrix.proxy-generation",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.proxy-generation.ru",
+      "work_id": "shar.work.option-matrix.proxy-generation",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.review-mode.en",
+      "work_id": "shar.work.option-matrix.review-mode",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.review-mode.ru",
+      "work_id": "shar.work.option-matrix.review-mode",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.approval-model.en",
+      "work_id": "shar.work.option-matrix.approval-model",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.approval-model.ru",
+      "work_id": "shar.work.option-matrix.approval-model",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.media-backup.en",
+      "work_id": "shar.work.option-matrix.media-backup",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.media-backup.ru",
+      "work_id": "shar.work.option-matrix.media-backup",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.edit-collaboration.en",
+      "work_id": "shar.work.option-matrix.edit-collaboration",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.edit-collaboration.ru",
+      "work_id": "shar.work.option-matrix.edit-collaboration",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.vfx-turnover.en",
+      "work_id": "shar.work.option-matrix.vfx-turnover",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.vfx-turnover.ru",
+      "work_id": "shar.work.option-matrix.vfx-turnover",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.color-pipeline.en",
+      "work_id": "shar.work.option-matrix.color-pipeline",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.color-pipeline.ru",
+      "work_id": "shar.work.option-matrix.color-pipeline",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.mix-delivery.en",
+      "work_id": "shar.work.option-matrix.mix-delivery",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.mix-delivery.ru",
+      "work_id": "shar.work.option-matrix.mix-delivery",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.caption-format.en",
+      "work_id": "shar.work.option-matrix.caption-format",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.caption-format.ru",
+      "work_id": "shar.work.option-matrix.caption-format",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.localization-model.en",
+      "work_id": "shar.work.option-matrix.localization-model",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.localization-model.ru",
+      "work_id": "shar.work.option-matrix.localization-model",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.asset-naming.en",
+      "work_id": "shar.work.option-matrix.asset-naming",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.asset-naming.ru",
+      "work_id": "shar.work.option-matrix.asset-naming",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.metadata-carriage.en",
+      "work_id": "shar.work.option-matrix.metadata-carriage",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.metadata-carriage.ru",
+      "work_id": "shar.work.option-matrix.metadata-carriage",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.delivery-channel.en",
+      "work_id": "shar.work.option-matrix.delivery-channel",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.delivery-channel.ru",
+      "work_id": "shar.work.option-matrix.delivery-channel",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.qc-model.en",
+      "work_id": "shar.work.option-matrix.qc-model",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.qc-model.ru",
+      "work_id": "shar.work.option-matrix.qc-model",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.archive-tier.en",
+      "work_id": "shar.work.option-matrix.archive-tier",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.archive-tier.ru",
+      "work_id": "shar.work.option-matrix.archive-tier",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.restore-testing.en",
+      "work_id": "shar.work.option-matrix.restore-testing",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.restore-testing.ru",
+      "work_id": "shar.work.option-matrix.restore-testing",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.rights-tracking.en",
+      "work_id": "shar.work.option-matrix.rights-tracking",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.rights-tracking.ru",
+      "work_id": "shar.work.option-matrix.rights-tracking",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.supplier-selection.en",
+      "work_id": "shar.work.option-matrix.supplier-selection",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.supplier-selection.ru",
+      "work_id": "shar.work.option-matrix.supplier-selection",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.incident-response.en",
+      "work_id": "shar.work.option-matrix.incident-response",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.incident-response.ru",
+      "work_id": "shar.work.option-matrix.incident-response",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.release-rollout.en",
+      "work_id": "shar.work.option-matrix.release-rollout",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.release-rollout.ru",
+      "work_id": "shar.work.option-matrix.release-rollout",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.accessibility-production.en",
+      "work_id": "shar.work.option-matrix.accessibility-production",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.accessibility-production.ru",
+      "work_id": "shar.work.option-matrix.accessibility-production",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.provenance-carriage.en",
+      "work_id": "shar.work.option-matrix.provenance-carriage",
+      "language": "en",
+      "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.option-matrix.provenance-carriage.ru",
+      "work_id": "shar.work.option-matrix.provenance-carriage",
+      "language": "ru",
+      "format": "interactive_html_option_matrix"
     }
   ],
   "releases": [
@@ -3691,6 +4194,38 @@
       "immutable_ref": "v1.0.0",
       "work_ids": [
         "shar.work.indexing-observatory.indexnow-wave13"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.option-matrix.camera-coverage",
+        "shar.work.option-matrix.capture-codec",
+        "shar.work.option-matrix.audio-capture",
+        "shar.work.option-matrix.proxy-generation",
+        "shar.work.option-matrix.review-mode",
+        "shar.work.option-matrix.approval-model",
+        "shar.work.option-matrix.media-backup",
+        "shar.work.option-matrix.edit-collaboration",
+        "shar.work.option-matrix.vfx-turnover",
+        "shar.work.option-matrix.color-pipeline",
+        "shar.work.option-matrix.mix-delivery",
+        "shar.work.option-matrix.caption-format",
+        "shar.work.option-matrix.localization-model",
+        "shar.work.option-matrix.asset-naming",
+        "shar.work.option-matrix.metadata-carriage",
+        "shar.work.option-matrix.delivery-channel",
+        "shar.work.option-matrix.qc-model",
+        "shar.work.option-matrix.archive-tier",
+        "shar.work.option-matrix.restore-testing",
+        "shar.work.option-matrix.rights-tracking",
+        "shar.work.option-matrix.supplier-selection",
+        "shar.work.option-matrix.incident-response",
+        "shar.work.option-matrix.release-rollout",
+        "shar.work.option-matrix.accessibility-production",
+        "shar.work.option-matrix.provenance-carriage"
       ]
     }
   ],
@@ -15167,6 +15702,1660 @@
       },
       "release_id": "shar.release.production-indexing-observatory.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.camera-coverage.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.camera-coverage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.camera-coverage.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/camera-coverage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.camera-coverage.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.camera-coverage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.camera-coverage.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/camera-coverage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.capture-codec.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.capture-codec"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.capture-codec.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/capture-codec/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.capture-codec.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.capture-codec"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.capture-codec.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/capture-codec/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.audio-capture.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.audio-capture"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.audio-capture.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/audio-capture/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.audio-capture.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.audio-capture"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.audio-capture.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/audio-capture/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.proxy-generation.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.proxy-generation"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.proxy-generation.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/proxy-generation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.proxy-generation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.proxy-generation"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.proxy-generation.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/proxy-generation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.review-mode.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.review-mode"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.review-mode.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/review-mode/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.review-mode.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.review-mode"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.review-mode.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/review-mode/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.approval-model.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.approval-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.approval-model.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/approval-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.approval-model.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.approval-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.approval-model.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/approval-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.media-backup.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.media-backup"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.media-backup.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/media-backup/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.media-backup.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.media-backup"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.media-backup.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/media-backup/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.edit-collaboration.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.edit-collaboration"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.edit-collaboration.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/edit-collaboration/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.edit-collaboration.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.edit-collaboration"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.edit-collaboration.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/edit-collaboration/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.vfx-turnover.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.vfx-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.vfx-turnover.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/vfx-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.vfx-turnover.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.vfx-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.vfx-turnover.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/vfx-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.color-pipeline.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.color-pipeline"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.color-pipeline.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/color-pipeline/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.color-pipeline.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.color-pipeline"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.color-pipeline.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/color-pipeline/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.mix-delivery.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.mix-delivery"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.mix-delivery.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/mix-delivery/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.mix-delivery.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.mix-delivery"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.mix-delivery.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/mix-delivery/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.caption-format.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.caption-format"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.caption-format.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/caption-format/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.caption-format.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.caption-format"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.caption-format.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/caption-format/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.localization-model.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.localization-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.localization-model.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/localization-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.localization-model.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.localization-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.localization-model.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/localization-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.asset-naming.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.asset-naming"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.asset-naming.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/asset-naming/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.asset-naming.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.asset-naming"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.asset-naming.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/asset-naming/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.metadata-carriage.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.metadata-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.metadata-carriage.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/metadata-carriage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.metadata-carriage.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.metadata-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.metadata-carriage.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/metadata-carriage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.delivery-channel.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.delivery-channel"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.delivery-channel.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/delivery-channel/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.delivery-channel.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.delivery-channel"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.delivery-channel.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/delivery-channel/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.qc-model.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.qc-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.qc-model.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/qc-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.qc-model.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.qc-model"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.qc-model.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/qc-model/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.archive-tier.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.archive-tier"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.archive-tier.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/archive-tier/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.archive-tier.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.archive-tier"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.archive-tier.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/archive-tier/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.restore-testing.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.restore-testing"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.restore-testing.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/restore-testing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.restore-testing.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.restore-testing"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.restore-testing.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/restore-testing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.rights-tracking.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.rights-tracking"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.rights-tracking.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/rights-tracking/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.rights-tracking.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.rights-tracking"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.rights-tracking.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/rights-tracking/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.supplier-selection.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.supplier-selection"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.supplier-selection.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/supplier-selection/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.supplier-selection.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.supplier-selection"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.supplier-selection.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/supplier-selection/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.incident-response.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.incident-response"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.incident-response.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/incident-response/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.incident-response.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.incident-response"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.incident-response.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/incident-response/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.release-rollout.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.release-rollout"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.release-rollout.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/release-rollout/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.release-rollout.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.release-rollout"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.release-rollout.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/release-rollout/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.accessibility-production.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.accessibility-production"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.accessibility-production.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/accessibility-production/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.accessibility-production.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.accessibility-production"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.accessibility-production.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/accessibility-production/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.provenance-carriage.cloudflare.en",
+      "work_ids": [
+        "shar.work.option-matrix.provenance-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.provenance-carriage.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/provenance-carriage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.option-matrix.provenance-carriage.cloudflare.ru",
+      "work_ids": [
+        "shar.work.option-matrix.provenance-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.provenance-carriage.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/provenance-carriage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "1fb7c51a-f66a-49f4-806d-34228f53add8@3ed8e44057522d35681950357a0385927fcb5be1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser check changed weights to quality=100 and all other criteria=0; the matrix recalculated the expected quality-first winner and ranked all three options.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-option-matrices.github",
+      "work_ids": [
+        "shar.work.option-matrix.camera-coverage",
+        "shar.work.option-matrix.capture-codec",
+        "shar.work.option-matrix.audio-capture",
+        "shar.work.option-matrix.proxy-generation",
+        "shar.work.option-matrix.review-mode",
+        "shar.work.option-matrix.approval-model",
+        "shar.work.option-matrix.media-backup",
+        "shar.work.option-matrix.edit-collaboration",
+        "shar.work.option-matrix.vfx-turnover",
+        "shar.work.option-matrix.color-pipeline",
+        "shar.work.option-matrix.mix-delivery",
+        "shar.work.option-matrix.caption-format",
+        "shar.work.option-matrix.localization-model",
+        "shar.work.option-matrix.asset-naming",
+        "shar.work.option-matrix.metadata-carriage",
+        "shar.work.option-matrix.delivery-channel",
+        "shar.work.option-matrix.qc-model",
+        "shar.work.option-matrix.archive-tier",
+        "shar.work.option-matrix.restore-testing",
+        "shar.work.option-matrix.rights-tracking",
+        "shar.work.option-matrix.supplier-selection",
+        "shar.work.option-matrix.incident-response",
+        "shar.work.option-matrix.release-rollout",
+        "shar.work.option-matrix.accessibility-production",
+        "shar.work.option-matrix.provenance-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.camera-coverage.en",
+        "shar.representation.option-matrix.camera-coverage.ru",
+        "shar.representation.option-matrix.capture-codec.en",
+        "shar.representation.option-matrix.capture-codec.ru",
+        "shar.representation.option-matrix.audio-capture.en",
+        "shar.representation.option-matrix.audio-capture.ru",
+        "shar.representation.option-matrix.proxy-generation.en",
+        "shar.representation.option-matrix.proxy-generation.ru",
+        "shar.representation.option-matrix.review-mode.en",
+        "shar.representation.option-matrix.review-mode.ru",
+        "shar.representation.option-matrix.approval-model.en",
+        "shar.representation.option-matrix.approval-model.ru",
+        "shar.representation.option-matrix.media-backup.en",
+        "shar.representation.option-matrix.media-backup.ru",
+        "shar.representation.option-matrix.edit-collaboration.en",
+        "shar.representation.option-matrix.edit-collaboration.ru",
+        "shar.representation.option-matrix.vfx-turnover.en",
+        "shar.representation.option-matrix.vfx-turnover.ru",
+        "shar.representation.option-matrix.color-pipeline.en",
+        "shar.representation.option-matrix.color-pipeline.ru",
+        "shar.representation.option-matrix.mix-delivery.en",
+        "shar.representation.option-matrix.mix-delivery.ru",
+        "shar.representation.option-matrix.caption-format.en",
+        "shar.representation.option-matrix.caption-format.ru",
+        "shar.representation.option-matrix.localization-model.en",
+        "shar.representation.option-matrix.localization-model.ru",
+        "shar.representation.option-matrix.asset-naming.en",
+        "shar.representation.option-matrix.asset-naming.ru",
+        "shar.representation.option-matrix.metadata-carriage.en",
+        "shar.representation.option-matrix.metadata-carriage.ru",
+        "shar.representation.option-matrix.delivery-channel.en",
+        "shar.representation.option-matrix.delivery-channel.ru",
+        "shar.representation.option-matrix.qc-model.en",
+        "shar.representation.option-matrix.qc-model.ru",
+        "shar.representation.option-matrix.archive-tier.en",
+        "shar.representation.option-matrix.archive-tier.ru",
+        "shar.representation.option-matrix.restore-testing.en",
+        "shar.representation.option-matrix.restore-testing.ru",
+        "shar.representation.option-matrix.rights-tracking.en",
+        "shar.representation.option-matrix.rights-tracking.ru",
+        "shar.representation.option-matrix.supplier-selection.en",
+        "shar.representation.option-matrix.supplier-selection.ru",
+        "shar.representation.option-matrix.incident-response.en",
+        "shar.representation.option-matrix.incident-response.ru",
+        "shar.representation.option-matrix.release-rollout.en",
+        "shar.representation.option-matrix.release-rollout.ru",
+        "shar.representation.option-matrix.accessibility-production.en",
+        "shar.representation.option-matrix.accessibility-production.ru",
+        "shar.representation.option-matrix.provenance-carriage.en",
+        "shar.representation.option-matrix.provenance-carriage.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-option-matrices/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "v1.0.0@09a2f27b7b40b52e9f4493e43f2539ddb2719f4d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable v1.0.0 release returned HTTP 200.",
+          "GitHub Actions run 34007881534 completed successfully.",
+          "Release identifies SHAR Production, https://sharprod.com/, MIT code and CC-BY-4.0 synthetic data."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-option-matrices.huggingface",
+      "work_ids": [
+        "shar.work.option-matrix.camera-coverage",
+        "shar.work.option-matrix.capture-codec",
+        "shar.work.option-matrix.audio-capture",
+        "shar.work.option-matrix.proxy-generation",
+        "shar.work.option-matrix.review-mode",
+        "shar.work.option-matrix.approval-model",
+        "shar.work.option-matrix.media-backup",
+        "shar.work.option-matrix.edit-collaboration",
+        "shar.work.option-matrix.vfx-turnover",
+        "shar.work.option-matrix.color-pipeline",
+        "shar.work.option-matrix.mix-delivery",
+        "shar.work.option-matrix.caption-format",
+        "shar.work.option-matrix.localization-model",
+        "shar.work.option-matrix.asset-naming",
+        "shar.work.option-matrix.metadata-carriage",
+        "shar.work.option-matrix.delivery-channel",
+        "shar.work.option-matrix.qc-model",
+        "shar.work.option-matrix.archive-tier",
+        "shar.work.option-matrix.restore-testing",
+        "shar.work.option-matrix.rights-tracking",
+        "shar.work.option-matrix.supplier-selection",
+        "shar.work.option-matrix.incident-response",
+        "shar.work.option-matrix.release-rollout",
+        "shar.work.option-matrix.accessibility-production",
+        "shar.work.option-matrix.provenance-carriage"
+      ],
+      "representation_ids": [
+        "shar.representation.option-matrix.camera-coverage.en",
+        "shar.representation.option-matrix.camera-coverage.ru",
+        "shar.representation.option-matrix.capture-codec.en",
+        "shar.representation.option-matrix.capture-codec.ru",
+        "shar.representation.option-matrix.audio-capture.en",
+        "shar.representation.option-matrix.audio-capture.ru",
+        "shar.representation.option-matrix.proxy-generation.en",
+        "shar.representation.option-matrix.proxy-generation.ru",
+        "shar.representation.option-matrix.review-mode.en",
+        "shar.representation.option-matrix.review-mode.ru",
+        "shar.representation.option-matrix.approval-model.en",
+        "shar.representation.option-matrix.approval-model.ru",
+        "shar.representation.option-matrix.media-backup.en",
+        "shar.representation.option-matrix.media-backup.ru",
+        "shar.representation.option-matrix.edit-collaboration.en",
+        "shar.representation.option-matrix.edit-collaboration.ru",
+        "shar.representation.option-matrix.vfx-turnover.en",
+        "shar.representation.option-matrix.vfx-turnover.ru",
+        "shar.representation.option-matrix.color-pipeline.en",
+        "shar.representation.option-matrix.color-pipeline.ru",
+        "shar.representation.option-matrix.mix-delivery.en",
+        "shar.representation.option-matrix.mix-delivery.ru",
+        "shar.representation.option-matrix.caption-format.en",
+        "shar.representation.option-matrix.caption-format.ru",
+        "shar.representation.option-matrix.localization-model.en",
+        "shar.representation.option-matrix.localization-model.ru",
+        "shar.representation.option-matrix.asset-naming.en",
+        "shar.representation.option-matrix.asset-naming.ru",
+        "shar.representation.option-matrix.metadata-carriage.en",
+        "shar.representation.option-matrix.metadata-carriage.ru",
+        "shar.representation.option-matrix.delivery-channel.en",
+        "shar.representation.option-matrix.delivery-channel.ru",
+        "shar.representation.option-matrix.qc-model.en",
+        "shar.representation.option-matrix.qc-model.ru",
+        "shar.representation.option-matrix.archive-tier.en",
+        "shar.representation.option-matrix.archive-tier.ru",
+        "shar.representation.option-matrix.restore-testing.en",
+        "shar.representation.option-matrix.restore-testing.ru",
+        "shar.representation.option-matrix.rights-tracking.en",
+        "shar.representation.option-matrix.rights-tracking.ru",
+        "shar.representation.option-matrix.supplier-selection.en",
+        "shar.representation.option-matrix.supplier-selection.ru",
+        "shar.representation.option-matrix.incident-response.en",
+        "shar.representation.option-matrix.incident-response.ru",
+        "shar.representation.option-matrix.release-rollout.en",
+        "shar.representation.option-matrix.release-rollout.ru",
+        "shar.representation.option-matrix.accessibility-production.en",
+        "shar.representation.option-matrix.accessibility-production.ru",
+        "shar.representation.option-matrix.provenance-carriage.en",
+        "shar.representation.option-matrix.provenance-carriage.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-option-matrices",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:05:29Z",
+      "provider_version": "0e128478b86752a6e9ba41d854ee3a6fc007c9a1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public Hugging Face dataset and commit returned HTTP 200.",
+          "Dataset card identifies SHAR Production and https://sharprod.com/ with CC-BY-4.0 and AI assistance disclosure.",
+          "scenarios.jsonl exposes exactly 100 synthetic preference scenarios."
+        ]
+      },
+      "release_id": "shar.release.production-option-matrices.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -18071,6 +20260,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-indexing-observatory",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:53:31Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-camera-coverage-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/camera-coverage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-camera-coverage-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/camera-coverage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-capture-codec-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/capture-codec/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-capture-codec-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/capture-codec/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-audio-capture-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/audio-capture/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-audio-capture-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/audio-capture/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-proxy-generation-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/proxy-generation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-proxy-generation-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/proxy-generation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-review-mode-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/review-mode/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-review-mode-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/review-mode/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-approval-model-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/approval-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-approval-model-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/approval-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-media-backup-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/media-backup/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-media-backup-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/media-backup/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-edit-collaboration-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/edit-collaboration/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-edit-collaboration-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/edit-collaboration/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-vfx-turnover-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/vfx-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-vfx-turnover-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/vfx-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-color-pipeline-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/color-pipeline/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-color-pipeline-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/color-pipeline/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-mix-delivery-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/mix-delivery/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-mix-delivery-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/mix-delivery/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-caption-format-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/caption-format/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-caption-format-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/caption-format/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-localization-model-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/localization-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-localization-model-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/localization-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-asset-naming-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/asset-naming/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-asset-naming-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/asset-naming/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-metadata-carriage-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/metadata-carriage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-metadata-carriage-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/metadata-carriage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-delivery-channel-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/delivery-channel/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-delivery-channel-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/delivery-channel/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-qc-model-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/qc-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-qc-model-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/qc-model/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-archive-tier-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/archive-tier/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-archive-tier-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/archive-tier/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-restore-testing-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/restore-testing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-restore-testing-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/restore-testing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-rights-tracking-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/rights-tracking/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-rights-tracking-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/rights-tracking/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-supplier-selection-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/supplier-selection/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-supplier-selection-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/supplier-selection/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-incident-response-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/incident-response/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-incident-response-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/incident-response/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-release-rollout-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/release-rollout/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-release-rollout-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/release-rollout/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-accessibility-production-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/accessibility-production/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-accessibility-production-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/accessibility-production/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-provenance-carriage-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/en/provenance-carriage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.option-matrix-provenance-carriage-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/option-matrices/ru/provenance-carriage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-option-matrices-github.website",
+      "source_url": "https://github.com/SHARProduction/production-option-matrices/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-option-matrices-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-option-matrices",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:05:29Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
