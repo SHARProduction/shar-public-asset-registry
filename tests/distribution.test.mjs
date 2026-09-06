@@ -21,7 +21,7 @@ test('distribution baseline separates works, representations, placements, releas
   assert.equal(data.counts.gap_to_minimum, 0);
   assert.equal(data.works.length, 441);
   assert.equal(data.representations.length, 882);
-  assert.equal(data.placements.length, 927);
+  assert.equal(data.placements.length, 929);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -81,10 +81,10 @@ test('distribution baseline separates works, representations, placements, releas
   assert.equal(gates.status, 'PUBLISHED_VERIFIED');
   assert.equal(gates.release_id, 'shar.release.production-acceptance-gates.1.0.0');
   const entityGraph = data.placements.filter(item => item.placement_id.startsWith('shar.placement.entity-knowledge-graph.'));
-  assert.equal(entityGraph.length, 6);
+  assert.equal(entityGraph.length, 8);
   for (const item of entityGraph) assert.equal(item.status, 'PUBLISHED_VERIFIED');
-  assert.deepEqual([...new Set(entityGraph.map(item => item.release_id))].sort(), ['shar.release.entity-knowledge-graph.1.0.0', 'shar.release.entity-knowledge-graph.1.1.0']);
-  assert.equal(data.counts.indexnow_accepted_url_submissions, 510);
+  assert.deepEqual([...new Set(entityGraph.map(item => item.release_id))].sort(), ['shar.release.entity-knowledge-graph.1.0.0', 'shar.release.entity-knowledge-graph.1.1.0', 'shar.release.entity-knowledge-graph.1.1.1']);
+  assert.equal(data.counts.indexnow_accepted_url_submissions, 512);
 });
 
 test('distribution schema gates verified placement evidence', () => {
@@ -95,6 +95,7 @@ test('distribution schema gates verified placement evidence', () => {
   const required = schema.properties.placements.items.required;
   for (const field of ['work_ids', 'placement_id', 'release_id', 'ownership_group', 'public_url', 'status', 'verification']) assert.ok(required.includes(field));
 });
+
 
 
 

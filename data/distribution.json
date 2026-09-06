@@ -5,7 +5,7 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T04:54:14.604Z",
+  "updated_at": "2026-09-06T04:58:13.910Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
@@ -58,7 +58,7 @@
     "localized_indexing_observatory_pages": 2,
     "indexing_observatory_repository_placements": 1,
     "indexing_observatory_dataset_placements": 1,
-    "indexnow_accepted_url_submissions": 510,
+    "indexnow_accepted_url_submissions": 512,
     "localized_production_option_matrix_pages": 50,
     "production_option_matrix_repository_placements": 1,
     "production_option_matrix_dataset_placements": 1,
@@ -9313,6 +9313,14 @@
       "release_id": "shar.release.entity-knowledge-graph.1.1.0",
       "version": "1.1.0",
       "immutable_ref": "v1.1.0",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ]
+    },
+    {
+      "release_id": "shar.release.entity-knowledge-graph.1.1.1",
+      "version": "1.1.1",
+      "immutable_ref": "v1.1.1",
       "work_ids": [
         "shar.work.entity-knowledge-graph"
       ]
@@ -38756,6 +38764,66 @@
         ]
       },
       "release_id": "shar.release.entity-knowledge-graph.1.1.0",
+      "counted_in_baseline": false
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.github.v1-1-1",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:58:13.910Z",
+      "provider_version": "448e739d029495b34995460eab22d35640f8542c",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.1.1 result returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "Separate destination and evidence links verified."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.1.1",
+      "counted_in_baseline": false
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.cloudflare.v1-1-1",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:58:13.910Z",
+      "provider_version": "c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public v1.1.1 result returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "Separate destination and evidence links verified."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.1.1",
       "counted_in_baseline": false
     }
   ],

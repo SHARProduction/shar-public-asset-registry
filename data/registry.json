@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T04:54:14.604Z",
+  "updated_at": "2026-09-06T04:58:13.910Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -8168,7 +8168,7 @@
       "canonical_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
       "version": {
         "kind": "release_tag",
-        "value": "v1.1.0"
+        "value": "v1.1.1"
       },
       "license": "MIT",
       "verification_method": "Public repository, immutable release and source-content check",
@@ -8194,7 +8194,7 @@
       "visibility": "public",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-06T04:54:14.604Z",
+      "verified_at": "2026-09-06T04:58:13.910Z",
       "languages": [
         "en",
         "ru"
@@ -8274,7 +8274,7 @@
       "canonical_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
       "version": {
         "kind": "content_sha256",
-        "value": "91f582943b298bfe670a77482a89f84705d2025e9a8e91f1617b8760624f6c11"
+        "value": "c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd"
       },
       "license": "MIT",
       "verification_method": "Live EN/RU HTTP, canonical, browser interaction and 390px viewport checks",
@@ -8288,7 +8288,7 @@
         "details": [
           "EN and RU routes, graph JSON and sitemap entries returned HTTP 200.",
           "Exact canonicals, index,follow metadata, SHAR Production and https://sharprod.com/ were observed.",
-          "Browser evidence filter worked; 390px viewport had 390px document width with no horizontal overflow."
+          "Browser evidence filter and separate entity/evidence links worked; 390px viewport had no horizontal overflow."
         ]
       },
       "content_summary": "Bilingual static explorer for official SHAR Production surfaces and dated external observations.",
@@ -8300,7 +8300,7 @@
       "visibility": "public",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "LIVE_HTTP_CHECK",
-      "verified_at": "2026-09-06T04:54:14.604Z",
+      "verified_at": "2026-09-06T04:58:13.910Z",
       "languages": [
         "en",
         "ru"
