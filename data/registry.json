@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.3"
+        "value": "v1.7.4"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T13:10:00Z",
+      "verified_at": "2026-09-06T07:31:00Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,10 +522,11 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.3 release returned HTTP 200 and the tag resolves to commit 32c492692d57b01dc5ad2e8249369d3a25b9adb5.",
+          "Public repository and v1.7.4 release returned HTTP 200 and the tag resolves to commit 00d3cce20149eb62ecae859479ddc6ba4d464a37.",
           "Controlled search and AI measurement evidence remains unchanged and explicit about unmeasured slots.",
-          "Exact-profile recovery remains 13/47; Clutch is resolved as a provider refusal with no public profile, leaving 33 unresolved rows.",
-          "Disqus signup and incomplete installation evidence is retained but not counted as a public placement.",
+          "Recovery scope is reconciled to 40 owner-reported registration rows: 12 exact owner-account URLs recovered, one provider refusal closed and 27 unresolved.",
+          "The recovered X account lacks SHAR Production and sharprod.com and is retained only as a correction candidate, not a placement.",
+          "Heylink, Credly, Indiegogo, Rakuten and ReverbNation provider evidence is retained without counting account registration or 404 pages as publication.",
           "These are dated observations and make no ranking, traffic, account-ownership or third-party-endorsement claim."
         ]
       },
