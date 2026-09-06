@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /682 verified counted placements/);
+  assert.match(result.stdout, /704 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 682);
-  assert.equal(data.counts.gap_to_minimum, 818);
-  assert.equal(data.works.length, 46);
-  assert.equal(data.representations.length, 92);
-  assert.equal(data.placements.length, 103);
+  assert.equal(data.counts.verified_counted_placements, 704);
+  assert.equal(data.counts.gap_to_minimum, 796);
+  assert.equal(data.works.length, 56);
+  assert.equal(data.representations.length, 112);
+  assert.equal(data.placements.length, 125);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);

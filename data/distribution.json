@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T01:40:00Z",
+  "updated_at": "2026-09-06T01:58:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 682,
-    "gap_to_minimum": 818,
+    "verified_counted_placements": 704,
+    "gap_to_minimum": 796,
     "localized_tool_pages": 444,
-    "github_public_repositories": 139,
-    "hugging_face_datasets": 8,
+    "github_public_repositories": 140,
+    "hugging_face_datasets": 9,
     "hugging_face_static_spaces": 1,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -33,9 +33,12 @@
     "reference_corpora_dataset_placements": 1,
     "localized_workflow_recipe_pages": 20,
     "workflow_recipe_repository_placements": 1,
-    "workflow_recipe_dataset_placements": 1
+    "workflow_recipe_dataset_placements": 1,
+    "localized_media_conformance_pages": 20,
+    "media_conformance_repository_placements": 1,
+    "media_conformance_dataset_placements": 1
   },
-  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe, 12 conformance-suite, 12 compatibility-research, 22 production-data-contract, 22 reference-corpora and 22 workflow-recipe placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -400,6 +403,86 @@
       "title": "Privacy-safe Handoff",
       "title_ru": "Безопасная передача",
       "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.timecode-lexical-profile",
+      "title": "Timecode Lexical Profile",
+      "title_ru": "Лексический профиль таймкода",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.rational-frame-rate-profile",
+      "title": "Rational Frame Rate Profile",
+      "title_ru": "Профиль рациональной частоты кадров",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.frame-dimensions-profile",
+      "title": "Frame Dimensions Profile",
+      "title_ru": "Профиль размеров кадра",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.portable-path-profile",
+      "title": "Portable Path Profile",
+      "title_ru": "Профиль переносимого пути",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.loudness-metadata-profile",
+      "title": "Loudness Metadata Profile",
+      "title_ru": "Профиль метаданных громкости",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.caption-readability-profile",
+      "title": "Caption Readability Profile",
+      "title_ru": "Профиль читаемости субтитров",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.color-metadata-profile",
+      "title": "Color Metadata Profile",
+      "title_ru": "Профиль метаданных цвета",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.audio-channel-map-profile",
+      "title": "Audio Channel Map Profile",
+      "title_ru": "Профиль карты аудиоканалов",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.image-sequence-profile",
+      "title": "Image Sequence Profile",
+      "title_ru": "Профиль image sequence",
+      "kind": "media_conformance_profile",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.media-conformance.archive-inventory-profile",
+      "title": "Archive Inventory Profile",
+      "title_ru": "Профиль реестра архива",
+      "kind": "media_conformance_profile",
       "license": "MIT",
       "data_license": "CC-BY-4.0"
     }
@@ -956,6 +1039,126 @@
       "work_id": "shar.work.workflow.privacy-safe-handoff",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.timecode-lexical-profile.en",
+      "work_id": "shar.work.media-conformance.timecode-lexical-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.timecode-lexical-profile.ru",
+      "work_id": "shar.work.media-conformance.timecode-lexical-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.rational-frame-rate-profile.en",
+      "work_id": "shar.work.media-conformance.rational-frame-rate-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.rational-frame-rate-profile.ru",
+      "work_id": "shar.work.media-conformance.rational-frame-rate-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.frame-dimensions-profile.en",
+      "work_id": "shar.work.media-conformance.frame-dimensions-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.frame-dimensions-profile.ru",
+      "work_id": "shar.work.media-conformance.frame-dimensions-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.portable-path-profile.en",
+      "work_id": "shar.work.media-conformance.portable-path-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.portable-path-profile.ru",
+      "work_id": "shar.work.media-conformance.portable-path-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.loudness-metadata-profile.en",
+      "work_id": "shar.work.media-conformance.loudness-metadata-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.loudness-metadata-profile.ru",
+      "work_id": "shar.work.media-conformance.loudness-metadata-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.caption-readability-profile.en",
+      "work_id": "shar.work.media-conformance.caption-readability-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.caption-readability-profile.ru",
+      "work_id": "shar.work.media-conformance.caption-readability-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.color-metadata-profile.en",
+      "work_id": "shar.work.media-conformance.color-metadata-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.color-metadata-profile.ru",
+      "work_id": "shar.work.media-conformance.color-metadata-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.audio-channel-map-profile.en",
+      "work_id": "shar.work.media-conformance.audio-channel-map-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.audio-channel-map-profile.ru",
+      "work_id": "shar.work.media-conformance.audio-channel-map-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.image-sequence-profile.en",
+      "work_id": "shar.work.media-conformance.image-sequence-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.image-sequence-profile.ru",
+      "work_id": "shar.work.media-conformance.image-sequence-profile",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.archive-inventory-profile.en",
+      "work_id": "shar.work.media-conformance.archive-inventory-profile",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.media-conformance.archive-inventory-profile.ru",
+      "work_id": "shar.work.media-conformance.archive-inventory-profile",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -1050,6 +1253,23 @@
         "shar.work.workflow.subtitle-remediation-queue",
         "shar.work.workflow.dependency-release-gate",
         "shar.work.workflow.privacy-safe-handoff"
+      ]
+    },
+    {
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.media-conformance.timecode-lexical-profile",
+        "shar.work.media-conformance.rational-frame-rate-profile",
+        "shar.work.media-conformance.frame-dimensions-profile",
+        "shar.work.media-conformance.portable-path-profile",
+        "shar.work.media-conformance.loudness-metadata-profile",
+        "shar.work.media-conformance.caption-readability-profile",
+        "shar.work.media-conformance.color-metadata-profile",
+        "shar.work.media-conformance.audio-channel-map-profile",
+        "shar.work.media-conformance.image-sequence-profile",
+        "shar.work.media-conformance.archive-inventory-profile"
       ]
     }
   ],
@@ -4286,6 +4506,700 @@
       },
       "release_id": "shar.release.workflow-recipes.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.timecode-lexical-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.timecode-lexical-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.timecode-lexical-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/timecode-lexical-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.timecode-lexical-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.timecode-lexical-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.timecode-lexical-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/timecode-lexical-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.rational-frame-rate-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.rational-frame-rate-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.rational-frame-rate-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/rational-frame-rate-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.rational-frame-rate-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.rational-frame-rate-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.rational-frame-rate-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/rational-frame-rate-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.frame-dimensions-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.frame-dimensions-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.frame-dimensions-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/frame-dimensions-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.frame-dimensions-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.frame-dimensions-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.frame-dimensions-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/frame-dimensions-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.portable-path-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.portable-path-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.portable-path-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/portable-path-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.portable-path-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.portable-path-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.portable-path-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/portable-path-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.loudness-metadata-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.loudness-metadata-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.loudness-metadata-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/loudness-metadata-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.loudness-metadata-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.loudness-metadata-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.loudness-metadata-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/loudness-metadata-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.caption-readability-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.caption-readability-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.caption-readability-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/caption-readability-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.caption-readability-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.caption-readability-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.caption-readability-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/caption-readability-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.color-metadata-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.color-metadata-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.color-metadata-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/color-metadata-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.color-metadata-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.color-metadata-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.color-metadata-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/color-metadata-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.audio-channel-map-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.audio-channel-map-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.audio-channel-map-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/audio-channel-map-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.audio-channel-map-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.audio-channel-map-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.audio-channel-map-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/audio-channel-map-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.image-sequence-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.image-sequence-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.image-sequence-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/image-sequence-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.image-sequence-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.image-sequence-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.image-sequence-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/image-sequence-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.archive-inventory-profile.cloudflare.en",
+      "work_ids": [
+        "shar.work.media-conformance.archive-inventory-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.archive-inventory-profile.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/en/archive-inventory-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.archive-inventory-profile.cloudflare.ru",
+      "work_ids": [
+        "shar.work.media-conformance.archive-inventory-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.archive-inventory-profile.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-media-conformance.pages.dev/ru/archive-inventory-profile/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "f879ff94-21c5-4f9e-810b-cbf1ca479faa",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains computed conforming/nonconforming outcomes, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.github",
+      "work_ids": [
+        "shar.work.media-conformance.timecode-lexical-profile",
+        "shar.work.media-conformance.rational-frame-rate-profile",
+        "shar.work.media-conformance.frame-dimensions-profile",
+        "shar.work.media-conformance.portable-path-profile",
+        "shar.work.media-conformance.loudness-metadata-profile",
+        "shar.work.media-conformance.caption-readability-profile",
+        "shar.work.media-conformance.color-metadata-profile",
+        "shar.work.media-conformance.audio-channel-map-profile",
+        "shar.work.media-conformance.image-sequence-profile",
+        "shar.work.media-conformance.archive-inventory-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.timecode-lexical-profile.en",
+        "shar.representation.media-conformance.timecode-lexical-profile.ru",
+        "shar.representation.media-conformance.rational-frame-rate-profile.en",
+        "shar.representation.media-conformance.rational-frame-rate-profile.ru",
+        "shar.representation.media-conformance.frame-dimensions-profile.en",
+        "shar.representation.media-conformance.frame-dimensions-profile.ru",
+        "shar.representation.media-conformance.portable-path-profile.en",
+        "shar.representation.media-conformance.portable-path-profile.ru",
+        "shar.representation.media-conformance.loudness-metadata-profile.en",
+        "shar.representation.media-conformance.loudness-metadata-profile.ru",
+        "shar.representation.media-conformance.caption-readability-profile.en",
+        "shar.representation.media-conformance.caption-readability-profile.ru",
+        "shar.representation.media-conformance.color-metadata-profile.en",
+        "shar.representation.media-conformance.color-metadata-profile.ru",
+        "shar.representation.media-conformance.audio-channel-map-profile.en",
+        "shar.representation.media-conformance.audio-channel-map-profile.ru",
+        "shar.representation.media-conformance.image-sequence-profile.en",
+        "shar.representation.media-conformance.image-sequence-profile.ru",
+        "shar.representation.media-conformance.archive-inventory-profile.en",
+        "shar.representation.media-conformance.archive-inventory-profile.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-media-conformance",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "v1.0.0@2f40cbde119f5004d0b5ab97cf56c4da5244a7ce",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository, release and raw suite catalog returned HTTP 200.",
+          "GitHub Actions run 34003858005 completed successfully.",
+          "Ten validators separated conforming and nonconforming fixtures."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.media-conformance.huggingface",
+      "work_ids": [
+        "shar.work.media-conformance.timecode-lexical-profile",
+        "shar.work.media-conformance.rational-frame-rate-profile",
+        "shar.work.media-conformance.frame-dimensions-profile",
+        "shar.work.media-conformance.portable-path-profile",
+        "shar.work.media-conformance.loudness-metadata-profile",
+        "shar.work.media-conformance.caption-readability-profile",
+        "shar.work.media-conformance.color-metadata-profile",
+        "shar.work.media-conformance.audio-channel-map-profile",
+        "shar.work.media-conformance.image-sequence-profile",
+        "shar.work.media-conformance.archive-inventory-profile"
+      ],
+      "representation_ids": [
+        "shar.representation.media-conformance.timecode-lexical-profile.en",
+        "shar.representation.media-conformance.timecode-lexical-profile.ru",
+        "shar.representation.media-conformance.rational-frame-rate-profile.en",
+        "shar.representation.media-conformance.rational-frame-rate-profile.ru",
+        "shar.representation.media-conformance.frame-dimensions-profile.en",
+        "shar.representation.media-conformance.frame-dimensions-profile.ru",
+        "shar.representation.media-conformance.portable-path-profile.en",
+        "shar.representation.media-conformance.portable-path-profile.ru",
+        "shar.representation.media-conformance.loudness-metadata-profile.en",
+        "shar.representation.media-conformance.loudness-metadata-profile.ru",
+        "shar.representation.media-conformance.caption-readability-profile.en",
+        "shar.representation.media-conformance.caption-readability-profile.ru",
+        "shar.representation.media-conformance.color-metadata-profile.en",
+        "shar.representation.media-conformance.color-metadata-profile.ru",
+        "shar.representation.media-conformance.audio-channel-map-profile.en",
+        "shar.representation.media-conformance.audio-channel-map-profile.ru",
+        "shar.representation.media-conformance.image-sequence-profile.en",
+        "shar.representation.media-conformance.image-sequence-profile.ru",
+        "shar.representation.media-conformance.archive-inventory-profile.en",
+        "shar.representation.media-conformance.archive-inventory-profile.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-media-conformance",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:58:00Z",
+      "provider_version": "b0b05710cffb6101b15dc70822f24072ba1d7ffd",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset page and raw suites.jsonl returned HTTP 200.",
+          "Dataset contains ten bilingual suite records with synthetic fixtures.",
+          "CC-BY-4.0 card and no-certification disclosure verified."
+        ]
+      },
+      "release_id": "shar.release.media-conformance.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -5110,6 +6024,182 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-workflow-recipes",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.timecode-lexical-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/timecode-lexical-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.timecode-lexical-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/timecode-lexical-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.rational-frame-rate-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/rational-frame-rate-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.rational-frame-rate-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/rational-frame-rate-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.frame-dimensions-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/frame-dimensions-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.frame-dimensions-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/frame-dimensions-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.portable-path-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/portable-path-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.portable-path-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/portable-path-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.loudness-metadata-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/loudness-metadata-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.loudness-metadata-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/loudness-metadata-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.caption-readability-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/caption-readability-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.caption-readability-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/caption-readability-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.color-metadata-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/color-metadata-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.color-metadata-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/color-metadata-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.audio-channel-map-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/audio-channel-map-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.audio-channel-map-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/audio-channel-map-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.image-sequence-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/image-sequence-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.image-sequence-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/image-sequence-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.archive-inventory-profile.cloudflare.en.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/en/archive-inventory-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.archive-inventory-profile.cloudflare.ru.website",
+      "source_url": "https://shar-production-media-conformance.pages.dev/ru/archive-inventory-profile/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.github.website",
+      "source_url": "https://github.com/SHARProduction/production-media-conformance",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.media-conformance.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-media-conformance",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:58:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
