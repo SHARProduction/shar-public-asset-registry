@@ -10,11 +10,11 @@
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 730,
-    "gap_to_minimum": 770,
+    "verified_counted_placements": 782,
+    "gap_to_minimum": 718,
     "localized_tool_pages": 444,
-    "github_public_repositories": 142,
-    "hugging_face_datasets": 10,
+    "github_public_repositories": 143,
+    "hugging_face_datasets": 11,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -42,9 +42,12 @@
     "validation_benchmark_dataset_placements": 1,
     "localized_validation_error_explorer_pages": 2,
     "validation_error_explorer_repository_placements": 1,
-    "validation_error_explorer_space_placements": 1
+    "validation_error_explorer_space_placements": 1,
+    "localized_production_evidence_record_pages": 50,
+    "production_evidence_record_repository_placements": 1,
+    "production_evidence_record_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence record placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -578,6 +581,206 @@
       "title_ru": "Проводник ошибок проверки продакшена",
       "kind": "interactive_validation_explorer",
       "license": "MIT"
+    },
+    {
+      "work_id": "shar.work.evidence-record.brief-approval",
+      "title": "Brief approval",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Согласование брифа"
+    },
+    {
+      "work_id": "shar.work.evidence-record.talent-consent",
+      "title": "Talent consent",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Согласие участника"
+    },
+    {
+      "work_id": "shar.work.evidence-record.location-permit",
+      "title": "Location permit",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Разрешение на локацию"
+    },
+    {
+      "work_id": "shar.work.evidence-record.music-license",
+      "title": "Music license",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Лицензия на музыку"
+    },
+    {
+      "work_id": "shar.work.evidence-record.insurance-certificate",
+      "title": "Insurance certificate",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Страховой сертификат"
+    },
+    {
+      "work_id": "shar.work.evidence-record.call-sheet-acknowledgment",
+      "title": "Call sheet acknowledgment",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Подтверждение call sheet"
+    },
+    {
+      "work_id": "shar.work.evidence-record.safety-briefing",
+      "title": "Safety briefing",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Инструктаж по безопасности"
+    },
+    {
+      "work_id": "shar.work.evidence-record.camera-report",
+      "title": "Camera report",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Камерный отчёт"
+    },
+    {
+      "work_id": "shar.work.evidence-record.sound-report",
+      "title": "Sound report",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Звуковой отчёт"
+    },
+    {
+      "work_id": "shar.work.evidence-record.dit-checksum",
+      "title": "DIT checksum",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Контрольная сумма DIT"
+    },
+    {
+      "work_id": "shar.work.evidence-record.color-pipeline",
+      "title": "Color pipeline",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Цветовой pipeline"
+    },
+    {
+      "work_id": "shar.work.evidence-record.vfx-turnover",
+      "title": "VFX turnover",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача VFX"
+    },
+    {
+      "work_id": "shar.work.evidence-record.edit-approval",
+      "title": "Edit approval",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Согласование монтажа"
+    },
+    {
+      "work_id": "shar.work.evidence-record.caption-qc",
+      "title": "Caption QC",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "QC субтитров"
+    },
+    {
+      "work_id": "shar.work.evidence-record.loudness-qc",
+      "title": "Loudness QC",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "QC громкости"
+    },
+    {
+      "work_id": "shar.work.evidence-record.accessibility-review",
+      "title": "Accessibility review",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Проверка доступности"
+    },
+    {
+      "work_id": "shar.work.evidence-record.localization-signoff",
+      "title": "Localization signoff",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Приёмка локализации"
+    },
+    {
+      "work_id": "shar.work.evidence-record.delivery-manifest",
+      "title": "Delivery manifest",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Манифест поставки"
+    },
+    {
+      "work_id": "shar.work.evidence-record.archive-inventory",
+      "title": "Archive inventory",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Инвентарь архива"
+    },
+    {
+      "work_id": "shar.work.evidence-record.ai-provenance",
+      "title": "AI provenance",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Происхождение AI"
+    },
+    {
+      "work_id": "shar.work.evidence-record.cgi-asset-provenance",
+      "title": "CGI asset provenance",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Происхождение CGI-актива"
+    },
+    {
+      "work_id": "shar.work.evidence-record.sustainability-log",
+      "title": "Sustainability log",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Журнал устойчивости"
+    },
+    {
+      "work_id": "shar.work.evidence-record.supplier-bid-evaluation",
+      "title": "Supplier bid evaluation",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Оценка предложения поставщика"
+    },
+    {
+      "work_id": "shar.work.evidence-record.incident-report",
+      "title": "Incident report",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Отчёт об инциденте"
+    },
+    {
+      "work_id": "shar.work.evidence-record.final-release-gate",
+      "title": "Final release gate",
+      "kind": "production_evidence_record_contract",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Финальный release gate"
     }
   ],
   "representations": [
@@ -1384,6 +1587,306 @@
       "work_id": "shar.work.validation-error-explorer",
       "language": "ru",
       "format": "interactive_html"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.brief-approval.en",
+      "work_id": "shar.work.evidence-record.brief-approval",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.brief-approval.ru",
+      "work_id": "shar.work.evidence-record.brief-approval",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.talent-consent.en",
+      "work_id": "shar.work.evidence-record.talent-consent",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.talent-consent.ru",
+      "work_id": "shar.work.evidence-record.talent-consent",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.location-permit.en",
+      "work_id": "shar.work.evidence-record.location-permit",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.location-permit.ru",
+      "work_id": "shar.work.evidence-record.location-permit",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.music-license.en",
+      "work_id": "shar.work.evidence-record.music-license",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.music-license.ru",
+      "work_id": "shar.work.evidence-record.music-license",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.insurance-certificate.en",
+      "work_id": "shar.work.evidence-record.insurance-certificate",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.insurance-certificate.ru",
+      "work_id": "shar.work.evidence-record.insurance-certificate",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.call-sheet-acknowledgment.en",
+      "work_id": "shar.work.evidence-record.call-sheet-acknowledgment",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.call-sheet-acknowledgment.ru",
+      "work_id": "shar.work.evidence-record.call-sheet-acknowledgment",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.safety-briefing.en",
+      "work_id": "shar.work.evidence-record.safety-briefing",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.safety-briefing.ru",
+      "work_id": "shar.work.evidence-record.safety-briefing",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.camera-report.en",
+      "work_id": "shar.work.evidence-record.camera-report",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.camera-report.ru",
+      "work_id": "shar.work.evidence-record.camera-report",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.sound-report.en",
+      "work_id": "shar.work.evidence-record.sound-report",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.sound-report.ru",
+      "work_id": "shar.work.evidence-record.sound-report",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.dit-checksum.en",
+      "work_id": "shar.work.evidence-record.dit-checksum",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.dit-checksum.ru",
+      "work_id": "shar.work.evidence-record.dit-checksum",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.color-pipeline.en",
+      "work_id": "shar.work.evidence-record.color-pipeline",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.color-pipeline.ru",
+      "work_id": "shar.work.evidence-record.color-pipeline",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.vfx-turnover.en",
+      "work_id": "shar.work.evidence-record.vfx-turnover",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.vfx-turnover.ru",
+      "work_id": "shar.work.evidence-record.vfx-turnover",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.edit-approval.en",
+      "work_id": "shar.work.evidence-record.edit-approval",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.edit-approval.ru",
+      "work_id": "shar.work.evidence-record.edit-approval",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.caption-qc.en",
+      "work_id": "shar.work.evidence-record.caption-qc",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.caption-qc.ru",
+      "work_id": "shar.work.evidence-record.caption-qc",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.loudness-qc.en",
+      "work_id": "shar.work.evidence-record.loudness-qc",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.loudness-qc.ru",
+      "work_id": "shar.work.evidence-record.loudness-qc",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.accessibility-review.en",
+      "work_id": "shar.work.evidence-record.accessibility-review",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.accessibility-review.ru",
+      "work_id": "shar.work.evidence-record.accessibility-review",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.localization-signoff.en",
+      "work_id": "shar.work.evidence-record.localization-signoff",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.localization-signoff.ru",
+      "work_id": "shar.work.evidence-record.localization-signoff",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.delivery-manifest.en",
+      "work_id": "shar.work.evidence-record.delivery-manifest",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.delivery-manifest.ru",
+      "work_id": "shar.work.evidence-record.delivery-manifest",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.archive-inventory.en",
+      "work_id": "shar.work.evidence-record.archive-inventory",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.archive-inventory.ru",
+      "work_id": "shar.work.evidence-record.archive-inventory",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.ai-provenance.en",
+      "work_id": "shar.work.evidence-record.ai-provenance",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.ai-provenance.ru",
+      "work_id": "shar.work.evidence-record.ai-provenance",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.cgi-asset-provenance.en",
+      "work_id": "shar.work.evidence-record.cgi-asset-provenance",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.cgi-asset-provenance.ru",
+      "work_id": "shar.work.evidence-record.cgi-asset-provenance",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.sustainability-log.en",
+      "work_id": "shar.work.evidence-record.sustainability-log",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.sustainability-log.ru",
+      "work_id": "shar.work.evidence-record.sustainability-log",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.supplier-bid-evaluation.en",
+      "work_id": "shar.work.evidence-record.supplier-bid-evaluation",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.supplier-bid-evaluation.ru",
+      "work_id": "shar.work.evidence-record.supplier-bid-evaluation",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.incident-report.en",
+      "work_id": "shar.work.evidence-record.incident-report",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.incident-report.ru",
+      "work_id": "shar.work.evidence-record.incident-report",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.final-release-gate.en",
+      "work_id": "shar.work.evidence-record.final-release-gate",
+      "language": "en",
+      "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.evidence-record.final-release-gate.ru",
+      "work_id": "shar.work.evidence-record.final-release-gate",
+      "language": "ru",
+      "format": "interactive_html_json_schema"
     }
   ],
   "releases": [
@@ -1520,6 +2023,38 @@
       "immutable_ref": "v1.0.0",
       "work_ids": [
         "shar.work.validation-error-explorer"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.evidence-record.brief-approval",
+        "shar.work.evidence-record.talent-consent",
+        "shar.work.evidence-record.location-permit",
+        "shar.work.evidence-record.music-license",
+        "shar.work.evidence-record.insurance-certificate",
+        "shar.work.evidence-record.call-sheet-acknowledgment",
+        "shar.work.evidence-record.safety-briefing",
+        "shar.work.evidence-record.camera-report",
+        "shar.work.evidence-record.sound-report",
+        "shar.work.evidence-record.dit-checksum",
+        "shar.work.evidence-record.color-pipeline",
+        "shar.work.evidence-record.vfx-turnover",
+        "shar.work.evidence-record.edit-approval",
+        "shar.work.evidence-record.caption-qc",
+        "shar.work.evidence-record.loudness-qc",
+        "shar.work.evidence-record.accessibility-review",
+        "shar.work.evidence-record.localization-signoff",
+        "shar.work.evidence-record.delivery-manifest",
+        "shar.work.evidence-record.archive-inventory",
+        "shar.work.evidence-record.ai-provenance",
+        "shar.work.evidence-record.cgi-asset-provenance",
+        "shar.work.evidence-record.sustainability-log",
+        "shar.work.evidence-record.supplier-bid-evaluation",
+        "shar.work.evidence-record.incident-report",
+        "shar.work.evidence-record.final-release-gate"
       ]
     }
   ],
@@ -6262,6 +6797,1660 @@
       },
       "release_id": "shar.release.validation-error-explorer.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.brief-approval.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.brief-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.brief-approval.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/brief-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.brief-approval.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.brief-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.brief-approval.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/brief-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.talent-consent.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.talent-consent"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.talent-consent.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/talent-consent/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.talent-consent.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.talent-consent"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.talent-consent.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/talent-consent/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.location-permit.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.location-permit"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.location-permit.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/location-permit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.location-permit.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.location-permit"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.location-permit.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/location-permit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.music-license.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.music-license"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.music-license.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/music-license/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.music-license.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.music-license"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.music-license.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/music-license/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.insurance-certificate.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.insurance-certificate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.insurance-certificate.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/insurance-certificate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.insurance-certificate.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.insurance-certificate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.insurance-certificate.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/insurance-certificate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.call-sheet-acknowledgment.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.call-sheet-acknowledgment"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.call-sheet-acknowledgment.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/call-sheet-acknowledgment/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.call-sheet-acknowledgment.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.call-sheet-acknowledgment"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.call-sheet-acknowledgment.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/call-sheet-acknowledgment/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.safety-briefing.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.safety-briefing"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.safety-briefing.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/safety-briefing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.safety-briefing.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.safety-briefing"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.safety-briefing.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/safety-briefing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.camera-report.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.camera-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.camera-report.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/camera-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.camera-report.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.camera-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.camera-report.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/camera-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.sound-report.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.sound-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.sound-report.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/sound-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.sound-report.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.sound-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.sound-report.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/sound-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.dit-checksum.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.dit-checksum"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.dit-checksum.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/dit-checksum/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.dit-checksum.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.dit-checksum"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.dit-checksum.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/dit-checksum/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.color-pipeline.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.color-pipeline"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.color-pipeline.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/color-pipeline/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.color-pipeline.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.color-pipeline"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.color-pipeline.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/color-pipeline/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.vfx-turnover.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.vfx-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.vfx-turnover.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/vfx-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.vfx-turnover.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.vfx-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.vfx-turnover.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/vfx-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.edit-approval.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.edit-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.edit-approval.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/edit-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.edit-approval.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.edit-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.edit-approval.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/edit-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.caption-qc.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.caption-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.caption-qc.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/caption-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.caption-qc.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.caption-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.caption-qc.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/caption-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.loudness-qc.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.loudness-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.loudness-qc.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/loudness-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.loudness-qc.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.loudness-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.loudness-qc.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/loudness-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.accessibility-review.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.accessibility-review"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.accessibility-review.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/accessibility-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.accessibility-review.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.accessibility-review"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.accessibility-review.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/accessibility-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.localization-signoff.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.localization-signoff"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.localization-signoff.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/localization-signoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.localization-signoff.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.localization-signoff"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.localization-signoff.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/localization-signoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.delivery-manifest.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.delivery-manifest"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.delivery-manifest.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/delivery-manifest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.delivery-manifest.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.delivery-manifest"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.delivery-manifest.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/delivery-manifest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.archive-inventory.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.archive-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.archive-inventory.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/archive-inventory/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.archive-inventory.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.archive-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.archive-inventory.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/archive-inventory/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.ai-provenance.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.ai-provenance"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.ai-provenance.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/ai-provenance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.ai-provenance.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.ai-provenance"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.ai-provenance.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/ai-provenance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.cgi-asset-provenance.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.cgi-asset-provenance"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.cgi-asset-provenance.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/cgi-asset-provenance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.cgi-asset-provenance.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.cgi-asset-provenance"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.cgi-asset-provenance.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/cgi-asset-provenance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.sustainability-log.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.sustainability-log"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.sustainability-log.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/sustainability-log/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.sustainability-log.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.sustainability-log"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.sustainability-log.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/sustainability-log/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.supplier-bid-evaluation.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.supplier-bid-evaluation"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.supplier-bid-evaluation.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/supplier-bid-evaluation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.supplier-bid-evaluation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.supplier-bid-evaluation"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.supplier-bid-evaluation.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/supplier-bid-evaluation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.incident-report.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.incident-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.incident-report.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/incident-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.incident-report.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.incident-report"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.incident-report.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/incident-report/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.final-release-gate.cloudflare.en",
+      "work_ids": [
+        "shar.work.evidence-record.final-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.final-release-gate.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/final-release-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.evidence-record.final-release-gate.cloudflare.ru",
+      "work_ids": [
+        "shar.work.evidence-record.final-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.final-release-gate.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/final-release-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "cfb2de9e-ec32-465f-95c0-57d6603642af@5466af17c3c93f15ceb6e7780fcabde24c7468b8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser validator accepted the synthetic contract example and returned a localized valid result.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 localized viewport checks passed across the collection."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-evidence-records.github",
+      "work_ids": [
+        "shar.work.evidence-record.brief-approval",
+        "shar.work.evidence-record.talent-consent",
+        "shar.work.evidence-record.location-permit",
+        "shar.work.evidence-record.music-license",
+        "shar.work.evidence-record.insurance-certificate",
+        "shar.work.evidence-record.call-sheet-acknowledgment",
+        "shar.work.evidence-record.safety-briefing",
+        "shar.work.evidence-record.camera-report",
+        "shar.work.evidence-record.sound-report",
+        "shar.work.evidence-record.dit-checksum",
+        "shar.work.evidence-record.color-pipeline",
+        "shar.work.evidence-record.vfx-turnover",
+        "shar.work.evidence-record.edit-approval",
+        "shar.work.evidence-record.caption-qc",
+        "shar.work.evidence-record.loudness-qc",
+        "shar.work.evidence-record.accessibility-review",
+        "shar.work.evidence-record.localization-signoff",
+        "shar.work.evidence-record.delivery-manifest",
+        "shar.work.evidence-record.archive-inventory",
+        "shar.work.evidence-record.ai-provenance",
+        "shar.work.evidence-record.cgi-asset-provenance",
+        "shar.work.evidence-record.sustainability-log",
+        "shar.work.evidence-record.supplier-bid-evaluation",
+        "shar.work.evidence-record.incident-report",
+        "shar.work.evidence-record.final-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.brief-approval.en",
+        "shar.representation.evidence-record.brief-approval.ru",
+        "shar.representation.evidence-record.talent-consent.en",
+        "shar.representation.evidence-record.talent-consent.ru",
+        "shar.representation.evidence-record.location-permit.en",
+        "shar.representation.evidence-record.location-permit.ru",
+        "shar.representation.evidence-record.music-license.en",
+        "shar.representation.evidence-record.music-license.ru",
+        "shar.representation.evidence-record.insurance-certificate.en",
+        "shar.representation.evidence-record.insurance-certificate.ru",
+        "shar.representation.evidence-record.call-sheet-acknowledgment.en",
+        "shar.representation.evidence-record.call-sheet-acknowledgment.ru",
+        "shar.representation.evidence-record.safety-briefing.en",
+        "shar.representation.evidence-record.safety-briefing.ru",
+        "shar.representation.evidence-record.camera-report.en",
+        "shar.representation.evidence-record.camera-report.ru",
+        "shar.representation.evidence-record.sound-report.en",
+        "shar.representation.evidence-record.sound-report.ru",
+        "shar.representation.evidence-record.dit-checksum.en",
+        "shar.representation.evidence-record.dit-checksum.ru",
+        "shar.representation.evidence-record.color-pipeline.en",
+        "shar.representation.evidence-record.color-pipeline.ru",
+        "shar.representation.evidence-record.vfx-turnover.en",
+        "shar.representation.evidence-record.vfx-turnover.ru",
+        "shar.representation.evidence-record.edit-approval.en",
+        "shar.representation.evidence-record.edit-approval.ru",
+        "shar.representation.evidence-record.caption-qc.en",
+        "shar.representation.evidence-record.caption-qc.ru",
+        "shar.representation.evidence-record.loudness-qc.en",
+        "shar.representation.evidence-record.loudness-qc.ru",
+        "shar.representation.evidence-record.accessibility-review.en",
+        "shar.representation.evidence-record.accessibility-review.ru",
+        "shar.representation.evidence-record.localization-signoff.en",
+        "shar.representation.evidence-record.localization-signoff.ru",
+        "shar.representation.evidence-record.delivery-manifest.en",
+        "shar.representation.evidence-record.delivery-manifest.ru",
+        "shar.representation.evidence-record.archive-inventory.en",
+        "shar.representation.evidence-record.archive-inventory.ru",
+        "shar.representation.evidence-record.ai-provenance.en",
+        "shar.representation.evidence-record.ai-provenance.ru",
+        "shar.representation.evidence-record.cgi-asset-provenance.en",
+        "shar.representation.evidence-record.cgi-asset-provenance.ru",
+        "shar.representation.evidence-record.sustainability-log.en",
+        "shar.representation.evidence-record.sustainability-log.ru",
+        "shar.representation.evidence-record.supplier-bid-evaluation.en",
+        "shar.representation.evidence-record.supplier-bid-evaluation.ru",
+        "shar.representation.evidence-record.incident-report.en",
+        "shar.representation.evidence-record.incident-report.ru",
+        "shar.representation.evidence-record.final-release-gate.en",
+        "shar.representation.evidence-record.final-release-gate.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-evidence-records",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "v1.0.0@083c19e0f9ce6fb7f8e61160b4e6481f6c997cb6",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and v1.0.0 release returned HTTP 200 with SHAR Production and https://sharprod.com/.",
+          "GitHub Actions run 34005383057 completed successfully.",
+          "Release contains 25 contracts, 50 localized pages, 25 JSON Schemas, MIT source and CC-BY-4.0 synthetic fixtures."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-evidence-records.huggingface",
+      "work_ids": [
+        "shar.work.evidence-record.brief-approval",
+        "shar.work.evidence-record.talent-consent",
+        "shar.work.evidence-record.location-permit",
+        "shar.work.evidence-record.music-license",
+        "shar.work.evidence-record.insurance-certificate",
+        "shar.work.evidence-record.call-sheet-acknowledgment",
+        "shar.work.evidence-record.safety-briefing",
+        "shar.work.evidence-record.camera-report",
+        "shar.work.evidence-record.sound-report",
+        "shar.work.evidence-record.dit-checksum",
+        "shar.work.evidence-record.color-pipeline",
+        "shar.work.evidence-record.vfx-turnover",
+        "shar.work.evidence-record.edit-approval",
+        "shar.work.evidence-record.caption-qc",
+        "shar.work.evidence-record.loudness-qc",
+        "shar.work.evidence-record.accessibility-review",
+        "shar.work.evidence-record.localization-signoff",
+        "shar.work.evidence-record.delivery-manifest",
+        "shar.work.evidence-record.archive-inventory",
+        "shar.work.evidence-record.ai-provenance",
+        "shar.work.evidence-record.cgi-asset-provenance",
+        "shar.work.evidence-record.sustainability-log",
+        "shar.work.evidence-record.supplier-bid-evaluation",
+        "shar.work.evidence-record.incident-report",
+        "shar.work.evidence-record.final-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.evidence-record.brief-approval.en",
+        "shar.representation.evidence-record.brief-approval.ru",
+        "shar.representation.evidence-record.talent-consent.en",
+        "shar.representation.evidence-record.talent-consent.ru",
+        "shar.representation.evidence-record.location-permit.en",
+        "shar.representation.evidence-record.location-permit.ru",
+        "shar.representation.evidence-record.music-license.en",
+        "shar.representation.evidence-record.music-license.ru",
+        "shar.representation.evidence-record.insurance-certificate.en",
+        "shar.representation.evidence-record.insurance-certificate.ru",
+        "shar.representation.evidence-record.call-sheet-acknowledgment.en",
+        "shar.representation.evidence-record.call-sheet-acknowledgment.ru",
+        "shar.representation.evidence-record.safety-briefing.en",
+        "shar.representation.evidence-record.safety-briefing.ru",
+        "shar.representation.evidence-record.camera-report.en",
+        "shar.representation.evidence-record.camera-report.ru",
+        "shar.representation.evidence-record.sound-report.en",
+        "shar.representation.evidence-record.sound-report.ru",
+        "shar.representation.evidence-record.dit-checksum.en",
+        "shar.representation.evidence-record.dit-checksum.ru",
+        "shar.representation.evidence-record.color-pipeline.en",
+        "shar.representation.evidence-record.color-pipeline.ru",
+        "shar.representation.evidence-record.vfx-turnover.en",
+        "shar.representation.evidence-record.vfx-turnover.ru",
+        "shar.representation.evidence-record.edit-approval.en",
+        "shar.representation.evidence-record.edit-approval.ru",
+        "shar.representation.evidence-record.caption-qc.en",
+        "shar.representation.evidence-record.caption-qc.ru",
+        "shar.representation.evidence-record.loudness-qc.en",
+        "shar.representation.evidence-record.loudness-qc.ru",
+        "shar.representation.evidence-record.accessibility-review.en",
+        "shar.representation.evidence-record.accessibility-review.ru",
+        "shar.representation.evidence-record.localization-signoff.en",
+        "shar.representation.evidence-record.localization-signoff.ru",
+        "shar.representation.evidence-record.delivery-manifest.en",
+        "shar.representation.evidence-record.delivery-manifest.ru",
+        "shar.representation.evidence-record.archive-inventory.en",
+        "shar.representation.evidence-record.archive-inventory.ru",
+        "shar.representation.evidence-record.ai-provenance.en",
+        "shar.representation.evidence-record.ai-provenance.ru",
+        "shar.representation.evidence-record.cgi-asset-provenance.en",
+        "shar.representation.evidence-record.cgi-asset-provenance.ru",
+        "shar.representation.evidence-record.sustainability-log.en",
+        "shar.representation.evidence-record.sustainability-log.ru",
+        "shar.representation.evidence-record.supplier-bid-evaluation.en",
+        "shar.representation.evidence-record.supplier-bid-evaluation.ru",
+        "shar.representation.evidence-record.incident-report.en",
+        "shar.representation.evidence-record.incident-report.ru",
+        "shar.representation.evidence-record.final-release-gate.en",
+        "shar.representation.evidence-record.final-release-gate.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-evidence-records",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:04:09Z",
+      "provider_version": "114c8816e9634c74b7b255613641f9f36d57a5f8",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public dataset page, synthetic-examples.jsonl and a representative JSON Schema returned HTTP 200.",
+          "Dataset card identifies SHAR Production, https://sharprod.com/, CC-BY-4.0 synthetic data, MIT schemas and AI assistance disclosure.",
+          "The dataset contains 25 distinct synthetic records and 25 reusable schemas."
+        ]
+      },
+      "release_id": "shar.release.production-evidence-records.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -7470,6 +9659,422 @@
       "source_url": "https://huggingface.co/spaces/SHARProduction/production-validation-error-explorer",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T01:51:02Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-brief-approval-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/brief-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-brief-approval-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/brief-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-talent-consent-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/talent-consent/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-talent-consent-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/talent-consent/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-location-permit-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/location-permit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-location-permit-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/location-permit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-music-license-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/music-license/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-music-license-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/music-license/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-insurance-certificate-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/insurance-certificate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-insurance-certificate-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/insurance-certificate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-call-sheet-acknowledgment-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/call-sheet-acknowledgment/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-call-sheet-acknowledgment-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/call-sheet-acknowledgment/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-safety-briefing-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/safety-briefing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-safety-briefing-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/safety-briefing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-camera-report-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/camera-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-camera-report-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/camera-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-sound-report-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/sound-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-sound-report-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/sound-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-dit-checksum-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/dit-checksum/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-dit-checksum-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/dit-checksum/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-color-pipeline-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/color-pipeline/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-color-pipeline-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/color-pipeline/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-vfx-turnover-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/vfx-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-vfx-turnover-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/vfx-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-edit-approval-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/edit-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-edit-approval-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/edit-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-caption-qc-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/caption-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-caption-qc-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/caption-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-loudness-qc-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/loudness-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-loudness-qc-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/loudness-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-accessibility-review-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/accessibility-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-accessibility-review-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/accessibility-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-localization-signoff-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/localization-signoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-localization-signoff-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/localization-signoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-delivery-manifest-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/delivery-manifest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-delivery-manifest-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/delivery-manifest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-archive-inventory-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/archive-inventory/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-archive-inventory-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/archive-inventory/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-ai-provenance-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/ai-provenance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-ai-provenance-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/ai-provenance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-cgi-asset-provenance-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/cgi-asset-provenance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-cgi-asset-provenance-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/cgi-asset-provenance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-sustainability-log-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/sustainability-log/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-sustainability-log-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/sustainability-log/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-supplier-bid-evaluation-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/supplier-bid-evaluation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-supplier-bid-evaluation-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/supplier-bid-evaluation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-incident-report-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/incident-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-incident-report-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/incident-report/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-final-release-gate-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/en/final-release-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.evidence-record-final-release-gate-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/evidence-records/ru/final-release-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-evidence-records-github.website",
+      "source_url": "https://github.com/SHARProduction/production-evidence-records",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-evidence-records-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-evidence-records",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:04:09Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
