@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T01:22:00Z",
+  "updated_at": "2026-09-06T01:40:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 660,
-    "gap_to_minimum": 840,
+    "verified_counted_placements": 682,
+    "gap_to_minimum": 818,
     "localized_tool_pages": 444,
-    "github_public_repositories": 138,
-    "hugging_face_datasets": 7,
+    "github_public_repositories": 139,
+    "hugging_face_datasets": 8,
     "hugging_face_static_spaces": 1,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -30,9 +30,12 @@
     "data_contract_dataset_placements": 1,
     "localized_reference_corpus_pages": 20,
     "reference_corpora_repository_placements": 1,
-    "reference_corpora_dataset_placements": 1
+    "reference_corpora_dataset_placements": 1,
+    "localized_workflow_recipe_pages": 20,
+    "workflow_recipe_repository_placements": 1,
+    "workflow_recipe_dataset_placements": 1
   },
-  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe, 12 conformance-suite, 12 compatibility-research, 22 production-data-contract and 22 reference-corpora placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 integration-recipe, 12 conformance-suite, 12 compatibility-research, 22 production-data-contract, 22 reference-corpora and 22 workflow-recipe placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -318,6 +321,86 @@
       "title_ru": "Каталог ошибок передачи",
       "kind": "synthetic_reference_corpus",
       "license": "CC-BY-4.0",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.package-intake-triage",
+      "title": "Package Intake Triage",
+      "title_ru": "Триаж входящего пакета",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.rights-aware-distribution",
+      "title": "Rights-aware Distribution",
+      "title_ru": "Дистрибуция с учётом прав",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.localization-readiness",
+      "title": "Localization Readiness",
+      "title_ru": "Готовность локализации",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.accessibility-delivery-gate",
+      "title": "Accessibility Delivery Gate",
+      "title_ru": "Гейт доступности",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.approval-chain-audit",
+      "title": "Approval Chain Audit",
+      "title_ru": "Аудит цепочки согласований",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.archive-readiness",
+      "title": "Archive Readiness",
+      "title_ru": "Готовность архива",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.vendor-bid-normalizer",
+      "title": "Vendor Bid Normalizer",
+      "title_ru": "Нормализация предложений подрядчиков",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.subtitle-remediation-queue",
+      "title": "Subtitle Remediation Queue",
+      "title_ru": "Очередь исправления субтитров",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.dependency-release-gate",
+      "title": "Dependency Release Gate",
+      "title_ru": "Гейт зависимостей релиза",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
+      "data_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.workflow.privacy-safe-handoff",
+      "title": "Privacy-safe Handoff",
+      "title_ru": "Безопасная передача",
+      "kind": "executable_workflow_recipe",
+      "license": "MIT",
       "data_license": "CC-BY-4.0"
     }
   ],
@@ -753,6 +836,126 @@
       "work_id": "shar.work.corpus.handoff-error-catalog",
       "language": "ru",
       "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.package-intake-triage.en",
+      "work_id": "shar.work.workflow.package-intake-triage",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.package-intake-triage.ru",
+      "work_id": "shar.work.workflow.package-intake-triage",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.rights-aware-distribution.en",
+      "work_id": "shar.work.workflow.rights-aware-distribution",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.rights-aware-distribution.ru",
+      "work_id": "shar.work.workflow.rights-aware-distribution",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.localization-readiness.en",
+      "work_id": "shar.work.workflow.localization-readiness",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.localization-readiness.ru",
+      "work_id": "shar.work.workflow.localization-readiness",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.accessibility-delivery-gate.en",
+      "work_id": "shar.work.workflow.accessibility-delivery-gate",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.accessibility-delivery-gate.ru",
+      "work_id": "shar.work.workflow.accessibility-delivery-gate",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.approval-chain-audit.en",
+      "work_id": "shar.work.workflow.approval-chain-audit",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.approval-chain-audit.ru",
+      "work_id": "shar.work.workflow.approval-chain-audit",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.archive-readiness.en",
+      "work_id": "shar.work.workflow.archive-readiness",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.archive-readiness.ru",
+      "work_id": "shar.work.workflow.archive-readiness",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.vendor-bid-normalizer.en",
+      "work_id": "shar.work.workflow.vendor-bid-normalizer",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.vendor-bid-normalizer.ru",
+      "work_id": "shar.work.workflow.vendor-bid-normalizer",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.subtitle-remediation-queue.en",
+      "work_id": "shar.work.workflow.subtitle-remediation-queue",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.subtitle-remediation-queue.ru",
+      "work_id": "shar.work.workflow.subtitle-remediation-queue",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.dependency-release-gate.en",
+      "work_id": "shar.work.workflow.dependency-release-gate",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.dependency-release-gate.ru",
+      "work_id": "shar.work.workflow.dependency-release-gate",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.privacy-safe-handoff.en",
+      "work_id": "shar.work.workflow.privacy-safe-handoff",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.workflow.privacy-safe-handoff.ru",
+      "work_id": "shar.work.workflow.privacy-safe-handoff",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -830,6 +1033,23 @@
         "shar.work.corpus.accessibility-metadata",
         "shar.work.corpus.rights-scenario-fixtures",
         "shar.work.corpus.handoff-error-catalog"
+      ]
+    },
+    {
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.workflow.package-intake-triage",
+        "shar.work.workflow.rights-aware-distribution",
+        "shar.work.workflow.localization-readiness",
+        "shar.work.workflow.accessibility-delivery-gate",
+        "shar.work.workflow.approval-chain-audit",
+        "shar.work.workflow.archive-readiness",
+        "shar.work.workflow.vendor-bid-normalizer",
+        "shar.work.workflow.subtitle-remediation-queue",
+        "shar.work.workflow.dependency-release-gate",
+        "shar.work.workflow.privacy-safe-handoff"
       ]
     }
   ],
@@ -3372,6 +3592,700 @@
       },
       "release_id": "shar.release.reference-corpora.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.package-intake-triage.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.package-intake-triage"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.package-intake-triage.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/package-intake-triage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.package-intake-triage.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.package-intake-triage"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.package-intake-triage.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/package-intake-triage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.rights-aware-distribution.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.rights-aware-distribution"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.rights-aware-distribution.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/rights-aware-distribution/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.rights-aware-distribution.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.rights-aware-distribution"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.rights-aware-distribution.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/rights-aware-distribution/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.localization-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.localization-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.localization-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/localization-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.localization-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.localization-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.localization-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/localization-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.accessibility-delivery-gate.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.accessibility-delivery-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.accessibility-delivery-gate.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/accessibility-delivery-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.accessibility-delivery-gate.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.accessibility-delivery-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.accessibility-delivery-gate.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/accessibility-delivery-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.approval-chain-audit.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.approval-chain-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.approval-chain-audit.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/approval-chain-audit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.approval-chain-audit.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.approval-chain-audit"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.approval-chain-audit.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/approval-chain-audit/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.archive-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.archive-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.archive-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/archive-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.archive-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.archive-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.archive-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/archive-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.vendor-bid-normalizer.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.vendor-bid-normalizer"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.vendor-bid-normalizer.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/vendor-bid-normalizer/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.vendor-bid-normalizer.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.vendor-bid-normalizer"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.vendor-bid-normalizer.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/vendor-bid-normalizer/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.subtitle-remediation-queue.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.subtitle-remediation-queue"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.subtitle-remediation-queue.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/subtitle-remediation-queue/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.subtitle-remediation-queue.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.subtitle-remediation-queue"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.subtitle-remediation-queue.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/subtitle-remediation-queue/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.dependency-release-gate.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.dependency-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.dependency-release-gate.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/dependency-release-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.dependency-release-gate.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.dependency-release-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.dependency-release-gate.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/dependency-release-gate/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.privacy-safe-handoff.cloudflare.en",
+      "work_ids": [
+        "shar.work.workflow.privacy-safe-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.privacy-safe-handoff.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/en/privacy-safe-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow.privacy-safe-handoff.cloudflare.ru",
+      "work_ids": [
+        "shar.work.workflow.privacy-safe-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.privacy-safe-handoff.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-workflow-recipes.pages.dev/ru/privacy-safe-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "9e67529c-e539-4375-bba3-3628db446feb",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL contains live pass and rejected run results, SHAR Production and website.",
+          "Canonical matched exact public URL.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow-recipes.github",
+      "work_ids": [
+        "shar.work.workflow.package-intake-triage",
+        "shar.work.workflow.rights-aware-distribution",
+        "shar.work.workflow.localization-readiness",
+        "shar.work.workflow.accessibility-delivery-gate",
+        "shar.work.workflow.approval-chain-audit",
+        "shar.work.workflow.archive-readiness",
+        "shar.work.workflow.vendor-bid-normalizer",
+        "shar.work.workflow.subtitle-remediation-queue",
+        "shar.work.workflow.dependency-release-gate",
+        "shar.work.workflow.privacy-safe-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.package-intake-triage.en",
+        "shar.representation.workflow.package-intake-triage.ru",
+        "shar.representation.workflow.rights-aware-distribution.en",
+        "shar.representation.workflow.rights-aware-distribution.ru",
+        "shar.representation.workflow.localization-readiness.en",
+        "shar.representation.workflow.localization-readiness.ru",
+        "shar.representation.workflow.accessibility-delivery-gate.en",
+        "shar.representation.workflow.accessibility-delivery-gate.ru",
+        "shar.representation.workflow.approval-chain-audit.en",
+        "shar.representation.workflow.approval-chain-audit.ru",
+        "shar.representation.workflow.archive-readiness.en",
+        "shar.representation.workflow.archive-readiness.ru",
+        "shar.representation.workflow.vendor-bid-normalizer.en",
+        "shar.representation.workflow.vendor-bid-normalizer.ru",
+        "shar.representation.workflow.subtitle-remediation-queue.en",
+        "shar.representation.workflow.subtitle-remediation-queue.ru",
+        "shar.representation.workflow.dependency-release-gate.en",
+        "shar.representation.workflow.dependency-release-gate.ru",
+        "shar.representation.workflow.privacy-safe-handoff.en",
+        "shar.representation.workflow.privacy-safe-handoff.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-workflow-recipes",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "v1.0.0@71e19ad0a8b6cc560e6ab1c9fe73a452c0892644",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository, release and raw recipe catalog returned HTTP 200.",
+          "GitHub Actions run 34003539219 completed successfully.",
+          "Ten evaluators executed pass and failure fixtures."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.workflow-recipes.huggingface",
+      "work_ids": [
+        "shar.work.workflow.package-intake-triage",
+        "shar.work.workflow.rights-aware-distribution",
+        "shar.work.workflow.localization-readiness",
+        "shar.work.workflow.accessibility-delivery-gate",
+        "shar.work.workflow.approval-chain-audit",
+        "shar.work.workflow.archive-readiness",
+        "shar.work.workflow.vendor-bid-normalizer",
+        "shar.work.workflow.subtitle-remediation-queue",
+        "shar.work.workflow.dependency-release-gate",
+        "shar.work.workflow.privacy-safe-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.workflow.package-intake-triage.en",
+        "shar.representation.workflow.package-intake-triage.ru",
+        "shar.representation.workflow.rights-aware-distribution.en",
+        "shar.representation.workflow.rights-aware-distribution.ru",
+        "shar.representation.workflow.localization-readiness.en",
+        "shar.representation.workflow.localization-readiness.ru",
+        "shar.representation.workflow.accessibility-delivery-gate.en",
+        "shar.representation.workflow.accessibility-delivery-gate.ru",
+        "shar.representation.workflow.approval-chain-audit.en",
+        "shar.representation.workflow.approval-chain-audit.ru",
+        "shar.representation.workflow.archive-readiness.en",
+        "shar.representation.workflow.archive-readiness.ru",
+        "shar.representation.workflow.vendor-bid-normalizer.en",
+        "shar.representation.workflow.vendor-bid-normalizer.ru",
+        "shar.representation.workflow.subtitle-remediation-queue.en",
+        "shar.representation.workflow.subtitle-remediation-queue.ru",
+        "shar.representation.workflow.dependency-release-gate.en",
+        "shar.representation.workflow.dependency-release-gate.ru",
+        "shar.representation.workflow.privacy-safe-handoff.en",
+        "shar.representation.workflow.privacy-safe-handoff.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-workflow-recipes",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T01:40:00Z",
+      "provider_version": "f9ac28cd1cf3269e00942ddfee1a6330730a3d0c",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset page and raw recipes.jsonl returned HTTP 200.",
+          "Dataset contains ten bilingual runnable recipes with synthetic fixtures.",
+          "CC-BY-4.0 fixture card and AI assistance disclosure verified."
+        ]
+      },
+      "release_id": "shar.release.workflow-recipes.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -4020,6 +4934,182 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-reference-corpora",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T01:22:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.package-intake-triage.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/package-intake-triage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.package-intake-triage.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/package-intake-triage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.rights-aware-distribution.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/rights-aware-distribution/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.rights-aware-distribution.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/rights-aware-distribution/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.localization-readiness.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/localization-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.localization-readiness.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/localization-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.accessibility-delivery-gate.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/accessibility-delivery-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.accessibility-delivery-gate.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/accessibility-delivery-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.approval-chain-audit.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/approval-chain-audit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.approval-chain-audit.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/approval-chain-audit/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.archive-readiness.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/archive-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.archive-readiness.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/archive-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.vendor-bid-normalizer.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/vendor-bid-normalizer/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.vendor-bid-normalizer.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/vendor-bid-normalizer/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.subtitle-remediation-queue.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/subtitle-remediation-queue/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.subtitle-remediation-queue.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/subtitle-remediation-queue/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.dependency-release-gate.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/dependency-release-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.dependency-release-gate.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/dependency-release-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.privacy-safe-handoff.cloudflare.en.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/en/privacy-safe-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow.privacy-safe-handoff.cloudflare.ru.website",
+      "source_url": "https://shar-production-workflow-recipes.pages.dev/ru/privacy-safe-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow-recipes.github.website",
+      "source_url": "https://github.com/SHARProduction/production-workflow-recipes",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.workflow-recipes.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-workflow-recipes",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T01:40:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
