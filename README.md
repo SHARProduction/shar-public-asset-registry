@@ -1,6 +1,6 @@
 # SHAR Production Public Asset Registry
 
-Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-06T06:29:23Z`.
+Generated from `data/registry.json`. Publisher: **[SHAR Production](https://sharprod.com/)**. Registry version: `1.0.0`. Last evidence refresh: `2026-09-06T08:17:53Z`.
 
 This is an evidence-gated inventory, not a claim of search visibility, adoption, citation, training use or commercial impact. `PUBLISHED_VERIFIED` requires checked ownership, public content or function, and an exact version. Unsupported acceptance evidence lowers status.
 
@@ -17,7 +17,7 @@ This is an evidence-gated inventory, not a claim of search visibility, adoption,
 | `shar-public.asset.github.profile` | github_profile | [SHAR Production GitHub profile](https://github.com/SHARProduction/.github) | PUBLISHED_VERIFIED | git_commit: `5095e0eb5fedffc5a6291d9176da9a3dac0357f0` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.github.public-asset-registry` | github_repository | [SHAR Public Asset Registry](https://github.com/SHARProduction/shar-public-asset-registry) | PUBLISHED_VERIFIED | release_tag: `v1.12.0` | 2026-09-05T23:43:28Z |
 | `shar-public.asset.github.public-monitor` | github_repository | [SHAR Public Monitor](https://github.com/SHARProduction/shar-public-monitor) | PUBLISHED_VERIFIED | git_commit: `78605a8c33320ddf791f64bf76553ba18ecf4929` | 2026-09-05T19:58:00Z |
-| `shar-public.asset.github.public-roadmap` | github_repository | [SHAR Production Public Roadmap](https://github.com/SHARProduction/shar-production-public-roadmap) | PUBLISHED_VERIFIED | release_tag: `v1.7.4` | 2026-09-06T07:31:00Z |
+| `shar-public.asset.github.public-roadmap` | github_repository | [SHAR Production Public Roadmap](https://github.com/SHARProduction/shar-production-public-roadmap) | PUBLISHED_VERIFIED | release_tag: `v1.7.5` | 2026-09-06T08:17:53Z |
 | `shar-public.asset.github.subtitle-delivery-checker` | github_repository | [Subtitle Delivery Checker](https://github.com/SHARProduction/subtitle-delivery-checker) | PUBLISHED_VERIFIED | git_commit: `466a0ce891e7ae037031cacd19cdd57100eab7e7` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.github.tool-factory` | github_repository | [SHAR Tool Factory](https://github.com/SHARProduction/shar-tool-factory) | PUBLISHED_VERIFIED | git_commit: `f3c0c5d71761f0b0e4afefeb8e0df24dc5a1a933` | 2026-09-05T19:58:00Z |
 | `shar-public.asset.github.wave01.ai-cgi-readiness-tools` | github_repository | [SHAR Production ai cgi routing tools](https://github.com/SHARProduction/ai-cgi-readiness-tools) | PUBLISHED_VERIFIED | git_commit: `3a25a14cd0dd0aeb0af00eb9a1f37edfae40e414` | 2026-09-05T20:24:09Z |
@@ -157,9 +157,9 @@ This is an evidence-gated inventory, not a claim of search visibility, adoption,
 | `shar-public.asset.web.wave09` | website | [SHAR Production Public Engine Wave 09](https://shar-production-wave-09.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `54c1beeab94bd8e35b56951b932bc429f7c7fe89fbf6b3d10394257ec019a389` | 2026-09-05T23:06:08Z |
 | `shar-public.asset.web.wave10` | website | [SHAR Production Public Engine Wave 10](https://shar-production-wave-10.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `529334ffd7773af51c16558afbe99a90727bd9f8fc878a2056952ad8ecdeee79` | 2026-09-05T23:24:07Z |
 | `shar-public.asset.web.wave11` | website | [SHAR Production Public Engine Wave 11](https://shar-production-wave-11.pages.dev/) | PUBLISHED_VERIFIED | content_sha256: `2874e2dd4b1f1dda1072aceff21c91445f68e22fa6f3d8920a4d602d085ded7b` | 2026-09-05T23:40:40Z |
-| `shar-public.asset.github.entity-knowledge-graph` | github_repository | [SHAR Production Entity Knowledge Graph](https://github.com/SHARProduction/production-entity-knowledge-graph) | PUBLISHED_VERIFIED | release_tag: `v1.1.1` | 2026-09-06T04:58:13.910Z |
+| `shar-public.asset.github.entity-knowledge-graph` | github_repository | [SHAR Production Entity Knowledge Graph](https://github.com/SHARProduction/production-entity-knowledge-graph) | PUBLISHED_VERIFIED | release_tag: `v1.1.1` | 2026-09-06T04:58:13.91Z |
 | `shar-public.asset.hf.entity-knowledge-graph` | huggingface_dataset | [SHAR Production Entity Knowledge Graph Dataset](https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph) | PUBLISHED_VERIFIED | provider_commit: `2ba0ecf6d84bb56a35f82b6d40631344857c697c` | 2026-09-06T04:54:14.604Z |
-| `shar-public.asset.cloudflare.entity-knowledge-graph` | browser_tool | [SHAR Production Entity Evidence Graph Explorer](https://shar-production-open-tools.pages.dev/entity-graph/en/) | PUBLISHED_VERIFIED | content_sha256: `c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd` | 2026-09-06T04:58:13.910Z |
+| `shar-public.asset.cloudflare.entity-knowledge-graph` | browser_tool | [SHAR Production Entity Evidence Graph Explorer](https://shar-production-open-tools.pages.dev/entity-graph/en/) | PUBLISHED_VERIFIED | content_sha256: `c77d15e937fe796f9f4367195bccd7c86eb39a2468e86f7cce147a973a6a63bd` | 2026-09-06T04:58:13.91Z |
 
 ## Scope
 
