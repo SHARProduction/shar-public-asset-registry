@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T03:17:14Z",
+  "updated_at": "2026-09-06T03:25:41Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 1046,
-    "gap_to_minimum": 454,
+    "verified_counted_placements": 1098,
+    "gap_to_minimum": 402,
     "localized_tool_pages": 444,
-    "github_public_repositories": 149,
-    "hugging_face_datasets": 17,
+    "github_public_repositories": 150,
+    "hugging_face_datasets": 18,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -58,15 +58,18 @@
     "localized_indexing_observatory_pages": 2,
     "indexing_observatory_repository_placements": 1,
     "indexing_observatory_dataset_placements": 1,
-    "indexnow_accepted_url_submissions": 52,
+    "indexnow_accepted_url_submissions": 104,
     "localized_production_option_matrix_pages": 50,
     "production_option_matrix_repository_placements": 1,
     "production_option_matrix_dataset_placements": 1,
     "localized_production_risk_simulator_pages": 50,
     "production_risk_simulator_repository_placements": 1,
-    "production_risk_simulator_dataset_placements": 1
+    "production_risk_simulator_dataset_placements": 1,
+    "localized_production_capacity_planner_pages": 50,
+    "production_capacity_planner_repository_placements": 1,
+    "production_capacity_planner_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements + 52 production risk simulator placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements + 52 production risk simulator placements + 52 production capacity planner placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -1807,6 +1810,206 @@
       "license": "MIT",
       "results_license": "CC-BY-4.0",
       "title_ru": "Риски управления выпуском"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.shot-review",
+      "title": "Shot review capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность просмотра кадров"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.media-ingest",
+      "title": "Media ingest capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность загрузки медиа"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.proxy-generation",
+      "title": "Proxy generation capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность создания прокси"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.selects-review",
+      "title": "Selects review capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность отбора материала"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.rough-cut",
+      "title": "Rough-cut assembly capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность сборки чернового монтажа"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.revision-notes",
+      "title": "Revision note capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность обработки правок"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.vfx-shots",
+      "title": "VFX shot capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность производства VFX"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.color-masters",
+      "title": "Color master capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность цветокоррекции мастеров"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.audio-tracks",
+      "title": "Audio finishing capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность финализации звука"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.caption-cues",
+      "title": "Caption cue capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность подготовки субтитров"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.localization-assets",
+      "title": "Localization capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность локализации"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.qc-files",
+      "title": "Quality-control capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность контроля качества"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.delivery-files",
+      "title": "Delivery packaging capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность сборки поставки"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.checksum-packages",
+      "title": "Checksum verification capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность проверки контрольных сумм"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.archive-volume",
+      "title": "Archive capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность архивирования"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.restore-volume",
+      "title": "Restore-test capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность тестового восстановления"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.product-images",
+      "title": "Product image capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность обработки продуктовых изображений"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.social-variants",
+      "title": "Social variant capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность производства социальных версий"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.campaign-markets",
+      "title": "Campaign market capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность подготовки рынков кампании"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.talent-approvals",
+      "title": "Talent approval capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность согласования талантов"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.supplier-bids",
+      "title": "Supplier bid capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность оценки предложений"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.location-options",
+      "title": "Location review capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность оценки локаций"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.call-sheets",
+      "title": "Call-sheet preparation capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность подготовки вызывных листов"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.transcript-minutes",
+      "title": "Transcription capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность транскрибации"
+    },
+    {
+      "work_id": "shar.work.capacity-planner.metadata-records",
+      "title": "Metadata capacity",
+      "kind": "interactive_capacity_duration_planner",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Мощность обработки метаданных"
     }
   ],
   "representations": [
@@ -4425,6 +4628,306 @@
       "work_id": "shar.work.risk-simulator.release-risk",
       "language": "ru",
       "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.shot-review.en",
+      "work_id": "shar.work.capacity-planner.shot-review",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.shot-review.ru",
+      "work_id": "shar.work.capacity-planner.shot-review",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.media-ingest.en",
+      "work_id": "shar.work.capacity-planner.media-ingest",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.media-ingest.ru",
+      "work_id": "shar.work.capacity-planner.media-ingest",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.proxy-generation.en",
+      "work_id": "shar.work.capacity-planner.proxy-generation",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.proxy-generation.ru",
+      "work_id": "shar.work.capacity-planner.proxy-generation",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.selects-review.en",
+      "work_id": "shar.work.capacity-planner.selects-review",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.selects-review.ru",
+      "work_id": "shar.work.capacity-planner.selects-review",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.rough-cut.en",
+      "work_id": "shar.work.capacity-planner.rough-cut",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.rough-cut.ru",
+      "work_id": "shar.work.capacity-planner.rough-cut",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.revision-notes.en",
+      "work_id": "shar.work.capacity-planner.revision-notes",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.revision-notes.ru",
+      "work_id": "shar.work.capacity-planner.revision-notes",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.vfx-shots.en",
+      "work_id": "shar.work.capacity-planner.vfx-shots",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.vfx-shots.ru",
+      "work_id": "shar.work.capacity-planner.vfx-shots",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.color-masters.en",
+      "work_id": "shar.work.capacity-planner.color-masters",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.color-masters.ru",
+      "work_id": "shar.work.capacity-planner.color-masters",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.audio-tracks.en",
+      "work_id": "shar.work.capacity-planner.audio-tracks",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.audio-tracks.ru",
+      "work_id": "shar.work.capacity-planner.audio-tracks",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.caption-cues.en",
+      "work_id": "shar.work.capacity-planner.caption-cues",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.caption-cues.ru",
+      "work_id": "shar.work.capacity-planner.caption-cues",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.localization-assets.en",
+      "work_id": "shar.work.capacity-planner.localization-assets",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.localization-assets.ru",
+      "work_id": "shar.work.capacity-planner.localization-assets",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.qc-files.en",
+      "work_id": "shar.work.capacity-planner.qc-files",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.qc-files.ru",
+      "work_id": "shar.work.capacity-planner.qc-files",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.delivery-files.en",
+      "work_id": "shar.work.capacity-planner.delivery-files",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.delivery-files.ru",
+      "work_id": "shar.work.capacity-planner.delivery-files",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.checksum-packages.en",
+      "work_id": "shar.work.capacity-planner.checksum-packages",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.checksum-packages.ru",
+      "work_id": "shar.work.capacity-planner.checksum-packages",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.archive-volume.en",
+      "work_id": "shar.work.capacity-planner.archive-volume",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.archive-volume.ru",
+      "work_id": "shar.work.capacity-planner.archive-volume",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.restore-volume.en",
+      "work_id": "shar.work.capacity-planner.restore-volume",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.restore-volume.ru",
+      "work_id": "shar.work.capacity-planner.restore-volume",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.product-images.en",
+      "work_id": "shar.work.capacity-planner.product-images",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.product-images.ru",
+      "work_id": "shar.work.capacity-planner.product-images",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.social-variants.en",
+      "work_id": "shar.work.capacity-planner.social-variants",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.social-variants.ru",
+      "work_id": "shar.work.capacity-planner.social-variants",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.campaign-markets.en",
+      "work_id": "shar.work.capacity-planner.campaign-markets",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.campaign-markets.ru",
+      "work_id": "shar.work.capacity-planner.campaign-markets",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.talent-approvals.en",
+      "work_id": "shar.work.capacity-planner.talent-approvals",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.talent-approvals.ru",
+      "work_id": "shar.work.capacity-planner.talent-approvals",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.supplier-bids.en",
+      "work_id": "shar.work.capacity-planner.supplier-bids",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.supplier-bids.ru",
+      "work_id": "shar.work.capacity-planner.supplier-bids",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.location-options.en",
+      "work_id": "shar.work.capacity-planner.location-options",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.location-options.ru",
+      "work_id": "shar.work.capacity-planner.location-options",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.call-sheets.en",
+      "work_id": "shar.work.capacity-planner.call-sheets",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.call-sheets.ru",
+      "work_id": "shar.work.capacity-planner.call-sheets",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.transcript-minutes.en",
+      "work_id": "shar.work.capacity-planner.transcript-minutes",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.transcript-minutes.ru",
+      "work_id": "shar.work.capacity-planner.transcript-minutes",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.metadata-records.en",
+      "work_id": "shar.work.capacity-planner.metadata-records",
+      "language": "en",
+      "format": "interactive_html_capacity_planner"
+    },
+    {
+      "representation_id": "shar.representation.capacity-planner.metadata-records.ru",
+      "work_id": "shar.work.capacity-planner.metadata-records",
+      "language": "ru",
+      "format": "interactive_html_capacity_planner"
     }
   ],
   "releases": [
@@ -4761,6 +5264,38 @@
         "shar.work.risk-simulator.archive-risk",
         "shar.work.risk-simulator.security-risk",
         "shar.work.risk-simulator.release-risk"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.capacity-planner.shot-review",
+        "shar.work.capacity-planner.media-ingest",
+        "shar.work.capacity-planner.proxy-generation",
+        "shar.work.capacity-planner.selects-review",
+        "shar.work.capacity-planner.rough-cut",
+        "shar.work.capacity-planner.revision-notes",
+        "shar.work.capacity-planner.vfx-shots",
+        "shar.work.capacity-planner.color-masters",
+        "shar.work.capacity-planner.audio-tracks",
+        "shar.work.capacity-planner.caption-cues",
+        "shar.work.capacity-planner.localization-assets",
+        "shar.work.capacity-planner.qc-files",
+        "shar.work.capacity-planner.delivery-files",
+        "shar.work.capacity-planner.checksum-packages",
+        "shar.work.capacity-planner.archive-volume",
+        "shar.work.capacity-planner.restore-volume",
+        "shar.work.capacity-planner.product-images",
+        "shar.work.capacity-planner.social-variants",
+        "shar.work.capacity-planner.campaign-markets",
+        "shar.work.capacity-planner.talent-approvals",
+        "shar.work.capacity-planner.supplier-bids",
+        "shar.work.capacity-planner.location-options",
+        "shar.work.capacity-planner.call-sheets",
+        "shar.work.capacity-planner.transcript-minutes",
+        "shar.work.capacity-planner.metadata-records"
       ]
     }
   ],
@@ -19545,6 +20080,1660 @@
       },
       "release_id": "shar.release.production-risk-simulators.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.shot-review.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.shot-review"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.shot-review.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/shot-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.shot-review.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.shot-review"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.shot-review.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/shot-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.media-ingest.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.media-ingest"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.media-ingest.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/media-ingest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.media-ingest.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.media-ingest"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.media-ingest.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/media-ingest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.proxy-generation.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.proxy-generation"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.proxy-generation.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/proxy-generation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.proxy-generation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.proxy-generation"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.proxy-generation.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/proxy-generation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.selects-review.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.selects-review"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.selects-review.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/selects-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.selects-review.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.selects-review"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.selects-review.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/selects-review/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.rough-cut.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.rough-cut"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.rough-cut.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/rough-cut/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.rough-cut.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.rough-cut"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.rough-cut.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/rough-cut/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.revision-notes.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.revision-notes"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.revision-notes.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/revision-notes/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.revision-notes.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.revision-notes"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.revision-notes.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/revision-notes/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.vfx-shots.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.vfx-shots"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.vfx-shots.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/vfx-shots/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.vfx-shots.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.vfx-shots"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.vfx-shots.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/vfx-shots/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.color-masters.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.color-masters"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.color-masters.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/color-masters/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.color-masters.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.color-masters"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.color-masters.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/color-masters/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.audio-tracks.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.audio-tracks"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.audio-tracks.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/audio-tracks/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.audio-tracks.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.audio-tracks"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.audio-tracks.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/audio-tracks/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.caption-cues.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.caption-cues"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.caption-cues.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/caption-cues/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.caption-cues.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.caption-cues"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.caption-cues.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/caption-cues/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.localization-assets.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.localization-assets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.localization-assets.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/localization-assets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.localization-assets.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.localization-assets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.localization-assets.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/localization-assets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.qc-files.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.qc-files"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.qc-files.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/qc-files/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.qc-files.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.qc-files"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.qc-files.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/qc-files/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.delivery-files.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.delivery-files"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.delivery-files.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/delivery-files/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.delivery-files.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.delivery-files"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.delivery-files.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/delivery-files/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.checksum-packages.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.checksum-packages"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.checksum-packages.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/checksum-packages/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.checksum-packages.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.checksum-packages"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.checksum-packages.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/checksum-packages/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.archive-volume.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.archive-volume"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.archive-volume.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/archive-volume/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.archive-volume.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.archive-volume"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.archive-volume.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/archive-volume/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.restore-volume.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.restore-volume"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.restore-volume.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/restore-volume/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.restore-volume.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.restore-volume"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.restore-volume.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/restore-volume/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.product-images.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.product-images"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.product-images.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/product-images/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.product-images.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.product-images"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.product-images.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/product-images/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.social-variants.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.social-variants"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.social-variants.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/social-variants/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.social-variants.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.social-variants"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.social-variants.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/social-variants/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.campaign-markets.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.campaign-markets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.campaign-markets.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/campaign-markets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.campaign-markets.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.campaign-markets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.campaign-markets.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/campaign-markets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.talent-approvals.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.talent-approvals"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.talent-approvals.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/talent-approvals/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.talent-approvals.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.talent-approvals"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.talent-approvals.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/talent-approvals/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.supplier-bids.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.supplier-bids"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.supplier-bids.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/supplier-bids/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.supplier-bids.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.supplier-bids"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.supplier-bids.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/supplier-bids/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.location-options.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.location-options"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.location-options.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/location-options/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.location-options.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.location-options"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.location-options.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/location-options/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.call-sheets.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.call-sheets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.call-sheets.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/call-sheets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.call-sheets.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.call-sheets"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.call-sheets.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/call-sheets/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.transcript-minutes.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.transcript-minutes"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.transcript-minutes.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/transcript-minutes/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.transcript-minutes.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.transcript-minutes"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.transcript-minutes.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/transcript-minutes/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.metadata-records.cloudflare.en",
+      "work_ids": [
+        "shar.work.capacity-planner.metadata-records"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.metadata-records.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/metadata-records/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.capacity-planner.metadata-records.cloudflare.ru",
+      "work_ids": [
+        "shar.work.capacity-planner.metadata-records"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.metadata-records.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/metadata-records/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "7bf42b60-e4e1-4bc9-8bf5-e7b2d1c5c260@5566cd0e7fe107df5e404a9984671a7e617c71f5",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser used workload 600, throughput 30, one stream and zero buffer; result was 20 days and EXTENDED.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-capacity-planners.github",
+      "work_ids": [
+        "shar.work.capacity-planner.shot-review",
+        "shar.work.capacity-planner.media-ingest",
+        "shar.work.capacity-planner.proxy-generation",
+        "shar.work.capacity-planner.selects-review",
+        "shar.work.capacity-planner.rough-cut",
+        "shar.work.capacity-planner.revision-notes",
+        "shar.work.capacity-planner.vfx-shots",
+        "shar.work.capacity-planner.color-masters",
+        "shar.work.capacity-planner.audio-tracks",
+        "shar.work.capacity-planner.caption-cues",
+        "shar.work.capacity-planner.localization-assets",
+        "shar.work.capacity-planner.qc-files",
+        "shar.work.capacity-planner.delivery-files",
+        "shar.work.capacity-planner.checksum-packages",
+        "shar.work.capacity-planner.archive-volume",
+        "shar.work.capacity-planner.restore-volume",
+        "shar.work.capacity-planner.product-images",
+        "shar.work.capacity-planner.social-variants",
+        "shar.work.capacity-planner.campaign-markets",
+        "shar.work.capacity-planner.talent-approvals",
+        "shar.work.capacity-planner.supplier-bids",
+        "shar.work.capacity-planner.location-options",
+        "shar.work.capacity-planner.call-sheets",
+        "shar.work.capacity-planner.transcript-minutes",
+        "shar.work.capacity-planner.metadata-records"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.shot-review.en",
+        "shar.representation.capacity-planner.shot-review.ru",
+        "shar.representation.capacity-planner.media-ingest.en",
+        "shar.representation.capacity-planner.media-ingest.ru",
+        "shar.representation.capacity-planner.proxy-generation.en",
+        "shar.representation.capacity-planner.proxy-generation.ru",
+        "shar.representation.capacity-planner.selects-review.en",
+        "shar.representation.capacity-planner.selects-review.ru",
+        "shar.representation.capacity-planner.rough-cut.en",
+        "shar.representation.capacity-planner.rough-cut.ru",
+        "shar.representation.capacity-planner.revision-notes.en",
+        "shar.representation.capacity-planner.revision-notes.ru",
+        "shar.representation.capacity-planner.vfx-shots.en",
+        "shar.representation.capacity-planner.vfx-shots.ru",
+        "shar.representation.capacity-planner.color-masters.en",
+        "shar.representation.capacity-planner.color-masters.ru",
+        "shar.representation.capacity-planner.audio-tracks.en",
+        "shar.representation.capacity-planner.audio-tracks.ru",
+        "shar.representation.capacity-planner.caption-cues.en",
+        "shar.representation.capacity-planner.caption-cues.ru",
+        "shar.representation.capacity-planner.localization-assets.en",
+        "shar.representation.capacity-planner.localization-assets.ru",
+        "shar.representation.capacity-planner.qc-files.en",
+        "shar.representation.capacity-planner.qc-files.ru",
+        "shar.representation.capacity-planner.delivery-files.en",
+        "shar.representation.capacity-planner.delivery-files.ru",
+        "shar.representation.capacity-planner.checksum-packages.en",
+        "shar.representation.capacity-planner.checksum-packages.ru",
+        "shar.representation.capacity-planner.archive-volume.en",
+        "shar.representation.capacity-planner.archive-volume.ru",
+        "shar.representation.capacity-planner.restore-volume.en",
+        "shar.representation.capacity-planner.restore-volume.ru",
+        "shar.representation.capacity-planner.product-images.en",
+        "shar.representation.capacity-planner.product-images.ru",
+        "shar.representation.capacity-planner.social-variants.en",
+        "shar.representation.capacity-planner.social-variants.ru",
+        "shar.representation.capacity-planner.campaign-markets.en",
+        "shar.representation.capacity-planner.campaign-markets.ru",
+        "shar.representation.capacity-planner.talent-approvals.en",
+        "shar.representation.capacity-planner.talent-approvals.ru",
+        "shar.representation.capacity-planner.supplier-bids.en",
+        "shar.representation.capacity-planner.supplier-bids.ru",
+        "shar.representation.capacity-planner.location-options.en",
+        "shar.representation.capacity-planner.location-options.ru",
+        "shar.representation.capacity-planner.call-sheets.en",
+        "shar.representation.capacity-planner.call-sheets.ru",
+        "shar.representation.capacity-planner.transcript-minutes.en",
+        "shar.representation.capacity-planner.transcript-minutes.ru",
+        "shar.representation.capacity-planner.metadata-records.en",
+        "shar.representation.capacity-planner.metadata-records.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-capacity-planners/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "v1.0.0@e701d6306e2f6cacbb9137a1f21885b48da56ef6",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable v1.0.0 release returned HTTP 200.",
+          "GitHub Actions run 34008829859 completed successfully.",
+          "Release identifies SHAR Production, https://sharprod.com/, MIT code and CC-BY-4.0 synthetic data."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-capacity-planners.huggingface",
+      "work_ids": [
+        "shar.work.capacity-planner.shot-review",
+        "shar.work.capacity-planner.media-ingest",
+        "shar.work.capacity-planner.proxy-generation",
+        "shar.work.capacity-planner.selects-review",
+        "shar.work.capacity-planner.rough-cut",
+        "shar.work.capacity-planner.revision-notes",
+        "shar.work.capacity-planner.vfx-shots",
+        "shar.work.capacity-planner.color-masters",
+        "shar.work.capacity-planner.audio-tracks",
+        "shar.work.capacity-planner.caption-cues",
+        "shar.work.capacity-planner.localization-assets",
+        "shar.work.capacity-planner.qc-files",
+        "shar.work.capacity-planner.delivery-files",
+        "shar.work.capacity-planner.checksum-packages",
+        "shar.work.capacity-planner.archive-volume",
+        "shar.work.capacity-planner.restore-volume",
+        "shar.work.capacity-planner.product-images",
+        "shar.work.capacity-planner.social-variants",
+        "shar.work.capacity-planner.campaign-markets",
+        "shar.work.capacity-planner.talent-approvals",
+        "shar.work.capacity-planner.supplier-bids",
+        "shar.work.capacity-planner.location-options",
+        "shar.work.capacity-planner.call-sheets",
+        "shar.work.capacity-planner.transcript-minutes",
+        "shar.work.capacity-planner.metadata-records"
+      ],
+      "representation_ids": [
+        "shar.representation.capacity-planner.shot-review.en",
+        "shar.representation.capacity-planner.shot-review.ru",
+        "shar.representation.capacity-planner.media-ingest.en",
+        "shar.representation.capacity-planner.media-ingest.ru",
+        "shar.representation.capacity-planner.proxy-generation.en",
+        "shar.representation.capacity-planner.proxy-generation.ru",
+        "shar.representation.capacity-planner.selects-review.en",
+        "shar.representation.capacity-planner.selects-review.ru",
+        "shar.representation.capacity-planner.rough-cut.en",
+        "shar.representation.capacity-planner.rough-cut.ru",
+        "shar.representation.capacity-planner.revision-notes.en",
+        "shar.representation.capacity-planner.revision-notes.ru",
+        "shar.representation.capacity-planner.vfx-shots.en",
+        "shar.representation.capacity-planner.vfx-shots.ru",
+        "shar.representation.capacity-planner.color-masters.en",
+        "shar.representation.capacity-planner.color-masters.ru",
+        "shar.representation.capacity-planner.audio-tracks.en",
+        "shar.representation.capacity-planner.audio-tracks.ru",
+        "shar.representation.capacity-planner.caption-cues.en",
+        "shar.representation.capacity-planner.caption-cues.ru",
+        "shar.representation.capacity-planner.localization-assets.en",
+        "shar.representation.capacity-planner.localization-assets.ru",
+        "shar.representation.capacity-planner.qc-files.en",
+        "shar.representation.capacity-planner.qc-files.ru",
+        "shar.representation.capacity-planner.delivery-files.en",
+        "shar.representation.capacity-planner.delivery-files.ru",
+        "shar.representation.capacity-planner.checksum-packages.en",
+        "shar.representation.capacity-planner.checksum-packages.ru",
+        "shar.representation.capacity-planner.archive-volume.en",
+        "shar.representation.capacity-planner.archive-volume.ru",
+        "shar.representation.capacity-planner.restore-volume.en",
+        "shar.representation.capacity-planner.restore-volume.ru",
+        "shar.representation.capacity-planner.product-images.en",
+        "shar.representation.capacity-planner.product-images.ru",
+        "shar.representation.capacity-planner.social-variants.en",
+        "shar.representation.capacity-planner.social-variants.ru",
+        "shar.representation.capacity-planner.campaign-markets.en",
+        "shar.representation.capacity-planner.campaign-markets.ru",
+        "shar.representation.capacity-planner.talent-approvals.en",
+        "shar.representation.capacity-planner.talent-approvals.ru",
+        "shar.representation.capacity-planner.supplier-bids.en",
+        "shar.representation.capacity-planner.supplier-bids.ru",
+        "shar.representation.capacity-planner.location-options.en",
+        "shar.representation.capacity-planner.location-options.ru",
+        "shar.representation.capacity-planner.call-sheets.en",
+        "shar.representation.capacity-planner.call-sheets.ru",
+        "shar.representation.capacity-planner.transcript-minutes.en",
+        "shar.representation.capacity-planner.transcript-minutes.ru",
+        "shar.representation.capacity-planner.metadata-records.en",
+        "shar.representation.capacity-planner.metadata-records.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-capacity-planners",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:25:41Z",
+      "provider_version": "ed4f17caeedaaa0d89e7d97cef34b90da5db1cad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public Hugging Face dataset and commit returned HTTP 200.",
+          "Dataset card identifies SHAR Production and https://sharprod.com/ with CC-BY-4.0 and AI assistance disclosure.",
+          "scenarios.jsonl exposes exactly 100 synthetic workload scenarios."
+        ]
+      },
+      "release_id": "shar.release.production-capacity-planners.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -23281,6 +25470,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-risk-simulators",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-shot-review-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/shot-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-shot-review-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/shot-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-media-ingest-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/media-ingest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-media-ingest-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/media-ingest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-proxy-generation-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/proxy-generation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-proxy-generation-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/proxy-generation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-selects-review-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/selects-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-selects-review-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/selects-review/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-rough-cut-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/rough-cut/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-rough-cut-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/rough-cut/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-revision-notes-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/revision-notes/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-revision-notes-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/revision-notes/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-vfx-shots-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/vfx-shots/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-vfx-shots-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/vfx-shots/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-color-masters-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/color-masters/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-color-masters-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/color-masters/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-audio-tracks-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/audio-tracks/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-audio-tracks-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/audio-tracks/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-caption-cues-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/caption-cues/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-caption-cues-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/caption-cues/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-localization-assets-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/localization-assets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-localization-assets-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/localization-assets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-qc-files-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/qc-files/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-qc-files-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/qc-files/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-delivery-files-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/delivery-files/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-delivery-files-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/delivery-files/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-checksum-packages-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/checksum-packages/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-checksum-packages-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/checksum-packages/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-archive-volume-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/archive-volume/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-archive-volume-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/archive-volume/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-restore-volume-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/restore-volume/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-restore-volume-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/restore-volume/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-product-images-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/product-images/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-product-images-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/product-images/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-social-variants-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/social-variants/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-social-variants-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/social-variants/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-campaign-markets-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/campaign-markets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-campaign-markets-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/campaign-markets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-talent-approvals-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/talent-approvals/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-talent-approvals-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/talent-approvals/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-supplier-bids-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/supplier-bids/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-supplier-bids-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/supplier-bids/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-location-options-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/location-options/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-location-options-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/location-options/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-call-sheets-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/call-sheets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-call-sheets-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/call-sheets/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-transcript-minutes-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/transcript-minutes/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-transcript-minutes-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/transcript-minutes/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-metadata-records-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/en/metadata-records/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.capacity-planner-metadata-records-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/capacity-planners/ru/metadata-records/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-capacity-planners-github.website",
+      "source_url": "https://github.com/SHARProduction/production-capacity-planners/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-capacity-planners-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-capacity-planners",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:25:41Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
