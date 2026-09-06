@@ -14,7 +14,7 @@ const unique = (rows, key) => {
 
 add(data.publisher?.name === 'SHAR Production' && data.publisher?.website === 'https://sharprod.com/', 'publisher mismatch');
 add(data.incremental_spend_rub === 0, 'incremental spend must be zero');
-add(data.counts?.verified_counted_placements === 994, 'verified baseline must be 994');
+add(data.counts?.verified_counted_placements === 1046, 'verified baseline must be 1046');
 add(data.counts?.gap_to_minimum === data.counts.minimum_target - data.counts.verified_counted_placements, 'target gap mismatch');
 const works = unique(data.works, 'work_id');
 const representations = unique(data.representations, 'representation_id');

@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T03:05:29Z",
+  "updated_at": "2026-09-06T03:17:14Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 994,
-    "gap_to_minimum": 506,
+    "verified_counted_placements": 1046,
+    "gap_to_minimum": 454,
     "localized_tool_pages": 444,
-    "github_public_repositories": 148,
-    "hugging_face_datasets": 16,
+    "github_public_repositories": 149,
+    "hugging_face_datasets": 17,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -61,9 +61,12 @@
     "indexnow_accepted_url_submissions": 52,
     "localized_production_option_matrix_pages": 50,
     "production_option_matrix_repository_placements": 1,
-    "production_option_matrix_dataset_placements": 1
+    "production_option_matrix_dataset_placements": 1,
+    "localized_production_risk_simulator_pages": 50,
+    "production_risk_simulator_repository_placements": 1,
+    "production_risk_simulator_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements + 52 production risk simulator placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -1604,6 +1607,206 @@
       "license": "MIT",
       "results_license": "CC-BY-4.0",
       "title_ru": "Модель передачи происхождения"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.brief-risk",
+      "title": "Production brief risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски производственного брифа"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.rights-risk",
+      "title": "Rights clearance risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски очистки прав"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.budget-risk",
+      "title": "Production budget risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски производственного бюджета"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.schedule-risk",
+      "title": "Production schedule risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски производственного графика"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.location-risk",
+      "title": "Location production risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски съёмочной локации"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.crew-risk",
+      "title": "Crew operations risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски работы съёмочной группы"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.talent-risk",
+      "title": "Talent production risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски работы с талантом"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.equipment-risk",
+      "title": "Equipment risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски оборудования"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.camera-data-risk",
+      "title": "Camera data risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски данных камеры"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.audio-risk",
+      "title": "Production audio risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски производственного звука"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.lighting-risk",
+      "title": "Lighting and power risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски света и питания"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.weather-risk",
+      "title": "Weather exposure risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Погодные риски"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.media-backup-risk",
+      "title": "Media backup risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски резервирования медиа"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.proxy-risk",
+      "title": "Proxy workflow risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски прокси-процесса"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.edit-risk",
+      "title": "Editorial workflow risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски монтажа"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.vfx-risk",
+      "title": "VFX turnover risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски передачи VFX"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.color-risk",
+      "title": "Color finishing risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски цветокоррекции"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.mix-risk",
+      "title": "Audio mix risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски сведения звука"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.caption-risk",
+      "title": "Caption delivery risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски поставки субтитров"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.localization-risk",
+      "title": "Localization risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски локализации"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.qc-risk",
+      "title": "Quality control risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски контроля качества"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.delivery-risk",
+      "title": "Delivery package risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски пакета поставки"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.archive-risk",
+      "title": "Archive risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски архива"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.security-risk",
+      "title": "Production security risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски безопасности производства"
+    },
+    {
+      "work_id": "shar.work.risk-simulator.release-risk",
+      "title": "Release governance risk",
+      "kind": "interactive_probability_impact_risk_simulator",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Риски управления выпуском"
     }
   ],
   "representations": [
@@ -3922,6 +4125,306 @@
       "work_id": "shar.work.option-matrix.provenance-carriage",
       "language": "ru",
       "format": "interactive_html_option_matrix"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.brief-risk.en",
+      "work_id": "shar.work.risk-simulator.brief-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.brief-risk.ru",
+      "work_id": "shar.work.risk-simulator.brief-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.rights-risk.en",
+      "work_id": "shar.work.risk-simulator.rights-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.rights-risk.ru",
+      "work_id": "shar.work.risk-simulator.rights-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.budget-risk.en",
+      "work_id": "shar.work.risk-simulator.budget-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.budget-risk.ru",
+      "work_id": "shar.work.risk-simulator.budget-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.schedule-risk.en",
+      "work_id": "shar.work.risk-simulator.schedule-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.schedule-risk.ru",
+      "work_id": "shar.work.risk-simulator.schedule-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.location-risk.en",
+      "work_id": "shar.work.risk-simulator.location-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.location-risk.ru",
+      "work_id": "shar.work.risk-simulator.location-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.crew-risk.en",
+      "work_id": "shar.work.risk-simulator.crew-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.crew-risk.ru",
+      "work_id": "shar.work.risk-simulator.crew-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.talent-risk.en",
+      "work_id": "shar.work.risk-simulator.talent-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.talent-risk.ru",
+      "work_id": "shar.work.risk-simulator.talent-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.equipment-risk.en",
+      "work_id": "shar.work.risk-simulator.equipment-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.equipment-risk.ru",
+      "work_id": "shar.work.risk-simulator.equipment-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.camera-data-risk.en",
+      "work_id": "shar.work.risk-simulator.camera-data-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.camera-data-risk.ru",
+      "work_id": "shar.work.risk-simulator.camera-data-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.audio-risk.en",
+      "work_id": "shar.work.risk-simulator.audio-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.audio-risk.ru",
+      "work_id": "shar.work.risk-simulator.audio-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.lighting-risk.en",
+      "work_id": "shar.work.risk-simulator.lighting-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.lighting-risk.ru",
+      "work_id": "shar.work.risk-simulator.lighting-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.weather-risk.en",
+      "work_id": "shar.work.risk-simulator.weather-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.weather-risk.ru",
+      "work_id": "shar.work.risk-simulator.weather-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.media-backup-risk.en",
+      "work_id": "shar.work.risk-simulator.media-backup-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.media-backup-risk.ru",
+      "work_id": "shar.work.risk-simulator.media-backup-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.proxy-risk.en",
+      "work_id": "shar.work.risk-simulator.proxy-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.proxy-risk.ru",
+      "work_id": "shar.work.risk-simulator.proxy-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.edit-risk.en",
+      "work_id": "shar.work.risk-simulator.edit-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.edit-risk.ru",
+      "work_id": "shar.work.risk-simulator.edit-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.vfx-risk.en",
+      "work_id": "shar.work.risk-simulator.vfx-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.vfx-risk.ru",
+      "work_id": "shar.work.risk-simulator.vfx-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.color-risk.en",
+      "work_id": "shar.work.risk-simulator.color-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.color-risk.ru",
+      "work_id": "shar.work.risk-simulator.color-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.mix-risk.en",
+      "work_id": "shar.work.risk-simulator.mix-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.mix-risk.ru",
+      "work_id": "shar.work.risk-simulator.mix-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.caption-risk.en",
+      "work_id": "shar.work.risk-simulator.caption-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.caption-risk.ru",
+      "work_id": "shar.work.risk-simulator.caption-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.localization-risk.en",
+      "work_id": "shar.work.risk-simulator.localization-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.localization-risk.ru",
+      "work_id": "shar.work.risk-simulator.localization-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.qc-risk.en",
+      "work_id": "shar.work.risk-simulator.qc-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.qc-risk.ru",
+      "work_id": "shar.work.risk-simulator.qc-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.delivery-risk.en",
+      "work_id": "shar.work.risk-simulator.delivery-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.delivery-risk.ru",
+      "work_id": "shar.work.risk-simulator.delivery-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.archive-risk.en",
+      "work_id": "shar.work.risk-simulator.archive-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.archive-risk.ru",
+      "work_id": "shar.work.risk-simulator.archive-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.security-risk.en",
+      "work_id": "shar.work.risk-simulator.security-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.security-risk.ru",
+      "work_id": "shar.work.risk-simulator.security-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.release-risk.en",
+      "work_id": "shar.work.risk-simulator.release-risk",
+      "language": "en",
+      "format": "interactive_html_risk_simulator"
+    },
+    {
+      "representation_id": "shar.representation.risk-simulator.release-risk.ru",
+      "work_id": "shar.work.risk-simulator.release-risk",
+      "language": "ru",
+      "format": "interactive_html_risk_simulator"
     }
   ],
   "releases": [
@@ -4226,6 +4729,38 @@
         "shar.work.option-matrix.release-rollout",
         "shar.work.option-matrix.accessibility-production",
         "shar.work.option-matrix.provenance-carriage"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.risk-simulator.brief-risk",
+        "shar.work.risk-simulator.rights-risk",
+        "shar.work.risk-simulator.budget-risk",
+        "shar.work.risk-simulator.schedule-risk",
+        "shar.work.risk-simulator.location-risk",
+        "shar.work.risk-simulator.crew-risk",
+        "shar.work.risk-simulator.talent-risk",
+        "shar.work.risk-simulator.equipment-risk",
+        "shar.work.risk-simulator.camera-data-risk",
+        "shar.work.risk-simulator.audio-risk",
+        "shar.work.risk-simulator.lighting-risk",
+        "shar.work.risk-simulator.weather-risk",
+        "shar.work.risk-simulator.media-backup-risk",
+        "shar.work.risk-simulator.proxy-risk",
+        "shar.work.risk-simulator.edit-risk",
+        "shar.work.risk-simulator.vfx-risk",
+        "shar.work.risk-simulator.color-risk",
+        "shar.work.risk-simulator.mix-risk",
+        "shar.work.risk-simulator.caption-risk",
+        "shar.work.risk-simulator.localization-risk",
+        "shar.work.risk-simulator.qc-risk",
+        "shar.work.risk-simulator.delivery-risk",
+        "shar.work.risk-simulator.archive-risk",
+        "shar.work.risk-simulator.security-risk",
+        "shar.work.risk-simulator.release-risk"
       ]
     }
   ],
@@ -17356,6 +17891,1660 @@
       },
       "release_id": "shar.release.production-option-matrices.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.brief-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.brief-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.brief-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/brief-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.brief-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.brief-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.brief-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/brief-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.rights-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.rights-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.rights-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/rights-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.rights-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.rights-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.rights-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/rights-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.budget-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.budget-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.budget-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/budget-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.budget-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.budget-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.budget-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/budget-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.schedule-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.schedule-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.schedule-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/schedule-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.schedule-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.schedule-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.schedule-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/schedule-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.location-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.location-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.location-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/location-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.location-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.location-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.location-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/location-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.crew-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.crew-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.crew-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/crew-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.crew-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.crew-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.crew-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/crew-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.talent-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.talent-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.talent-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/talent-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.talent-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.talent-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.talent-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/talent-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.equipment-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.equipment-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.equipment-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/equipment-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.equipment-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.equipment-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.equipment-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/equipment-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.camera-data-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.camera-data-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.camera-data-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/camera-data-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.camera-data-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.camera-data-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.camera-data-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/camera-data-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.audio-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.audio-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.audio-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/audio-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.audio-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.audio-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.audio-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/audio-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.lighting-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.lighting-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.lighting-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/lighting-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.lighting-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.lighting-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.lighting-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/lighting-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.weather-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.weather-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.weather-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/weather-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.weather-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.weather-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.weather-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/weather-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.media-backup-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.media-backup-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.media-backup-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/media-backup-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.media-backup-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.media-backup-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.media-backup-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/media-backup-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.proxy-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.proxy-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.proxy-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/proxy-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.proxy-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.proxy-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.proxy-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/proxy-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.edit-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.edit-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.edit-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/edit-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.edit-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.edit-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.edit-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/edit-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.vfx-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.vfx-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.vfx-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/vfx-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.vfx-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.vfx-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.vfx-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/vfx-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.color-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.color-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.color-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/color-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.color-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.color-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.color-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/color-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.mix-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.mix-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.mix-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/mix-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.mix-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.mix-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.mix-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/mix-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.caption-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.caption-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.caption-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/caption-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.caption-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.caption-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.caption-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/caption-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.localization-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.localization-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.localization-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/localization-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.localization-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.localization-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.localization-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/localization-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.qc-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.qc-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.qc-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/qc-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.qc-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.qc-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.qc-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/qc-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.delivery-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.delivery-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.delivery-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/delivery-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.delivery-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.delivery-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.delivery-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/delivery-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.archive-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.archive-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.archive-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/archive-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.archive-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.archive-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.archive-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/archive-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.security-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.security-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.security-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/security-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.security-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.security-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.security-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/security-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.release-risk.cloudflare.en",
+      "work_ids": [
+        "shar.work.risk-simulator.release-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.release-risk.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/release-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.risk-simulator.release-risk.cloudflare.ru",
+      "work_ids": [
+        "shar.work.risk-simulator.release-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.release-risk.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/release-risk/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "6f438572-d6da-4ddd-b65d-0ca82d3ff025@194a1e575e817b37f3c5d58a569fd4d8b8df2507",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Interactive browser set all eight probability and impact controls to 5 and returned exposure 100.0 with HIGH status.",
+          "Browser 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-risk-simulators.github",
+      "work_ids": [
+        "shar.work.risk-simulator.brief-risk",
+        "shar.work.risk-simulator.rights-risk",
+        "shar.work.risk-simulator.budget-risk",
+        "shar.work.risk-simulator.schedule-risk",
+        "shar.work.risk-simulator.location-risk",
+        "shar.work.risk-simulator.crew-risk",
+        "shar.work.risk-simulator.talent-risk",
+        "shar.work.risk-simulator.equipment-risk",
+        "shar.work.risk-simulator.camera-data-risk",
+        "shar.work.risk-simulator.audio-risk",
+        "shar.work.risk-simulator.lighting-risk",
+        "shar.work.risk-simulator.weather-risk",
+        "shar.work.risk-simulator.media-backup-risk",
+        "shar.work.risk-simulator.proxy-risk",
+        "shar.work.risk-simulator.edit-risk",
+        "shar.work.risk-simulator.vfx-risk",
+        "shar.work.risk-simulator.color-risk",
+        "shar.work.risk-simulator.mix-risk",
+        "shar.work.risk-simulator.caption-risk",
+        "shar.work.risk-simulator.localization-risk",
+        "shar.work.risk-simulator.qc-risk",
+        "shar.work.risk-simulator.delivery-risk",
+        "shar.work.risk-simulator.archive-risk",
+        "shar.work.risk-simulator.security-risk",
+        "shar.work.risk-simulator.release-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.brief-risk.en",
+        "shar.representation.risk-simulator.brief-risk.ru",
+        "shar.representation.risk-simulator.rights-risk.en",
+        "shar.representation.risk-simulator.rights-risk.ru",
+        "shar.representation.risk-simulator.budget-risk.en",
+        "shar.representation.risk-simulator.budget-risk.ru",
+        "shar.representation.risk-simulator.schedule-risk.en",
+        "shar.representation.risk-simulator.schedule-risk.ru",
+        "shar.representation.risk-simulator.location-risk.en",
+        "shar.representation.risk-simulator.location-risk.ru",
+        "shar.representation.risk-simulator.crew-risk.en",
+        "shar.representation.risk-simulator.crew-risk.ru",
+        "shar.representation.risk-simulator.talent-risk.en",
+        "shar.representation.risk-simulator.talent-risk.ru",
+        "shar.representation.risk-simulator.equipment-risk.en",
+        "shar.representation.risk-simulator.equipment-risk.ru",
+        "shar.representation.risk-simulator.camera-data-risk.en",
+        "shar.representation.risk-simulator.camera-data-risk.ru",
+        "shar.representation.risk-simulator.audio-risk.en",
+        "shar.representation.risk-simulator.audio-risk.ru",
+        "shar.representation.risk-simulator.lighting-risk.en",
+        "shar.representation.risk-simulator.lighting-risk.ru",
+        "shar.representation.risk-simulator.weather-risk.en",
+        "shar.representation.risk-simulator.weather-risk.ru",
+        "shar.representation.risk-simulator.media-backup-risk.en",
+        "shar.representation.risk-simulator.media-backup-risk.ru",
+        "shar.representation.risk-simulator.proxy-risk.en",
+        "shar.representation.risk-simulator.proxy-risk.ru",
+        "shar.representation.risk-simulator.edit-risk.en",
+        "shar.representation.risk-simulator.edit-risk.ru",
+        "shar.representation.risk-simulator.vfx-risk.en",
+        "shar.representation.risk-simulator.vfx-risk.ru",
+        "shar.representation.risk-simulator.color-risk.en",
+        "shar.representation.risk-simulator.color-risk.ru",
+        "shar.representation.risk-simulator.mix-risk.en",
+        "shar.representation.risk-simulator.mix-risk.ru",
+        "shar.representation.risk-simulator.caption-risk.en",
+        "shar.representation.risk-simulator.caption-risk.ru",
+        "shar.representation.risk-simulator.localization-risk.en",
+        "shar.representation.risk-simulator.localization-risk.ru",
+        "shar.representation.risk-simulator.qc-risk.en",
+        "shar.representation.risk-simulator.qc-risk.ru",
+        "shar.representation.risk-simulator.delivery-risk.en",
+        "shar.representation.risk-simulator.delivery-risk.ru",
+        "shar.representation.risk-simulator.archive-risk.en",
+        "shar.representation.risk-simulator.archive-risk.ru",
+        "shar.representation.risk-simulator.security-risk.en",
+        "shar.representation.risk-simulator.security-risk.ru",
+        "shar.representation.risk-simulator.release-risk.en",
+        "shar.representation.risk-simulator.release-risk.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-risk-simulators/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "v1.0.0@0094e8230372ac029f4661988065cea6854b72b1",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable v1.0.0 release returned HTTP 200.",
+          "GitHub Actions run 34008473578 completed successfully.",
+          "Release identifies SHAR Production, https://sharprod.com/, MIT code and CC-BY-4.0 synthetic data."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-risk-simulators.huggingface",
+      "work_ids": [
+        "shar.work.risk-simulator.brief-risk",
+        "shar.work.risk-simulator.rights-risk",
+        "shar.work.risk-simulator.budget-risk",
+        "shar.work.risk-simulator.schedule-risk",
+        "shar.work.risk-simulator.location-risk",
+        "shar.work.risk-simulator.crew-risk",
+        "shar.work.risk-simulator.talent-risk",
+        "shar.work.risk-simulator.equipment-risk",
+        "shar.work.risk-simulator.camera-data-risk",
+        "shar.work.risk-simulator.audio-risk",
+        "shar.work.risk-simulator.lighting-risk",
+        "shar.work.risk-simulator.weather-risk",
+        "shar.work.risk-simulator.media-backup-risk",
+        "shar.work.risk-simulator.proxy-risk",
+        "shar.work.risk-simulator.edit-risk",
+        "shar.work.risk-simulator.vfx-risk",
+        "shar.work.risk-simulator.color-risk",
+        "shar.work.risk-simulator.mix-risk",
+        "shar.work.risk-simulator.caption-risk",
+        "shar.work.risk-simulator.localization-risk",
+        "shar.work.risk-simulator.qc-risk",
+        "shar.work.risk-simulator.delivery-risk",
+        "shar.work.risk-simulator.archive-risk",
+        "shar.work.risk-simulator.security-risk",
+        "shar.work.risk-simulator.release-risk"
+      ],
+      "representation_ids": [
+        "shar.representation.risk-simulator.brief-risk.en",
+        "shar.representation.risk-simulator.brief-risk.ru",
+        "shar.representation.risk-simulator.rights-risk.en",
+        "shar.representation.risk-simulator.rights-risk.ru",
+        "shar.representation.risk-simulator.budget-risk.en",
+        "shar.representation.risk-simulator.budget-risk.ru",
+        "shar.representation.risk-simulator.schedule-risk.en",
+        "shar.representation.risk-simulator.schedule-risk.ru",
+        "shar.representation.risk-simulator.location-risk.en",
+        "shar.representation.risk-simulator.location-risk.ru",
+        "shar.representation.risk-simulator.crew-risk.en",
+        "shar.representation.risk-simulator.crew-risk.ru",
+        "shar.representation.risk-simulator.talent-risk.en",
+        "shar.representation.risk-simulator.talent-risk.ru",
+        "shar.representation.risk-simulator.equipment-risk.en",
+        "shar.representation.risk-simulator.equipment-risk.ru",
+        "shar.representation.risk-simulator.camera-data-risk.en",
+        "shar.representation.risk-simulator.camera-data-risk.ru",
+        "shar.representation.risk-simulator.audio-risk.en",
+        "shar.representation.risk-simulator.audio-risk.ru",
+        "shar.representation.risk-simulator.lighting-risk.en",
+        "shar.representation.risk-simulator.lighting-risk.ru",
+        "shar.representation.risk-simulator.weather-risk.en",
+        "shar.representation.risk-simulator.weather-risk.ru",
+        "shar.representation.risk-simulator.media-backup-risk.en",
+        "shar.representation.risk-simulator.media-backup-risk.ru",
+        "shar.representation.risk-simulator.proxy-risk.en",
+        "shar.representation.risk-simulator.proxy-risk.ru",
+        "shar.representation.risk-simulator.edit-risk.en",
+        "shar.representation.risk-simulator.edit-risk.ru",
+        "shar.representation.risk-simulator.vfx-risk.en",
+        "shar.representation.risk-simulator.vfx-risk.ru",
+        "shar.representation.risk-simulator.color-risk.en",
+        "shar.representation.risk-simulator.color-risk.ru",
+        "shar.representation.risk-simulator.mix-risk.en",
+        "shar.representation.risk-simulator.mix-risk.ru",
+        "shar.representation.risk-simulator.caption-risk.en",
+        "shar.representation.risk-simulator.caption-risk.ru",
+        "shar.representation.risk-simulator.localization-risk.en",
+        "shar.representation.risk-simulator.localization-risk.ru",
+        "shar.representation.risk-simulator.qc-risk.en",
+        "shar.representation.risk-simulator.qc-risk.ru",
+        "shar.representation.risk-simulator.delivery-risk.en",
+        "shar.representation.risk-simulator.delivery-risk.ru",
+        "shar.representation.risk-simulator.archive-risk.en",
+        "shar.representation.risk-simulator.archive-risk.ru",
+        "shar.representation.risk-simulator.security-risk.en",
+        "shar.representation.risk-simulator.security-risk.ru",
+        "shar.representation.risk-simulator.release-risk.en",
+        "shar.representation.risk-simulator.release-risk.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-risk-simulators",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T03:17:14Z",
+      "provider_version": "71ed68eaea39cdb6bec9efb2a7844f71d3276978",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public Hugging Face dataset and commit returned HTTP 200.",
+          "Dataset card identifies SHAR Production and https://sharprod.com/ with CC-BY-4.0 and AI assistance disclosure.",
+          "scenarios.jsonl exposes exactly 100 synthetic probability-impact scenarios."
+        ]
+      },
+      "release_id": "shar.release.production-risk-simulators.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -20676,6 +22865,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-option-matrices",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T03:05:29Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-brief-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/brief-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-brief-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/brief-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-rights-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/rights-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-rights-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/rights-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-budget-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/budget-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-budget-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/budget-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-schedule-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/schedule-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-schedule-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/schedule-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-location-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/location-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-location-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/location-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-crew-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/crew-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-crew-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/crew-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-talent-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/talent-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-talent-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/talent-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-equipment-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/equipment-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-equipment-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/equipment-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-camera-data-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/camera-data-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-camera-data-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/camera-data-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-audio-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/audio-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-audio-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/audio-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-lighting-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/lighting-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-lighting-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/lighting-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-weather-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/weather-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-weather-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/weather-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-media-backup-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/media-backup-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-media-backup-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/media-backup-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-proxy-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/proxy-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-proxy-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/proxy-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-edit-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/edit-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-edit-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/edit-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-vfx-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/vfx-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-vfx-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/vfx-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-color-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/color-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-color-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/color-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-mix-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/mix-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-mix-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/mix-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-caption-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/caption-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-caption-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/caption-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-localization-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/localization-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-localization-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/localization-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-qc-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/qc-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-qc-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/qc-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-delivery-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/delivery-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-delivery-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/delivery-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-archive-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/archive-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-archive-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/archive-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-security-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/security-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-security-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/security-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-release-risk-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/en/release-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.risk-simulator-release-risk-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/risk-simulators/ru/release-risk/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-risk-simulators-github.website",
+      "source_url": "https://github.com/SHARProduction/production-risk-simulators/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-risk-simulators-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-risk-simulators",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T03:17:14Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
