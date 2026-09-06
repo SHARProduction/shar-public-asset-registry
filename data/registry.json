@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-06T05:18:43Z",
+  "updated_at": "2026-09-06T05:56:27Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -506,14 +506,14 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.5.0"
+        "value": "v1.6.0"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T05:18:43Z",
-      "verification_method": "Public repository, immutable release and controlled search-measurement evidence check",
+      "verified_at": "2026-09-06T05:56:27Z",
+      "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
         "http_status": 200,
@@ -522,9 +522,10 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.5.0 release returned HTTP 200.",
-          "The tagged search evidence contains all 72 Google/Bing/Yandex slots: 33 MEASURED and 39 NOT_MEASURED.",
-          "Five Google rows link to directly inspected SHAR Production pages: four observed rank 1 and one observed rank 2; no stable-rank, traffic or causation claim is made."
+          "Public repository and v1.6.0 release returned HTTP 200.",
+          "The tagged evidence retains the 72-slot Google/Bing/Yandex search record and adds 24/24 measured Alice consumer queries.",
+          "Alice mentioned SHAR in seven answers and linked directly to sharprod.com in five; all four unique citation targets returned HTTP 200 with exact self-canonical URLs and brand presence.",
+          "These are dated observations and make no stable-rank, traffic, lead, causation or cross-product visibility claim."
         ]
       },
       "languages": [
@@ -537,9 +538,9 @@
           "target": "shar-public.asset.web.sharprod-home"
         }
       ],
-      "content_summary": "Public operational roadmap with a controlled 24-query RU/EN search panel, evidence-gated task states and a 72-slot Google/Bing/Yandex measurement record.",
+      "content_summary": "Public operational roadmap with evidence-gated task states, a 72-slot Google/Bing/Yandex search record and a complete 24-query Alice consumer measurement wave.",
       "notes": [
-        "Search observations are dated and requested-locale specific. Bing/Yandex unavailable slots remain NOT_MEASURED rather than zero."
+        "Search and AI observations are dated and requested-locale specific. Unavailable product slots remain NOT_MEASURED rather than zero."
       ],
       "next_review": "2026-09-13"
     },
