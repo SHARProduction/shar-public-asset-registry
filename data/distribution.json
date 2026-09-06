@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T02:42:34Z",
+  "updated_at": "2026-09-06T02:53:31Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 938,
-    "gap_to_minimum": 562,
+    "verified_counted_placements": 942,
+    "gap_to_minimum": 558,
     "localized_tool_pages": 444,
-    "github_public_repositories": 146,
-    "hugging_face_datasets": 14,
+    "github_public_repositories": 147,
+    "hugging_face_datasets": 15,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -54,9 +54,13 @@
     "production_conformance_catalog_dataset_placements": 1,
     "localized_production_readiness_scorecard_pages": 50,
     "production_readiness_scorecard_repository_placements": 1,
-    "production_readiness_scorecard_dataset_placements": 1
+    "production_readiness_scorecard_dataset_placements": 1,
+    "localized_indexing_observatory_pages": 2,
+    "indexing_observatory_repository_placements": 1,
+    "indexing_observatory_dataset_placements": 1,
+    "indexnow_accepted_url_submissions": 52
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -1390,6 +1394,13 @@
       "license": "MIT",
       "results_license": "CC-BY-4.0",
       "title_ru": "Готовность релиза"
+    },
+    {
+      "work_id": "shar.work.indexing-observatory.indexnow-wave13",
+      "title": "IndexNow Wave 13 observation",
+      "kind": "search_discovery_submission_observation",
+      "license": "CC-BY-4.0",
+      "title_ru": "Наблюдение IndexNow для Wave 13"
     }
   ],
   "representations": [
@@ -3396,6 +3407,18 @@
       "work_id": "shar.work.readiness-scorecard.release-readiness",
       "language": "ru",
       "format": "interactive_html_weighted_scorecard"
+    },
+    {
+      "representation_id": "shar.representation.indexing-observatory.indexnow-wave13.en",
+      "work_id": "shar.work.indexing-observatory.indexnow-wave13",
+      "language": "en",
+      "format": "html_observation_report"
+    },
+    {
+      "representation_id": "shar.representation.indexing-observatory.indexnow-wave13.ru",
+      "work_id": "shar.work.indexing-observatory.indexnow-wave13",
+      "language": "ru",
+      "format": "html_observation_report"
     }
   ],
   "releases": [
@@ -3660,6 +3683,14 @@
         "shar.work.readiness-scorecard.supplier-readiness",
         "shar.work.readiness-scorecard.sustainability-readiness",
         "shar.work.readiness-scorecard.release-readiness"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-indexing-observatory.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.indexing-observatory.indexnow-wave13"
       ]
     }
   ],
@@ -15018,6 +15049,124 @@
       },
       "release_id": "shar.release.production-readiness-scorecards.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.indexing-observatory.cloudflare.en",
+      "work_ids": [
+        "shar.work.indexing-observatory.indexnow-wave13"
+      ],
+      "representation_ids": [
+        "shar.representation.indexing-observatory.indexnow-wave13.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/indexing-observatory/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:53:31Z",
+      "provider_version": "40aaab22-4d84-4fcc-a055-f3dca74fdf51@3566206162d7c111f7e9a80ee493bdb0913743ab",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized Observatory URL returned HTTP 200 with canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Page exposes the HTTP 202 receipt and explicitly labels index inclusion UNVERIFIED.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 4/4 checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-indexing-observatory.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.indexing-observatory.cloudflare.ru",
+      "work_ids": [
+        "shar.work.indexing-observatory.indexnow-wave13"
+      ],
+      "representation_ids": [
+        "shar.representation.indexing-observatory.indexnow-wave13.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/indexing-observatory/ru/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:53:31Z",
+      "provider_version": "40aaab22-4d84-4fcc-a055-f3dca74fdf51@3566206162d7c111f7e9a80ee493bdb0913743ab",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized Observatory URL returned HTTP 200 with canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Page exposes the HTTP 202 receipt and explicitly labels index inclusion UNVERIFIED.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 4/4 checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-indexing-observatory.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-indexing-observatory.github",
+      "work_ids": [
+        "shar.work.indexing-observatory.indexnow-wave13"
+      ],
+      "representation_ids": [
+        "shar.representation.indexing-observatory.indexnow-wave13.en",
+        "shar.representation.indexing-observatory.indexnow-wave13.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-indexing-observatory/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:53:31Z",
+      "provider_version": "v1.0.0@301c64bc0b5d63e36b904fa08738c1ec6691211c",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable release returned HTTP 200.",
+          "GitHub Actions run 34007519471 completed successfully.",
+          "Documentation separates accepted submission from unverified index inclusion."
+        ]
+      },
+      "release_id": "shar.release.production-indexing-observatory.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-indexing-observatory.huggingface",
+      "work_ids": [
+        "shar.work.indexing-observatory.indexnow-wave13"
+      ],
+      "representation_ids": [
+        "shar.representation.indexing-observatory.indexnow-wave13.en",
+        "shar.representation.indexing-observatory.indexnow-wave13.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-indexing-observatory",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:53:31Z",
+      "provider_version": "bd3ba9eeaa961ae21ec917c842495e9cb79f7755",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public HF dataset and commit-pinned urls.jsonl returned HTTP 200.",
+          "Dataset card identifies SHAR Production and https://sharprod.com/.",
+          "urls.jsonl exposes 52 observations with ACCEPTED submission and UNVERIFIED indexing."
+        ]
+      },
+      "release_id": "shar.release.production-indexing-observatory.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -17890,6 +18039,38 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-readiness-scorecards",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:42:34Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.indexing-observatory-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/indexing-observatory/en/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:53:31Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.indexing-observatory-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/indexing-observatory/ru/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:53:31Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-indexing-observatory-github.website",
+      "source_url": "https://github.com/SHARProduction/production-indexing-observatory/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:53:31Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-indexing-observatory-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-indexing-observatory",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:53:31Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
