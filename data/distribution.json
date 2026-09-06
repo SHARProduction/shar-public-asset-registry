@@ -1,29 +1,72 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "registry_extension_id": "SHAR_PUBLIC_DISTRIBUTION_REGISTRY",
   "publisher": {
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T00:16:00Z",
+  "updated_at": "2026-09-06T00:35:00Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 580,
-    "gap_to_minimum": 920,
+    "verified_counted_placements": 592,
+    "gap_to_minimum": 908,
     "localized_tool_pages": 444,
     "github_public_repositories": 133,
     "hugging_face_datasets": 2,
-    "hugging_face_static_spaces": 1
+    "hugging_face_static_spaces": 1,
+    "localized_integration_recipe_pages": 10,
+    "integration_recipe_repository_placements": 1,
+    "integration_recipe_dataset_placements": 1
   },
-  "counting_note": "The baseline count is a verified category rollup. Detailed work/representation/placement migration begins with the release below and grows through reconciliation; registry assets and sitemap navigation pages are not added again.",
+  "counting_note": "The current verified rollup counts 580 phase-1 placements plus 12 reconciled Wave 01 placements. Registry asset records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
       "title": "SHAR Production Tool Factory",
       "kind": "software",
       "license": "MIT"
+    },
+    {
+      "work_id": "shar.work.recipe.subtitle-delivery-qc",
+      "title": "Subtitle delivery QC",
+      "title_ru": "Проверка доставки субтитров",
+      "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.recipe.deliverable-manifest-validation",
+      "title": "Deliverable manifest validation",
+      "title_ru": "Проверка манифеста материалов",
+      "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.recipe.localized-file-naming",
+      "title": "Localized file naming",
+      "title_ru": "Имена локализованных файлов",
+      "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.recipe.production-handoff-gate",
+      "title": "Production handoff gate",
+      "title_ru": "Гейт передачи продакшена",
+      "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
+    },
+    {
+      "work_id": "shar.work.recipe.checksum-inventory",
+      "title": "Checksum inventory verification",
+      "title_ru": "Проверка реестра контрольных сумм",
+      "kind": "integration_recipe",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0"
     }
   ],
   "representations": [
@@ -38,6 +81,66 @@
       "work_id": "shar.work.tool-factory",
       "language": "language-neutral",
       "format": "json-schema"
+    },
+    {
+      "representation_id": "shar.representation.recipe.subtitle-delivery-qc.en",
+      "work_id": "shar.work.recipe.subtitle-delivery-qc",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.subtitle-delivery-qc.ru",
+      "work_id": "shar.work.recipe.subtitle-delivery-qc",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.deliverable-manifest-validation.en",
+      "work_id": "shar.work.recipe.deliverable-manifest-validation",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.deliverable-manifest-validation.ru",
+      "work_id": "shar.work.recipe.deliverable-manifest-validation",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.localized-file-naming.en",
+      "work_id": "shar.work.recipe.localized-file-naming",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.localized-file-naming.ru",
+      "work_id": "shar.work.recipe.localized-file-naming",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.production-handoff-gate.en",
+      "work_id": "shar.work.recipe.production-handoff-gate",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.production-handoff-gate.ru",
+      "work_id": "shar.work.recipe.production-handoff-gate",
+      "language": "ru",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.checksum-inventory.en",
+      "work_id": "shar.work.recipe.checksum-inventory",
+      "language": "en",
+      "format": "html"
+    },
+    {
+      "representation_id": "shar.representation.recipe.checksum-inventory.ru",
+      "work_id": "shar.work.recipe.checksum-inventory",
+      "language": "ru",
+      "format": "html"
     }
   ],
   "releases": [
@@ -46,12 +149,23 @@
       "work_id": "shar.work.tool-factory",
       "version": "1.1.0",
       "immutable_ref": "bf2067d6d446e59f5f0bb62d00ea4caafdaf16cb"
+    },
+    {
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "work_ids": [
+        "shar.work.recipe.subtitle-delivery-qc",
+        "shar.work.recipe.deliverable-manifest-validation",
+        "shar.work.recipe.localized-file-naming",
+        "shar.work.recipe.production-handoff-gate",
+        "shar.work.recipe.checksum-inventory"
+      ],
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0"
     }
   ],
   "placements": [
     {
       "placement_id": "shar.placement.tool-factory.github",
-      "work_id": "shar.work.tool-factory",
       "representation_ids": [
         "shar.representation.tool-factory.source",
         "shar.representation.tool-factory.schema"
@@ -74,6 +188,383 @@
           "Local test suite passed 13/13 and npm pack dry-run contained the distribution module and schema."
         ]
       },
+      "counted_in_baseline": true,
+      "work_ids": [
+        "shar.work.tool-factory"
+      ]
+    },
+    {
+      "placement_id": "shar.placement.recipe.subtitle-delivery-qc.cloudflare.en",
+      "work_ids": [
+        "shar.work.recipe.subtitle-delivery-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.subtitle-delivery-qc.en"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/en/subtitle-delivery-qc/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.subtitle-delivery-qc.cloudflare.ru",
+      "work_ids": [
+        "shar.work.recipe.subtitle-delivery-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.subtitle-delivery-qc.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/ru/subtitle-delivery-qc/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.deliverable-manifest-validation.cloudflare.en",
+      "work_ids": [
+        "shar.work.recipe.deliverable-manifest-validation"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.deliverable-manifest-validation.en"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/en/deliverable-manifest-validation/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.deliverable-manifest-validation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.recipe.deliverable-manifest-validation"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.deliverable-manifest-validation.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/ru/deliverable-manifest-validation/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.localized-file-naming.cloudflare.en",
+      "work_ids": [
+        "shar.work.recipe.localized-file-naming"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.localized-file-naming.en"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/en/localized-file-naming/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.localized-file-naming.cloudflare.ru",
+      "work_ids": [
+        "shar.work.recipe.localized-file-naming"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.localized-file-naming.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/ru/localized-file-naming/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.production-handoff-gate.cloudflare.en",
+      "work_ids": [
+        "shar.work.recipe.production-handoff-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.production-handoff-gate.en"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/en/production-handoff-gate/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.production-handoff-gate.cloudflare.ru",
+      "work_ids": [
+        "shar.work.recipe.production-handoff-gate"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.production-handoff-gate.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/ru/production-handoff-gate/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.checksum-inventory.cloudflare.en",
+      "work_ids": [
+        "shar.work.recipe.checksum-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.checksum-inventory.en"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/en/checksum-inventory/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.recipe.checksum-inventory.cloudflare.ru",
+      "work_ids": [
+        "shar.work.recipe.checksum-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.checksum-inventory.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-integration-recipes.pages.dev/ru/checksum-inventory/",
+      "provider_version": "1191bf57-a096-4bff-9e8d-ea62f1e0104e",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact public URL returned HTTP 200 with the matching canonical, language, SHAR Production name and https://sharprod.com/.",
+          "Chrome checks at 390x844 and 1440x900 found no horizontal overflow.",
+          "Recipe function is covered by the clean 10-test local suite."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.integration-recipes.github",
+      "work_ids": [
+        "shar.work.recipe.subtitle-delivery-qc",
+        "shar.work.recipe.deliverable-manifest-validation",
+        "shar.work.recipe.localized-file-naming",
+        "shar.work.recipe.production-handoff-gate",
+        "shar.work.recipe.checksum-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.subtitle-delivery-qc.en",
+        "shar.representation.recipe.subtitle-delivery-qc.ru",
+        "shar.representation.recipe.deliverable-manifest-validation.en",
+        "shar.representation.recipe.deliverable-manifest-validation.ru",
+        "shar.representation.recipe.localized-file-naming.en",
+        "shar.representation.recipe.localized-file-naming.ru",
+        "shar.representation.recipe.production-handoff-gate.en",
+        "shar.representation.recipe.production-handoff-gate.ru",
+        "shar.representation.recipe.checksum-inventory.en",
+        "shar.representation.recipe.checksum-inventory.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-integration-recipes",
+      "provider_version": "v1.0.0@a818ad186794f52c84624a3a3c13501933105ac8",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Repository and v1.0.0 release returned HTTP 200 with exact SHAR Production identity and website.",
+          "All five CLIs and the bilingual site build passed the 10-test suite.",
+          "Public raw dataset records were retrieved from main."
+        ]
+      },
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.integration-recipes.huggingface",
+      "work_ids": [
+        "shar.work.recipe.subtitle-delivery-qc",
+        "shar.work.recipe.deliverable-manifest-validation",
+        "shar.work.recipe.localized-file-naming",
+        "shar.work.recipe.production-handoff-gate",
+        "shar.work.recipe.checksum-inventory"
+      ],
+      "representation_ids": [
+        "shar.representation.recipe.subtitle-delivery-qc.en",
+        "shar.representation.recipe.subtitle-delivery-qc.ru",
+        "shar.representation.recipe.deliverable-manifest-validation.en",
+        "shar.representation.recipe.deliverable-manifest-validation.ru",
+        "shar.representation.recipe.localized-file-naming.en",
+        "shar.representation.recipe.localized-file-naming.ru",
+        "shar.representation.recipe.production-handoff-gate.en",
+        "shar.representation.recipe.production-handoff-gate.ru",
+        "shar.representation.recipe.checksum-inventory.en",
+        "shar.representation.recipe.checksum-inventory.ru"
+      ],
+      "release_id": "shar.release.integration-recipes.1.0.0",
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-integration-recipes",
+      "provider_version": "4585ae40513b8f9b75e2152d1f3f4a8235b1ae7c",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T00:31:00Z",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Dataset page, README and recipes.jsonl returned HTTP 200.",
+          "Five bilingual records contain SHAR Production, https://sharprod.com/ and CC-BY-4.0 metadata.",
+          "Hugging Face whoami confirmed namespace SHARProduction without exposing a token."
+        ]
+      },
       "counted_in_baseline": true
     }
   ],
@@ -83,6 +574,102 @@
       "source_url": "https://github.com/SHARProduction/shar-tool-factory/releases/tag/v1.1.0",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T00:16:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.subtitle-delivery-qc.cloudflare.en.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/en/subtitle-delivery-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.subtitle-delivery-qc.cloudflare.ru.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/ru/subtitle-delivery-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.deliverable-manifest-validation.cloudflare.en.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/en/deliverable-manifest-validation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.deliverable-manifest-validation.cloudflare.ru.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/ru/deliverable-manifest-validation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.localized-file-naming.cloudflare.en.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/en/localized-file-naming/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.localized-file-naming.cloudflare.ru.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/ru/localized-file-naming/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.production-handoff-gate.cloudflare.en.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/en/production-handoff-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.production-handoff-gate.cloudflare.ru.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/ru/production-handoff-gate/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.checksum-inventory.cloudflare.en.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/en/checksum-inventory/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.recipe.checksum-inventory.cloudflare.ru.website",
+      "source_url": "https://shar-production-integration-recipes.pages.dev/ru/checksum-inventory/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.integration-recipes.github.website",
+      "source_url": "https://github.com/SHARProduction/production-integration-recipes",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.integration-recipes.huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-integration-recipes",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T00:31:00Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }

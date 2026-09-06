@@ -14,7 +14,7 @@ const unique = (rows, key) => {
 
 add(data.publisher?.name === 'SHAR Production' && data.publisher?.website === 'https://sharprod.com/', 'publisher mismatch');
 add(data.incremental_spend_rub === 0, 'incremental spend must be zero');
-add(data.counts?.verified_counted_placements === 580, 'verified baseline must be 580');
+add(data.counts?.verified_counted_placements === 592, 'verified baseline must be 592');
 add(data.counts?.gap_to_minimum === data.counts.minimum_target - data.counts.verified_counted_placements, 'target gap mismatch');
 const works = unique(data.works, 'work_id');
 const representations = unique(data.representations, 'representation_id');
@@ -22,9 +22,10 @@ const releases = unique(data.releases, 'release_id');
 unique(data.placements, 'placement_id');
 unique(data.link_observations, 'link_observation_id');
 for (const row of data.representations) add(works.has(row.work_id), `${row.representation_id} has unknown work`);
-for (const row of data.releases) add(works.has(row.work_id), `${row.release_id} has unknown work`);
+for (const row of data.releases) for (const id of row.work_ids ?? (row.work_id ? [row.work_id] : [])) add(works.has(id), `${row.release_id} has unknown work ${id}`);
 for (const row of data.placements) {
-  add(works.has(row.work_id), `${row.placement_id} has unknown work`);
+  add(Array.isArray(row.work_ids) && row.work_ids.length > 0, `${row.placement_id} has no work IDs`);
+  for (const id of row.work_ids ?? []) add(works.has(id), `${row.placement_id} has unknown work ${id}`);
   add(releases.has(row.release_id), `${row.placement_id} has unknown release`);
   for (const id of row.representation_ids ?? []) add(representations.has(id), `${row.placement_id} has unknown representation ${id}`);
   if (row.status === 'PUBLISHED_VERIFIED') {
