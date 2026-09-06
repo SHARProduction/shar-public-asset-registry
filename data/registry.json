@@ -506,13 +506,13 @@
       "canonical_url": "https://github.com/SHARProduction/shar-production-public-roadmap",
       "version": {
         "kind": "release_tag",
-        "value": "v1.7.0"
+        "value": "v1.7.1"
       },
       "visibility": "public",
       "license": "MIT",
       "status": "PUBLISHED_VERIFIED",
       "evidence_class": "PROVIDER_API_CHECK",
-      "verified_at": "2026-09-06T06:29:23Z",
+      "verified_at": "2026-09-06T12:12:00Z",
       "verification_method": "Public repository, immutable release and controlled search/AI measurement evidence check",
       "verification": {
         "outcome": "PASS",
@@ -522,10 +522,11 @@
         "owner_checked": true,
         "version_checked": true,
         "details": [
-          "Public repository and v1.7.0 release returned HTTP 200 and the tag resolves to commit 1b38449db763d027dc3b385405c10fc40fb044b7.",
+          "Public repository and v1.7.1 release returned HTTP 200 and the tag resolves to commit 2a674e9977225a2188785622d52d92d08d326cc2.",
           "The tagged evidence retains the 72-slot Google/Bing/Yandex search record and complete 24-query Alice and Gemini consumer measurement waves.",
-          "Gemini Flash measured 24/24 exact queries: one answer mentioned SHAR Production, zero supplied a direct SHAR-controlled citation, and all 59 unique extracted source URLs answered successfully in a separate dated check.",
-          "These are dated observations and make no stable-rank, traffic, lead, causation or cross-product visibility claim."
+          "Exact-profile recovery now stands at 12/47 after rendered-browser verification of DEV.to, GitBook, Hashnode, Ko-fi, Linktree and Pastebin; 35 source rows remain unknown.",
+          "Five newly recovered pages are indexable by page metadata. Ko-fi is live but explicitly provider-noindex and is reported separately.",
+          "These are dated observations and make no stable-rank, traffic, lead, causation, account-ownership or third-party-endorsement claim."
         ]
       },
       "languages": [
@@ -538,7 +539,7 @@
           "target": "shar-public.asset.web.sharprod-home"
         }
       ],
-      "content_summary": "Public operational roadmap with evidence-gated task states, a 72-slot search record, and complete 24-query Alice and Gemini consumer measurement waves.",
+      "content_summary": "Public operational roadmap with evidence-gated task states, controlled search and AI measurements, and exact external-profile recovery evidence.",
       "notes": [
         "Search and AI observations are dated and requested-locale specific. Unavailable product slots remain NOT_MEASURED rather than zero."
       ],
