@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T04:21:04Z",
+  "updated_at": "2026-09-06T04:44:26Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 1500,
+    "verified_counted_placements": 1503,
     "gap_to_minimum": 0,
     "localized_tool_pages": 444,
-    "github_public_repositories": 154,
-    "hugging_face_datasets": 22,
+    "github_public_repositories": 155,
+    "hugging_face_datasets": 23,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -79,9 +79,13 @@
     "production_qc_checklist_dataset_placements": 1,
     "localized_production_acceptance_gate_pages": 94,
     "production_acceptance_gate_repository_placements": 1,
-    "production_acceptance_gate_dataset_placements": 1
+    "production_acceptance_gate_dataset_placements": 1,
+    "localized_entity_knowledge_graph_pages": 2,
+    "entity_knowledge_graph_repository_placements": 1,
+    "entity_knowledge_graph_dataset_placements": 1,
+    "entity_knowledge_graph_cloudflare_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements + 52 production risk simulator placements + 52 production capacity planner placements + 102 production glossary placements + 102 production troubleshooting placements + 102 production QC checklist placements + 96 production acceptance gate placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements + 52 production readiness scorecard placements + 4 indexing observatory placements + 52 production option matrix placements + 52 production risk simulator placements + 52 production capacity planner placements + 102 production glossary placements + 102 production troubleshooting placements + 102 production QC checklist placements + 96 production acceptance gate placements. Registry records, navigation pages and releases are not counted again. Post-target entity graph: 1 useful work, 2 localized representations and 3 verified provider placements.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -3401,6 +3405,13 @@
       "kind": "interactive_bilingual_production_acceptance_gate",
       "license": "CC-BY-4.0",
       "title_ru": "Приёмочный контроль: Согласование относится к старой версии"
+    },
+    {
+      "work_id": "shar.work.entity-knowledge-graph",
+      "title": "SHAR Production entity knowledge graph",
+      "title_ru": "Граф сущностей SHAR Production",
+      "kind": "provenance_first_entity_graph",
+      "license": "CC-BY-4.0"
     }
   ],
   "representations": [
@@ -8683,6 +8694,18 @@
       "work_id": "shar.work.acceptance-gate.approval-stale-acceptance-gate",
       "language": "ru",
       "format": "interactive_html_acceptance_gate"
+    },
+    {
+      "representation_id": "shar.representation.entity-knowledge-graph.en",
+      "work_id": "shar.work.entity-knowledge-graph",
+      "language": "en",
+      "format": "interactive_html_and_json"
+    },
+    {
+      "representation_id": "shar.representation.entity-knowledge-graph.ru",
+      "work_id": "shar.work.entity-knowledge-graph",
+      "language": "ru",
+      "format": "interactive_html_and_json"
     }
   ],
   "releases": [
@@ -9276,6 +9299,14 @@
         "shar.work.acceptance-gate.restore-fail-acceptance-gate",
         "shar.work.acceptance-gate.duplicate-assets-acceptance-gate",
         "shar.work.acceptance-gate.approval-stale-acceptance-gate"
+      ]
+    },
+    {
+      "release_id": "shar.release.entity-knowledge-graph.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
       ]
     }
   ],
@@ -38538,6 +38569,96 @@
       },
       "release_id": "shar.release.production-acceptance-gates.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.github",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "provider_version": "0b48494acff2583db307838433fa7731ee5e30d9",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public URL returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "Provider version and graph contents checked."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.huggingface",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "provider_version": "42041eda6fc7767b2f77c3f56a3732f75c85b05d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public URL returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "Provider version and graph contents checked."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.entity-knowledge-graph.cloudflare",
+      "work_ids": [
+        "shar.work.entity-knowledge-graph"
+      ],
+      "representation_ids": [
+        "shar.representation.entity-knowledge-graph.en",
+        "shar.representation.entity-knowledge-graph.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "provider_version": "4e1393983d2b5e0b9a04dc6c4e29453cf8532ec14ce4a15039763c55a0a10bde",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public URL returned HTTP 200.",
+          "SHAR Production and https://sharprod.com/ observed.",
+          "Provider version and graph contents checked."
+        ]
+      },
+      "release_id": "shar.release.entity-knowledge-graph.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -45906,6 +46027,30 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-acceptance-gates",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T04:21:04Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.entity-knowledge-graph-github.website",
+      "source_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T04:44:26Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.entity-knowledge-graph-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T04:44:26Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.entity-knowledge-graph-cloudflare.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T04:44:26Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }

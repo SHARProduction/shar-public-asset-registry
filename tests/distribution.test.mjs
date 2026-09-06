@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /1500 verified counted placements/);
+  assert.match(result.stdout, /1503 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 1500);
+  assert.equal(data.counts.verified_counted_placements, 1503);
   assert.equal(data.counts.gap_to_minimum, 0);
-  assert.equal(data.works.length, 440);
-  assert.equal(data.representations.length, 880);
-  assert.equal(data.placements.length, 921);
+  assert.equal(data.works.length, 441);
+  assert.equal(data.representations.length, 882);
+  assert.equal(data.placements.length, 924);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -80,6 +80,9 @@ test('distribution baseline separates works, representations, placements, releas
   assert.ok(gates);
   assert.equal(gates.status, 'PUBLISHED_VERIFIED');
   assert.equal(gates.release_id, 'shar.release.production-acceptance-gates.1.0.0');
+  const entityGraph = data.placements.filter(item => item.placement_id.startsWith('shar.placement.entity-knowledge-graph.'));
+  assert.equal(entityGraph.length, 3);
+  for (const item of entityGraph) { assert.equal(item.status, 'PUBLISHED_VERIFIED'); assert.equal(item.release_id, 'shar.release.entity-knowledge-graph.1.0.0'); }
   assert.equal(data.counts.indexnow_accepted_url_submissions, 506);
 });
 
@@ -91,3 +94,4 @@ test('distribution schema gates verified placement evidence', () => {
   const required = schema.properties.placements.items.required;
   for (const field of ['work_ids', 'placement_id', 'release_id', 'ownership_group', 'public_url', 'status', 'verification']) assert.ok(required.includes(field));
 });
+

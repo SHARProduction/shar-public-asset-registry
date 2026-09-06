@@ -29,7 +29,7 @@
       "Search-engine appearance, citations, usage or impact without direct evidence."
     ]
   },
-  "updated_at": "2026-09-05T23:43:28Z",
+  "updated_at": "2026-09-06T04:44:26Z",
   "assets": [
     {
       "asset_id": "shar-public.asset.cloudflare.production-brief-browser",
@@ -8156,6 +8156,165 @@
       "content_summary": "Primary public Wave 11 deployment with 22 bilingual brief quality, vendor governance, locations, crew rest, visual coverage, mastering, localization, media licensing, campaign launch, retention and release-evidence tools and zero trackers.",
       "notes": [],
       "next_review": "2026-10-10"
+    },
+    {
+      "asset_id": "shar-public.asset.github.entity-knowledge-graph",
+      "asset_type": "github_repository",
+      "title": "SHAR Production Entity Knowledge Graph",
+      "title_ru": "Граф сущностей SHAR Production",
+      "provider": "GitHub",
+      "namespace": "SHARProduction/production-entity-knowledge-graph",
+      "public_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "canonical_url": "https://github.com/SHARProduction/production-entity-knowledge-graph",
+      "version": {
+        "kind": "release_tag",
+        "value": "v1.0.0"
+      },
+      "license": "MIT",
+      "verification_method": "Public repository, immutable release and source-content check",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and v1.0.0 release returned HTTP 200.",
+          "README contains SHAR Production and https://sharprod.com/.",
+          "Validation passes for 14 nodes, 14 provenance-backed edges and zero sameAs relations."
+        ]
+      },
+      "content_summary": "MIT source and documentation for a bilingual provenance-first SHAR Production entity evidence graph.",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "visibility": "public",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "LIVE_HTTP_CHECK",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "notes": [
+        "External page observations in the graph are evidence references, not endorsements or sameAs assertions."
+      ],
+      "next_review": "2026-10-06"
+    },
+    {
+      "asset_id": "shar-public.asset.hf.entity-knowledge-graph",
+      "asset_type": "huggingface_dataset",
+      "title": "SHAR Production Entity Knowledge Graph Dataset",
+      "title_ru": "Датасет графа сущностей SHAR Production",
+      "provider": "Hugging Face",
+      "namespace": "SHARProduction/production-entity-knowledge-graph",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "canonical_url": "https://huggingface.co/datasets/SHARProduction/production-entity-knowledge-graph",
+      "version": {
+        "kind": "provider_commit",
+        "value": "42041eda6fc7767b2f77c3f56a3732f75c85b05d"
+      },
+      "license": "CC-BY-4.0",
+      "verification_method": "Public Hub API, dataset card and immutable data-file checks",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Hugging Face API reports a public enabled dataset at the exact provider commit.",
+          "Dataset card contains SHAR Production, https://sharprod.com/ and CC-BY-4.0 metadata.",
+          "graph.json, nodes.jsonl and edges.jsonl returned HTTP 200."
+        ]
+      },
+      "content_summary": "CC-BY-4.0 bilingual graph dataset with public provenance for every node and relation.",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "visibility": "public",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "LIVE_HTTP_CHECK",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "notes": [
+        "External page observations in the graph are evidence references, not endorsements or sameAs assertions."
+      ],
+      "next_review": "2026-10-06"
+    },
+    {
+      "asset_id": "shar-public.asset.cloudflare.entity-knowledge-graph",
+      "asset_type": "browser_tool",
+      "title": "SHAR Production Entity Evidence Graph Explorer",
+      "title_ru": "Браузерный граф доказательств SHAR Production",
+      "provider": "Cloudflare Pages",
+      "namespace": "shar-production-open-tools/entity-graph",
+      "public_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "canonical_url": "https://shar-production-open-tools.pages.dev/entity-graph/en/",
+      "version": {
+        "kind": "content_sha256",
+        "value": "4e1393983d2b5e0b9a04dc6c4e29453cf8532ec14ce4a15039763c55a0a10bde"
+      },
+      "license": "MIT",
+      "verification_method": "Live EN/RU HTTP, canonical, browser interaction and 390px viewport checks",
+      "verification": {
+        "outcome": "PASS",
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "EN and RU routes, graph JSON and sitemap entries returned HTTP 200.",
+          "Exact canonicals, index,follow metadata, SHAR Production and https://sharprod.com/ were observed.",
+          "Browser evidence filter worked; 390px viewport had 390px document width with no horizontal overflow."
+        ]
+      },
+      "content_summary": "Bilingual static explorer for official SHAR Production surfaces and dated external observations.",
+      "owner": "SHAR Production",
+      "brand": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "visibility": "public",
+      "status": "PUBLISHED_VERIFIED",
+      "evidence_class": "LIVE_HTTP_CHECK",
+      "verified_at": "2026-09-06T04:44:26Z",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "relationships": [
+        {
+          "relation": "links_to",
+          "target": "shar-public.asset.web.sharprod-home"
+        }
+      ],
+      "notes": [
+        "External page observations in the graph are evidence references, not endorsements or sameAs assertions."
+      ],
+      "next_review": "2026-10-06"
     }
   ]
 }

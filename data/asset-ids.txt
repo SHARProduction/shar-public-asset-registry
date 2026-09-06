@@ -1,6 +1,8 @@
+shar-public.asset.cloudflare.entity-knowledge-graph
 shar-public.asset.cloudflare.production-brief-browser
 shar-public.asset.github.ai-cgi-routing
 shar-public.asset.github.commercial-production-standard
+shar-public.asset.github.entity-knowledge-graph
 shar-public.asset.github.open-tools
 shar-public.asset.github.production-brief-schema
 shar-public.asset.github.production-deliverables-taxonomy
@@ -131,6 +133,7 @@ shar-public.asset.github.wave11.media-license-tools
 shar-public.asset.github.wave11.vendor-governance-tools
 shar-public.asset.github.wave11.version-mastering-tools
 shar-public.asset.github.wave11.visual-coverage-tools
+shar-public.asset.hf.entity-knowledge-graph
 shar-public.asset.hf.production-brief-taxonomy
 shar-public.asset.hf.production-deliverables-taxonomy
 shar-public.asset.hf.production-open-tools
