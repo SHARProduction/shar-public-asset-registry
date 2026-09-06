@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /834 verified counted placements/);
+  assert.match(result.stdout, /886 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 834);
-  assert.equal(data.counts.gap_to_minimum, 666);
-  assert.equal(data.works.length, 117);
-  assert.equal(data.representations.length, 234);
-  assert.equal(data.placements.length, 255);
+  assert.equal(data.counts.verified_counted_placements, 886);
+  assert.equal(data.counts.gap_to_minimum, 614);
+  assert.equal(data.works.length, 142);
+  assert.equal(data.representations.length, 284);
+  assert.equal(data.placements.length, 307);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -40,6 +40,10 @@ test('distribution baseline separates works, representations, placements, releas
   assert.ok(workflows);
   assert.equal(workflows.status, 'PUBLISHED_VERIFIED');
   assert.equal(workflows.release_id, 'shar.release.production-verification-workflows.1.0.0');
+  const conformance = data.placements.find(item => item.placement_id === 'shar.placement.production-conformance-catalog.huggingface');
+  assert.ok(conformance);
+  assert.equal(conformance.status, 'PUBLISHED_VERIFIED');
+  assert.equal(conformance.release_id, 'shar.release.production-conformance-catalog.1.0.0');
 });
 
 test('distribution schema gates verified placement evidence', () => {

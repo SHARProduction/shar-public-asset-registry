@@ -5,16 +5,16 @@
     "name": "SHAR Production",
     "website": "https://sharprod.com/"
   },
-  "updated_at": "2026-09-06T02:20:00Z",
+  "updated_at": "2026-09-06T02:31:29Z",
   "incremental_spend_rub": 0,
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 834,
-    "gap_to_minimum": 666,
+    "verified_counted_placements": 886,
+    "gap_to_minimum": 614,
     "localized_tool_pages": 444,
-    "github_public_repositories": 144,
-    "hugging_face_datasets": 12,
+    "github_public_repositories": 145,
+    "hugging_face_datasets": 13,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -48,9 +48,12 @@
     "production_evidence_record_dataset_placements": 1,
     "localized_production_verification_workflow_pages": 50,
     "production_verification_workflow_repository_placements": 1,
-    "production_verification_workflow_dataset_placements": 1
+    "production_verification_workflow_dataset_placements": 1,
+    "localized_production_conformance_catalog_pages": 50,
+    "production_conformance_catalog_repository_placements": 1,
+    "production_conformance_catalog_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements + 52 production conformance catalog placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -984,6 +987,206 @@
       "license": "MIT",
       "fixtures_license": "CC-BY-4.0",
       "title_ru": "Доказательства выпуска кампании"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.brief-revision-suite",
+      "title": "Brief revision conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие редакции брифа"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.approval-chain-suite",
+      "title": "Approval chain conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие цепочки согласований"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.rights-territory-suite",
+      "title": "Rights territory conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие территории прав"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.talent-consent-suite",
+      "title": "Talent consent conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие согласия участника"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.location-permit-suite",
+      "title": "Location permit conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие разрешения на локацию"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.vendor-identity-suite",
+      "title": "Vendor identity conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие ID поставщика"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.purchase-order-suite",
+      "title": "Purchase order conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие purchase order"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.call-sheet-time-suite",
+      "title": "Call sheet time conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие времени call sheet"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.crew-rest-suite",
+      "title": "Crew rest conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие отдыха команды"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.camera-roll-suite",
+      "title": "Camera roll conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие camera roll"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.sound-channel-suite",
+      "title": "Sound channel conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие звуковых каналов"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.checksum-manifest-suite",
+      "title": "Checksum manifest conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие checksum манифеста"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.proxy-linkage-suite",
+      "title": "Proxy linkage conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие связей proxy"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.edit-lock-suite",
+      "title": "Edit lock conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие edit lock"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.vfx-handle-suite",
+      "title": "VFX handle conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие handles VFX"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.color-metadata-suite",
+      "title": "Color metadata conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие метаданных цвета"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.loudness-metadata-suite",
+      "title": "Loudness metadata conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие метаданных громкости"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.caption-timing-suite",
+      "title": "Caption timing conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие таймингов субтитров"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.accessibility-feature-suite",
+      "title": "Accessibility feature conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие функций доступности"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.locale-matrix-suite",
+      "title": "Locale matrix conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие матрицы локалей"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.platform-export-suite",
+      "title": "Platform export conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие platform export"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.release-approval-suite",
+      "title": "Release approval conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие согласования релиза"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.archive-inventory-suite",
+      "title": "Archive inventory conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие инвентаря архива"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.provenance-disclosure-suite",
+      "title": "Provenance disclosure conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие раскрытия происхождения"
+    },
+    {
+      "work_id": "shar.work.conformance-catalog.release-evidence-suite",
+      "title": "Release evidence URL conformance",
+      "kind": "executable_production_conformance_suite",
+      "license": "MIT",
+      "results_license": "CC-BY-4.0",
+      "title_ru": "Соответствие URL доказательства релиза"
     }
   ],
   "representations": [
@@ -2390,6 +2593,306 @@
       "work_id": "shar.work.verification-workflow.campaign-release-evidence",
       "language": "ru",
       "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.brief-revision-suite.en",
+      "work_id": "shar.work.conformance-catalog.brief-revision-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.brief-revision-suite.ru",
+      "work_id": "shar.work.conformance-catalog.brief-revision-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.approval-chain-suite.en",
+      "work_id": "shar.work.conformance-catalog.approval-chain-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.approval-chain-suite.ru",
+      "work_id": "shar.work.conformance-catalog.approval-chain-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.rights-territory-suite.en",
+      "work_id": "shar.work.conformance-catalog.rights-territory-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.rights-territory-suite.ru",
+      "work_id": "shar.work.conformance-catalog.rights-territory-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.talent-consent-suite.en",
+      "work_id": "shar.work.conformance-catalog.talent-consent-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.talent-consent-suite.ru",
+      "work_id": "shar.work.conformance-catalog.talent-consent-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.location-permit-suite.en",
+      "work_id": "shar.work.conformance-catalog.location-permit-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.location-permit-suite.ru",
+      "work_id": "shar.work.conformance-catalog.location-permit-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.vendor-identity-suite.en",
+      "work_id": "shar.work.conformance-catalog.vendor-identity-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.vendor-identity-suite.ru",
+      "work_id": "shar.work.conformance-catalog.vendor-identity-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.purchase-order-suite.en",
+      "work_id": "shar.work.conformance-catalog.purchase-order-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.purchase-order-suite.ru",
+      "work_id": "shar.work.conformance-catalog.purchase-order-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.call-sheet-time-suite.en",
+      "work_id": "shar.work.conformance-catalog.call-sheet-time-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.call-sheet-time-suite.ru",
+      "work_id": "shar.work.conformance-catalog.call-sheet-time-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.crew-rest-suite.en",
+      "work_id": "shar.work.conformance-catalog.crew-rest-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.crew-rest-suite.ru",
+      "work_id": "shar.work.conformance-catalog.crew-rest-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.camera-roll-suite.en",
+      "work_id": "shar.work.conformance-catalog.camera-roll-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.camera-roll-suite.ru",
+      "work_id": "shar.work.conformance-catalog.camera-roll-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.sound-channel-suite.en",
+      "work_id": "shar.work.conformance-catalog.sound-channel-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.sound-channel-suite.ru",
+      "work_id": "shar.work.conformance-catalog.sound-channel-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.checksum-manifest-suite.en",
+      "work_id": "shar.work.conformance-catalog.checksum-manifest-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.checksum-manifest-suite.ru",
+      "work_id": "shar.work.conformance-catalog.checksum-manifest-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.proxy-linkage-suite.en",
+      "work_id": "shar.work.conformance-catalog.proxy-linkage-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.proxy-linkage-suite.ru",
+      "work_id": "shar.work.conformance-catalog.proxy-linkage-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.edit-lock-suite.en",
+      "work_id": "shar.work.conformance-catalog.edit-lock-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.edit-lock-suite.ru",
+      "work_id": "shar.work.conformance-catalog.edit-lock-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.vfx-handle-suite.en",
+      "work_id": "shar.work.conformance-catalog.vfx-handle-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.vfx-handle-suite.ru",
+      "work_id": "shar.work.conformance-catalog.vfx-handle-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.color-metadata-suite.en",
+      "work_id": "shar.work.conformance-catalog.color-metadata-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.color-metadata-suite.ru",
+      "work_id": "shar.work.conformance-catalog.color-metadata-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.loudness-metadata-suite.en",
+      "work_id": "shar.work.conformance-catalog.loudness-metadata-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.loudness-metadata-suite.ru",
+      "work_id": "shar.work.conformance-catalog.loudness-metadata-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.caption-timing-suite.en",
+      "work_id": "shar.work.conformance-catalog.caption-timing-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.caption-timing-suite.ru",
+      "work_id": "shar.work.conformance-catalog.caption-timing-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.accessibility-feature-suite.en",
+      "work_id": "shar.work.conformance-catalog.accessibility-feature-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.accessibility-feature-suite.ru",
+      "work_id": "shar.work.conformance-catalog.accessibility-feature-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.locale-matrix-suite.en",
+      "work_id": "shar.work.conformance-catalog.locale-matrix-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.locale-matrix-suite.ru",
+      "work_id": "shar.work.conformance-catalog.locale-matrix-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.platform-export-suite.en",
+      "work_id": "shar.work.conformance-catalog.platform-export-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.platform-export-suite.ru",
+      "work_id": "shar.work.conformance-catalog.platform-export-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.release-approval-suite.en",
+      "work_id": "shar.work.conformance-catalog.release-approval-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.release-approval-suite.ru",
+      "work_id": "shar.work.conformance-catalog.release-approval-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.archive-inventory-suite.en",
+      "work_id": "shar.work.conformance-catalog.archive-inventory-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.archive-inventory-suite.ru",
+      "work_id": "shar.work.conformance-catalog.archive-inventory-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.provenance-disclosure-suite.en",
+      "work_id": "shar.work.conformance-catalog.provenance-disclosure-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.provenance-disclosure-suite.ru",
+      "work_id": "shar.work.conformance-catalog.provenance-disclosure-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.release-evidence-suite.en",
+      "work_id": "shar.work.conformance-catalog.release-evidence-suite",
+      "language": "en",
+      "format": "interactive_html_conformance_results"
+    },
+    {
+      "representation_id": "shar.representation.conformance-catalog.release-evidence-suite.ru",
+      "work_id": "shar.work.conformance-catalog.release-evidence-suite",
+      "language": "ru",
+      "format": "interactive_html_conformance_results"
     }
   ],
   "releases": [
@@ -2590,6 +3093,38 @@
         "shar.work.verification-workflow.archive-three-copy-verification",
         "shar.work.verification-workflow.incident-followup-closure",
         "shar.work.verification-workflow.campaign-release-evidence"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.conformance-catalog.brief-revision-suite",
+        "shar.work.conformance-catalog.approval-chain-suite",
+        "shar.work.conformance-catalog.rights-territory-suite",
+        "shar.work.conformance-catalog.talent-consent-suite",
+        "shar.work.conformance-catalog.location-permit-suite",
+        "shar.work.conformance-catalog.vendor-identity-suite",
+        "shar.work.conformance-catalog.purchase-order-suite",
+        "shar.work.conformance-catalog.call-sheet-time-suite",
+        "shar.work.conformance-catalog.crew-rest-suite",
+        "shar.work.conformance-catalog.camera-roll-suite",
+        "shar.work.conformance-catalog.sound-channel-suite",
+        "shar.work.conformance-catalog.checksum-manifest-suite",
+        "shar.work.conformance-catalog.proxy-linkage-suite",
+        "shar.work.conformance-catalog.edit-lock-suite",
+        "shar.work.conformance-catalog.vfx-handle-suite",
+        "shar.work.conformance-catalog.color-metadata-suite",
+        "shar.work.conformance-catalog.loudness-metadata-suite",
+        "shar.work.conformance-catalog.caption-timing-suite",
+        "shar.work.conformance-catalog.accessibility-feature-suite",
+        "shar.work.conformance-catalog.locale-matrix-suite",
+        "shar.work.conformance-catalog.platform-export-suite",
+        "shar.work.conformance-catalog.release-approval-suite",
+        "shar.work.conformance-catalog.archive-inventory-suite",
+        "shar.work.conformance-catalog.provenance-disclosure-suite",
+        "shar.work.conformance-catalog.release-evidence-suite"
       ]
     }
   ],
@@ -10640,6 +11175,1660 @@
       },
       "release_id": "shar.release.production-verification-workflows.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.brief-revision-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.brief-revision-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.brief-revision-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/brief-revision-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.brief-revision-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.brief-revision-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.brief-revision-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/brief-revision-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.approval-chain-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.approval-chain-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.approval-chain-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/approval-chain-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.approval-chain-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.approval-chain-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.approval-chain-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/approval-chain-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.rights-territory-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.rights-territory-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.rights-territory-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/rights-territory-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.rights-territory-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.rights-territory-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.rights-territory-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/rights-territory-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.talent-consent-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.talent-consent-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.talent-consent-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/talent-consent-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.talent-consent-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.talent-consent-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.talent-consent-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/talent-consent-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.location-permit-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.location-permit-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.location-permit-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/location-permit-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.location-permit-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.location-permit-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.location-permit-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/location-permit-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.vendor-identity-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.vendor-identity-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.vendor-identity-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/vendor-identity-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.vendor-identity-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.vendor-identity-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.vendor-identity-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/vendor-identity-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.purchase-order-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.purchase-order-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.purchase-order-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/purchase-order-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.purchase-order-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.purchase-order-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.purchase-order-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/purchase-order-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.call-sheet-time-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.call-sheet-time-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.call-sheet-time-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/call-sheet-time-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.call-sheet-time-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.call-sheet-time-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.call-sheet-time-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/call-sheet-time-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.crew-rest-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.crew-rest-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.crew-rest-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/crew-rest-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.crew-rest-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.crew-rest-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.crew-rest-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/crew-rest-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.camera-roll-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.camera-roll-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.camera-roll-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/camera-roll-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.camera-roll-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.camera-roll-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.camera-roll-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/camera-roll-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.sound-channel-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.sound-channel-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.sound-channel-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/sound-channel-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.sound-channel-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.sound-channel-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.sound-channel-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/sound-channel-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.checksum-manifest-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.checksum-manifest-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.checksum-manifest-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/checksum-manifest-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.checksum-manifest-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.checksum-manifest-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.checksum-manifest-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/checksum-manifest-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.proxy-linkage-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.proxy-linkage-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.proxy-linkage-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/proxy-linkage-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.proxy-linkage-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.proxy-linkage-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.proxy-linkage-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/proxy-linkage-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.edit-lock-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.edit-lock-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.edit-lock-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/edit-lock-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.edit-lock-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.edit-lock-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.edit-lock-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/edit-lock-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.vfx-handle-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.vfx-handle-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.vfx-handle-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/vfx-handle-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.vfx-handle-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.vfx-handle-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.vfx-handle-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/vfx-handle-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.color-metadata-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.color-metadata-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.color-metadata-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/color-metadata-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.color-metadata-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.color-metadata-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.color-metadata-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/color-metadata-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.loudness-metadata-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.loudness-metadata-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.loudness-metadata-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/loudness-metadata-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.loudness-metadata-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.loudness-metadata-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.loudness-metadata-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/loudness-metadata-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.caption-timing-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.caption-timing-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.caption-timing-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/caption-timing-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.caption-timing-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.caption-timing-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.caption-timing-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/caption-timing-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.accessibility-feature-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.accessibility-feature-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.accessibility-feature-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/accessibility-feature-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.accessibility-feature-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.accessibility-feature-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.accessibility-feature-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/accessibility-feature-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.locale-matrix-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.locale-matrix-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.locale-matrix-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/locale-matrix-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.locale-matrix-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.locale-matrix-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.locale-matrix-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/locale-matrix-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.platform-export-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.platform-export-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.platform-export-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/platform-export-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.platform-export-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.platform-export-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.platform-export-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/platform-export-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.release-approval-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.release-approval-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.release-approval-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/release-approval-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.release-approval-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.release-approval-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.release-approval-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/release-approval-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.archive-inventory-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.archive-inventory-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.archive-inventory-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/archive-inventory-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.archive-inventory-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.archive-inventory-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.archive-inventory-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/archive-inventory-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.provenance-disclosure-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.provenance-disclosure-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/provenance-disclosure-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.provenance-disclosure-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.provenance-disclosure-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/provenance-disclosure-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.release-evidence-suite.cloudflare.en",
+      "work_ids": [
+        "shar.work.conformance-catalog.release-evidence-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.release-evidence-suite.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/release-evidence-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.conformance-catalog.release-evidence-suite.cloudflare.ru",
+      "work_ids": [
+        "shar.work.conformance-catalog.release-evidence-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.release-evidence-suite.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/release-evidence-suite/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "08a2eded-8200-4063-9f5d-c5b17150633f@3772ba2fe3b012243541b16ee238e10b28d1804d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the conformance suite and returned PASS for all six expected results.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-conformance-catalog.github",
+      "work_ids": [
+        "shar.work.conformance-catalog.brief-revision-suite",
+        "shar.work.conformance-catalog.approval-chain-suite",
+        "shar.work.conformance-catalog.rights-territory-suite",
+        "shar.work.conformance-catalog.talent-consent-suite",
+        "shar.work.conformance-catalog.location-permit-suite",
+        "shar.work.conformance-catalog.vendor-identity-suite",
+        "shar.work.conformance-catalog.purchase-order-suite",
+        "shar.work.conformance-catalog.call-sheet-time-suite",
+        "shar.work.conformance-catalog.crew-rest-suite",
+        "shar.work.conformance-catalog.camera-roll-suite",
+        "shar.work.conformance-catalog.sound-channel-suite",
+        "shar.work.conformance-catalog.checksum-manifest-suite",
+        "shar.work.conformance-catalog.proxy-linkage-suite",
+        "shar.work.conformance-catalog.edit-lock-suite",
+        "shar.work.conformance-catalog.vfx-handle-suite",
+        "shar.work.conformance-catalog.color-metadata-suite",
+        "shar.work.conformance-catalog.loudness-metadata-suite",
+        "shar.work.conformance-catalog.caption-timing-suite",
+        "shar.work.conformance-catalog.accessibility-feature-suite",
+        "shar.work.conformance-catalog.locale-matrix-suite",
+        "shar.work.conformance-catalog.platform-export-suite",
+        "shar.work.conformance-catalog.release-approval-suite",
+        "shar.work.conformance-catalog.archive-inventory-suite",
+        "shar.work.conformance-catalog.provenance-disclosure-suite",
+        "shar.work.conformance-catalog.release-evidence-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.brief-revision-suite.en",
+        "shar.representation.conformance-catalog.brief-revision-suite.ru",
+        "shar.representation.conformance-catalog.approval-chain-suite.en",
+        "shar.representation.conformance-catalog.approval-chain-suite.ru",
+        "shar.representation.conformance-catalog.rights-territory-suite.en",
+        "shar.representation.conformance-catalog.rights-territory-suite.ru",
+        "shar.representation.conformance-catalog.talent-consent-suite.en",
+        "shar.representation.conformance-catalog.talent-consent-suite.ru",
+        "shar.representation.conformance-catalog.location-permit-suite.en",
+        "shar.representation.conformance-catalog.location-permit-suite.ru",
+        "shar.representation.conformance-catalog.vendor-identity-suite.en",
+        "shar.representation.conformance-catalog.vendor-identity-suite.ru",
+        "shar.representation.conformance-catalog.purchase-order-suite.en",
+        "shar.representation.conformance-catalog.purchase-order-suite.ru",
+        "shar.representation.conformance-catalog.call-sheet-time-suite.en",
+        "shar.representation.conformance-catalog.call-sheet-time-suite.ru",
+        "shar.representation.conformance-catalog.crew-rest-suite.en",
+        "shar.representation.conformance-catalog.crew-rest-suite.ru",
+        "shar.representation.conformance-catalog.camera-roll-suite.en",
+        "shar.representation.conformance-catalog.camera-roll-suite.ru",
+        "shar.representation.conformance-catalog.sound-channel-suite.en",
+        "shar.representation.conformance-catalog.sound-channel-suite.ru",
+        "shar.representation.conformance-catalog.checksum-manifest-suite.en",
+        "shar.representation.conformance-catalog.checksum-manifest-suite.ru",
+        "shar.representation.conformance-catalog.proxy-linkage-suite.en",
+        "shar.representation.conformance-catalog.proxy-linkage-suite.ru",
+        "shar.representation.conformance-catalog.edit-lock-suite.en",
+        "shar.representation.conformance-catalog.edit-lock-suite.ru",
+        "shar.representation.conformance-catalog.vfx-handle-suite.en",
+        "shar.representation.conformance-catalog.vfx-handle-suite.ru",
+        "shar.representation.conformance-catalog.color-metadata-suite.en",
+        "shar.representation.conformance-catalog.color-metadata-suite.ru",
+        "shar.representation.conformance-catalog.loudness-metadata-suite.en",
+        "shar.representation.conformance-catalog.loudness-metadata-suite.ru",
+        "shar.representation.conformance-catalog.caption-timing-suite.en",
+        "shar.representation.conformance-catalog.caption-timing-suite.ru",
+        "shar.representation.conformance-catalog.accessibility-feature-suite.en",
+        "shar.representation.conformance-catalog.accessibility-feature-suite.ru",
+        "shar.representation.conformance-catalog.locale-matrix-suite.en",
+        "shar.representation.conformance-catalog.locale-matrix-suite.ru",
+        "shar.representation.conformance-catalog.platform-export-suite.en",
+        "shar.representation.conformance-catalog.platform-export-suite.ru",
+        "shar.representation.conformance-catalog.release-approval-suite.en",
+        "shar.representation.conformance-catalog.release-approval-suite.ru",
+        "shar.representation.conformance-catalog.archive-inventory-suite.en",
+        "shar.representation.conformance-catalog.archive-inventory-suite.ru",
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.en",
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.ru",
+        "shar.representation.conformance-catalog.release-evidence-suite.en",
+        "shar.representation.conformance-catalog.release-evidence-suite.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-conformance-catalog/releases/tag/v1.0.0",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "v1.0.0@992ac40edbae2e1bb2cff55311f35e900999e19d",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and immutable v1.0.0 release returned HTTP 200.",
+          "Repository identifies SHAR Production, https://sharprod.com/, MIT code and CC-BY-4.0 synthetic results.",
+          "GitHub Actions run 34006478535 completed successfully for the tagged source commit."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-conformance-catalog.huggingface",
+      "work_ids": [
+        "shar.work.conformance-catalog.brief-revision-suite",
+        "shar.work.conformance-catalog.approval-chain-suite",
+        "shar.work.conformance-catalog.rights-territory-suite",
+        "shar.work.conformance-catalog.talent-consent-suite",
+        "shar.work.conformance-catalog.location-permit-suite",
+        "shar.work.conformance-catalog.vendor-identity-suite",
+        "shar.work.conformance-catalog.purchase-order-suite",
+        "shar.work.conformance-catalog.call-sheet-time-suite",
+        "shar.work.conformance-catalog.crew-rest-suite",
+        "shar.work.conformance-catalog.camera-roll-suite",
+        "shar.work.conformance-catalog.sound-channel-suite",
+        "shar.work.conformance-catalog.checksum-manifest-suite",
+        "shar.work.conformance-catalog.proxy-linkage-suite",
+        "shar.work.conformance-catalog.edit-lock-suite",
+        "shar.work.conformance-catalog.vfx-handle-suite",
+        "shar.work.conformance-catalog.color-metadata-suite",
+        "shar.work.conformance-catalog.loudness-metadata-suite",
+        "shar.work.conformance-catalog.caption-timing-suite",
+        "shar.work.conformance-catalog.accessibility-feature-suite",
+        "shar.work.conformance-catalog.locale-matrix-suite",
+        "shar.work.conformance-catalog.platform-export-suite",
+        "shar.work.conformance-catalog.release-approval-suite",
+        "shar.work.conformance-catalog.archive-inventory-suite",
+        "shar.work.conformance-catalog.provenance-disclosure-suite",
+        "shar.work.conformance-catalog.release-evidence-suite"
+      ],
+      "representation_ids": [
+        "shar.representation.conformance-catalog.brief-revision-suite.en",
+        "shar.representation.conformance-catalog.brief-revision-suite.ru",
+        "shar.representation.conformance-catalog.approval-chain-suite.en",
+        "shar.representation.conformance-catalog.approval-chain-suite.ru",
+        "shar.representation.conformance-catalog.rights-territory-suite.en",
+        "shar.representation.conformance-catalog.rights-territory-suite.ru",
+        "shar.representation.conformance-catalog.talent-consent-suite.en",
+        "shar.representation.conformance-catalog.talent-consent-suite.ru",
+        "shar.representation.conformance-catalog.location-permit-suite.en",
+        "shar.representation.conformance-catalog.location-permit-suite.ru",
+        "shar.representation.conformance-catalog.vendor-identity-suite.en",
+        "shar.representation.conformance-catalog.vendor-identity-suite.ru",
+        "shar.representation.conformance-catalog.purchase-order-suite.en",
+        "shar.representation.conformance-catalog.purchase-order-suite.ru",
+        "shar.representation.conformance-catalog.call-sheet-time-suite.en",
+        "shar.representation.conformance-catalog.call-sheet-time-suite.ru",
+        "shar.representation.conformance-catalog.crew-rest-suite.en",
+        "shar.representation.conformance-catalog.crew-rest-suite.ru",
+        "shar.representation.conformance-catalog.camera-roll-suite.en",
+        "shar.representation.conformance-catalog.camera-roll-suite.ru",
+        "shar.representation.conformance-catalog.sound-channel-suite.en",
+        "shar.representation.conformance-catalog.sound-channel-suite.ru",
+        "shar.representation.conformance-catalog.checksum-manifest-suite.en",
+        "shar.representation.conformance-catalog.checksum-manifest-suite.ru",
+        "shar.representation.conformance-catalog.proxy-linkage-suite.en",
+        "shar.representation.conformance-catalog.proxy-linkage-suite.ru",
+        "shar.representation.conformance-catalog.edit-lock-suite.en",
+        "shar.representation.conformance-catalog.edit-lock-suite.ru",
+        "shar.representation.conformance-catalog.vfx-handle-suite.en",
+        "shar.representation.conformance-catalog.vfx-handle-suite.ru",
+        "shar.representation.conformance-catalog.color-metadata-suite.en",
+        "shar.representation.conformance-catalog.color-metadata-suite.ru",
+        "shar.representation.conformance-catalog.loudness-metadata-suite.en",
+        "shar.representation.conformance-catalog.loudness-metadata-suite.ru",
+        "shar.representation.conformance-catalog.caption-timing-suite.en",
+        "shar.representation.conformance-catalog.caption-timing-suite.ru",
+        "shar.representation.conformance-catalog.accessibility-feature-suite.en",
+        "shar.representation.conformance-catalog.accessibility-feature-suite.ru",
+        "shar.representation.conformance-catalog.locale-matrix-suite.en",
+        "shar.representation.conformance-catalog.locale-matrix-suite.ru",
+        "shar.representation.conformance-catalog.platform-export-suite.en",
+        "shar.representation.conformance-catalog.platform-export-suite.ru",
+        "shar.representation.conformance-catalog.release-approval-suite.en",
+        "shar.representation.conformance-catalog.release-approval-suite.ru",
+        "shar.representation.conformance-catalog.archive-inventory-suite.en",
+        "shar.representation.conformance-catalog.archive-inventory-suite.ru",
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.en",
+        "shar.representation.conformance-catalog.provenance-disclosure-suite.ru",
+        "shar.representation.conformance-catalog.release-evidence-suite.en",
+        "shar.representation.conformance-catalog.release-evidence-suite.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-conformance-catalog",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:31:29Z",
+      "provider_version": "f9e0957192c902307ffb53f9c096960dcb89d10c",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public dataset page, README and commit-pinned cases.jsonl returned HTTP 200.",
+          "Dataset card identifies SHAR Production, https://sharprod.com/, CC-BY-4.0 synthetic results, MIT source and AI assistance disclosure.",
+          "Commit-pinned cases.jsonl exposes exactly 150 distinct deterministic cases."
+        ]
+      },
+      "release_id": "shar.release.production-conformance-catalog.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -12680,6 +14869,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-verification-workflows",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-brief-revision-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/brief-revision-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-brief-revision-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/brief-revision-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-approval-chain-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/approval-chain-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-approval-chain-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/approval-chain-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-rights-territory-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/rights-territory-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-rights-territory-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/rights-territory-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-talent-consent-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/talent-consent-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-talent-consent-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/talent-consent-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-location-permit-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/location-permit-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-location-permit-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/location-permit-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-vendor-identity-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/vendor-identity-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-vendor-identity-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/vendor-identity-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-purchase-order-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/purchase-order-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-purchase-order-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/purchase-order-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-call-sheet-time-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/call-sheet-time-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-call-sheet-time-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/call-sheet-time-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-crew-rest-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/crew-rest-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-crew-rest-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/crew-rest-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-camera-roll-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/camera-roll-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-camera-roll-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/camera-roll-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-sound-channel-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/sound-channel-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-sound-channel-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/sound-channel-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-checksum-manifest-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/checksum-manifest-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-checksum-manifest-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/checksum-manifest-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-proxy-linkage-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/proxy-linkage-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-proxy-linkage-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/proxy-linkage-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-edit-lock-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/edit-lock-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-edit-lock-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/edit-lock-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-vfx-handle-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/vfx-handle-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-vfx-handle-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/vfx-handle-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-color-metadata-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/color-metadata-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-color-metadata-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/color-metadata-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-loudness-metadata-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/loudness-metadata-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-loudness-metadata-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/loudness-metadata-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-caption-timing-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/caption-timing-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-caption-timing-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/caption-timing-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-accessibility-feature-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/accessibility-feature-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-accessibility-feature-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/accessibility-feature-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-locale-matrix-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/locale-matrix-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-locale-matrix-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/locale-matrix-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-platform-export-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/platform-export-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-platform-export-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/platform-export-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-release-approval-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/release-approval-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-release-approval-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/release-approval-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-archive-inventory-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/archive-inventory-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-archive-inventory-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/archive-inventory-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-provenance-disclosure-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/provenance-disclosure-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-provenance-disclosure-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/provenance-disclosure-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-release-evidence-suite-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/en/release-evidence-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.conformance-catalog-release-evidence-suite-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/conformance-catalog/ru/release-evidence-suite/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-conformance-catalog-github.website",
+      "source_url": "https://github.com/SHARProduction/production-conformance-catalog/releases/tag/v1.0.0",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-conformance-catalog-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-conformance-catalog",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:31:29Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }
