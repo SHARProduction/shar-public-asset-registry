@@ -10,11 +10,11 @@
   "counts": {
     "minimum_target": 1500,
     "planning_model_slots": 1551,
-    "verified_counted_placements": 782,
-    "gap_to_minimum": 718,
+    "verified_counted_placements": 834,
+    "gap_to_minimum": 666,
     "localized_tool_pages": 444,
-    "github_public_repositories": 143,
-    "hugging_face_datasets": 11,
+    "github_public_repositories": 144,
+    "hugging_face_datasets": 12,
     "hugging_face_static_spaces": 2,
     "localized_integration_recipe_pages": 10,
     "integration_recipe_repository_placements": 1,
@@ -45,9 +45,12 @@
     "validation_error_explorer_space_placements": 1,
     "localized_production_evidence_record_pages": 50,
     "production_evidence_record_repository_placements": 1,
-    "production_evidence_record_dataset_placements": 1
+    "production_evidence_record_dataset_placements": 1,
+    "localized_production_verification_workflow_pages": 50,
+    "production_verification_workflow_repository_placements": 1,
+    "production_verification_workflow_dataset_placements": 1
   },
-  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence record placements. Registry records, navigation pages and releases are not counted again.",
+  "counting_note": "Verified rollup: 580 phase-1 + 12 integration recipes + 12 conformance suites + 12 compatibility research + 22 data contracts + 22 reference corpora + 22 workflow recipes + 22 media conformance + 22 validation benchmarks + 4 validation error explorer + 52 production evidence records + 52 production verification workflow placements. Registry records, navigation pages and releases are not counted again.",
   "works": [
     {
       "work_id": "shar.work.tool-factory",
@@ -781,6 +784,206 @@
       "license": "MIT",
       "fixtures_license": "CC-BY-4.0",
       "title_ru": "Финальный release gate"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.brief-intake-triage",
+      "title": "Brief intake triage",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Триаж входящего брифа"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.stakeholder-approval-routing",
+      "title": "Stakeholder approval routing",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Маршрутизация согласований"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.rights-window-preflight",
+      "title": "Rights window preflight",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Проверка окна прав"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.talent-consent-reconciliation",
+      "title": "Talent consent reconciliation",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Сверка согласий участников"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.location-permit-readiness",
+      "title": "Location permit readiness",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Готовность разрешения на локацию"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.supplier-onboarding",
+      "title": "Supplier onboarding",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Онбординг поставщика"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.purchase-order-reconciliation",
+      "title": "Purchase order reconciliation",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Сверка purchase order"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.call-sheet-release",
+      "title": "Call sheet release",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Выпуск call sheet"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.crew-safety-acknowledgment",
+      "title": "Crew safety acknowledgment",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Подтверждение безопасности команды"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.camera-to-dit-handoff",
+      "title": "Camera to DIT handoff",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача camera to DIT"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.sound-roll-ingest",
+      "title": "Sound roll ingest",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Импорт sound roll"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.checksum-transfer-verification",
+      "title": "Checksum transfer verification",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Проверка checksum передачи"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.proxy-generation-handoff",
+      "title": "Proxy generation handoff",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача proxy"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.edit-turnover",
+      "title": "Edit turnover",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача монтажа"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.vfx-pull-roundtrip",
+      "title": "VFX pull roundtrip",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Roundtrip VFX pull"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.color-turnover",
+      "title": "Color turnover",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача в цвет"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.mix-turnover",
+      "title": "Mix turnover",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Передача в сведение"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.caption-localization-qc",
+      "title": "Caption localization QC",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "QC локализованных субтитров"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.accessibility-acceptance",
+      "title": "Accessibility acceptance",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Приёмка доступности"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.multi-locale-delivery",
+      "title": "Multi-locale delivery",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Мультиязычная поставка"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.platform-export-acceptance",
+      "title": "Platform export acceptance",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Приёмка platform export"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.client-release-approval",
+      "title": "Client release approval",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Клиентское согласование релиза"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.archive-three-copy-verification",
+      "title": "Archive three-copy verification",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Проверка трёх копий архива"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.incident-followup-closure",
+      "title": "Incident follow-up closure",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Закрытие follow-up инцидента"
+    },
+    {
+      "work_id": "shar.work.verification-workflow.campaign-release-evidence",
+      "title": "Campaign release evidence",
+      "kind": "executable_production_verification_workflow",
+      "license": "MIT",
+      "fixtures_license": "CC-BY-4.0",
+      "title_ru": "Доказательства выпуска кампании"
     }
   ],
   "representations": [
@@ -1887,6 +2090,306 @@
       "work_id": "shar.work.evidence-record.final-release-gate",
       "language": "ru",
       "format": "interactive_html_json_schema"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.brief-intake-triage.en",
+      "work_id": "shar.work.verification-workflow.brief-intake-triage",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.brief-intake-triage.ru",
+      "work_id": "shar.work.verification-workflow.brief-intake-triage",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.stakeholder-approval-routing.en",
+      "work_id": "shar.work.verification-workflow.stakeholder-approval-routing",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.stakeholder-approval-routing.ru",
+      "work_id": "shar.work.verification-workflow.stakeholder-approval-routing",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.rights-window-preflight.en",
+      "work_id": "shar.work.verification-workflow.rights-window-preflight",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.rights-window-preflight.ru",
+      "work_id": "shar.work.verification-workflow.rights-window-preflight",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.talent-consent-reconciliation.en",
+      "work_id": "shar.work.verification-workflow.talent-consent-reconciliation",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.talent-consent-reconciliation.ru",
+      "work_id": "shar.work.verification-workflow.talent-consent-reconciliation",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.location-permit-readiness.en",
+      "work_id": "shar.work.verification-workflow.location-permit-readiness",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.location-permit-readiness.ru",
+      "work_id": "shar.work.verification-workflow.location-permit-readiness",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.supplier-onboarding.en",
+      "work_id": "shar.work.verification-workflow.supplier-onboarding",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.supplier-onboarding.ru",
+      "work_id": "shar.work.verification-workflow.supplier-onboarding",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.purchase-order-reconciliation.en",
+      "work_id": "shar.work.verification-workflow.purchase-order-reconciliation",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.purchase-order-reconciliation.ru",
+      "work_id": "shar.work.verification-workflow.purchase-order-reconciliation",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.call-sheet-release.en",
+      "work_id": "shar.work.verification-workflow.call-sheet-release",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.call-sheet-release.ru",
+      "work_id": "shar.work.verification-workflow.call-sheet-release",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.crew-safety-acknowledgment.en",
+      "work_id": "shar.work.verification-workflow.crew-safety-acknowledgment",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.crew-safety-acknowledgment.ru",
+      "work_id": "shar.work.verification-workflow.crew-safety-acknowledgment",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.camera-to-dit-handoff.en",
+      "work_id": "shar.work.verification-workflow.camera-to-dit-handoff",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.camera-to-dit-handoff.ru",
+      "work_id": "shar.work.verification-workflow.camera-to-dit-handoff",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.sound-roll-ingest.en",
+      "work_id": "shar.work.verification-workflow.sound-roll-ingest",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.sound-roll-ingest.ru",
+      "work_id": "shar.work.verification-workflow.sound-roll-ingest",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.checksum-transfer-verification.en",
+      "work_id": "shar.work.verification-workflow.checksum-transfer-verification",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.checksum-transfer-verification.ru",
+      "work_id": "shar.work.verification-workflow.checksum-transfer-verification",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.proxy-generation-handoff.en",
+      "work_id": "shar.work.verification-workflow.proxy-generation-handoff",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.proxy-generation-handoff.ru",
+      "work_id": "shar.work.verification-workflow.proxy-generation-handoff",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.edit-turnover.en",
+      "work_id": "shar.work.verification-workflow.edit-turnover",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.edit-turnover.ru",
+      "work_id": "shar.work.verification-workflow.edit-turnover",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.vfx-pull-roundtrip.en",
+      "work_id": "shar.work.verification-workflow.vfx-pull-roundtrip",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.vfx-pull-roundtrip.ru",
+      "work_id": "shar.work.verification-workflow.vfx-pull-roundtrip",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.color-turnover.en",
+      "work_id": "shar.work.verification-workflow.color-turnover",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.color-turnover.ru",
+      "work_id": "shar.work.verification-workflow.color-turnover",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.mix-turnover.en",
+      "work_id": "shar.work.verification-workflow.mix-turnover",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.mix-turnover.ru",
+      "work_id": "shar.work.verification-workflow.mix-turnover",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.caption-localization-qc.en",
+      "work_id": "shar.work.verification-workflow.caption-localization-qc",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.caption-localization-qc.ru",
+      "work_id": "shar.work.verification-workflow.caption-localization-qc",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.accessibility-acceptance.en",
+      "work_id": "shar.work.verification-workflow.accessibility-acceptance",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.accessibility-acceptance.ru",
+      "work_id": "shar.work.verification-workflow.accessibility-acceptance",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.multi-locale-delivery.en",
+      "work_id": "shar.work.verification-workflow.multi-locale-delivery",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.multi-locale-delivery.ru",
+      "work_id": "shar.work.verification-workflow.multi-locale-delivery",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.platform-export-acceptance.en",
+      "work_id": "shar.work.verification-workflow.platform-export-acceptance",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.platform-export-acceptance.ru",
+      "work_id": "shar.work.verification-workflow.platform-export-acceptance",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.client-release-approval.en",
+      "work_id": "shar.work.verification-workflow.client-release-approval",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.client-release-approval.ru",
+      "work_id": "shar.work.verification-workflow.client-release-approval",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.archive-three-copy-verification.en",
+      "work_id": "shar.work.verification-workflow.archive-three-copy-verification",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.archive-three-copy-verification.ru",
+      "work_id": "shar.work.verification-workflow.archive-three-copy-verification",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.incident-followup-closure.en",
+      "work_id": "shar.work.verification-workflow.incident-followup-closure",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.incident-followup-closure.ru",
+      "work_id": "shar.work.verification-workflow.incident-followup-closure",
+      "language": "ru",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.campaign-release-evidence.en",
+      "work_id": "shar.work.verification-workflow.campaign-release-evidence",
+      "language": "en",
+      "format": "interactive_html_workflow"
+    },
+    {
+      "representation_id": "shar.representation.verification-workflow.campaign-release-evidence.ru",
+      "work_id": "shar.work.verification-workflow.campaign-release-evidence",
+      "language": "ru",
+      "format": "interactive_html_workflow"
     }
   ],
   "releases": [
@@ -2055,6 +2558,38 @@
         "shar.work.evidence-record.supplier-bid-evaluation",
         "shar.work.evidence-record.incident-report",
         "shar.work.evidence-record.final-release-gate"
+      ]
+    },
+    {
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "version": "1.0.0",
+      "immutable_ref": "v1.0.0",
+      "work_ids": [
+        "shar.work.verification-workflow.brief-intake-triage",
+        "shar.work.verification-workflow.stakeholder-approval-routing",
+        "shar.work.verification-workflow.rights-window-preflight",
+        "shar.work.verification-workflow.talent-consent-reconciliation",
+        "shar.work.verification-workflow.location-permit-readiness",
+        "shar.work.verification-workflow.supplier-onboarding",
+        "shar.work.verification-workflow.purchase-order-reconciliation",
+        "shar.work.verification-workflow.call-sheet-release",
+        "shar.work.verification-workflow.crew-safety-acknowledgment",
+        "shar.work.verification-workflow.camera-to-dit-handoff",
+        "shar.work.verification-workflow.sound-roll-ingest",
+        "shar.work.verification-workflow.checksum-transfer-verification",
+        "shar.work.verification-workflow.proxy-generation-handoff",
+        "shar.work.verification-workflow.edit-turnover",
+        "shar.work.verification-workflow.vfx-pull-roundtrip",
+        "shar.work.verification-workflow.color-turnover",
+        "shar.work.verification-workflow.mix-turnover",
+        "shar.work.verification-workflow.caption-localization-qc",
+        "shar.work.verification-workflow.accessibility-acceptance",
+        "shar.work.verification-workflow.multi-locale-delivery",
+        "shar.work.verification-workflow.platform-export-acceptance",
+        "shar.work.verification-workflow.client-release-approval",
+        "shar.work.verification-workflow.archive-three-copy-verification",
+        "shar.work.verification-workflow.incident-followup-closure",
+        "shar.work.verification-workflow.campaign-release-evidence"
       ]
     }
   ],
@@ -8451,6 +8986,1660 @@
       },
       "release_id": "shar.release.production-evidence-records.1.0.0",
       "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.brief-intake-triage.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.brief-intake-triage"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.brief-intake-triage.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/brief-intake-triage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.brief-intake-triage.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.brief-intake-triage"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.brief-intake-triage.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/brief-intake-triage/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.stakeholder-approval-routing.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.stakeholder-approval-routing"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.stakeholder-approval-routing.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/stakeholder-approval-routing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.stakeholder-approval-routing.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.stakeholder-approval-routing"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.stakeholder-approval-routing.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/stakeholder-approval-routing/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.rights-window-preflight.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.rights-window-preflight"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.rights-window-preflight.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/rights-window-preflight/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.rights-window-preflight.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.rights-window-preflight"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.rights-window-preflight.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/rights-window-preflight/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.talent-consent-reconciliation.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.talent-consent-reconciliation"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.talent-consent-reconciliation.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/talent-consent-reconciliation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.talent-consent-reconciliation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.talent-consent-reconciliation"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.talent-consent-reconciliation.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/talent-consent-reconciliation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.location-permit-readiness.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.location-permit-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.location-permit-readiness.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/location-permit-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.location-permit-readiness.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.location-permit-readiness"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.location-permit-readiness.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/location-permit-readiness/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.supplier-onboarding.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.supplier-onboarding"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.supplier-onboarding.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/supplier-onboarding/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.supplier-onboarding.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.supplier-onboarding"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.supplier-onboarding.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/supplier-onboarding/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.purchase-order-reconciliation.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.purchase-order-reconciliation"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.purchase-order-reconciliation.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/purchase-order-reconciliation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.purchase-order-reconciliation.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.purchase-order-reconciliation"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.purchase-order-reconciliation.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/purchase-order-reconciliation/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.call-sheet-release.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.call-sheet-release"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.call-sheet-release.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/call-sheet-release/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.call-sheet-release.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.call-sheet-release"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.call-sheet-release.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/call-sheet-release/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.crew-safety-acknowledgment.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.crew-safety-acknowledgment"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/crew-safety-acknowledgment/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.crew-safety-acknowledgment.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.crew-safety-acknowledgment"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/crew-safety-acknowledgment/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.camera-to-dit-handoff.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.camera-to-dit-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.camera-to-dit-handoff.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/camera-to-dit-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.camera-to-dit-handoff.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.camera-to-dit-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.camera-to-dit-handoff.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/camera-to-dit-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.sound-roll-ingest.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.sound-roll-ingest"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.sound-roll-ingest.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/sound-roll-ingest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.sound-roll-ingest.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.sound-roll-ingest"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.sound-roll-ingest.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/sound-roll-ingest/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.checksum-transfer-verification.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.checksum-transfer-verification"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.checksum-transfer-verification.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/checksum-transfer-verification/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.checksum-transfer-verification.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.checksum-transfer-verification"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.checksum-transfer-verification.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/checksum-transfer-verification/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.proxy-generation-handoff.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.proxy-generation-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.proxy-generation-handoff.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/proxy-generation-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.proxy-generation-handoff.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.proxy-generation-handoff"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.proxy-generation-handoff.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/proxy-generation-handoff/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.edit-turnover.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.edit-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.edit-turnover.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/edit-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.edit-turnover.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.edit-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.edit-turnover.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/edit-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.vfx-pull-roundtrip.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.vfx-pull-roundtrip"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/vfx-pull-roundtrip/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.vfx-pull-roundtrip.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.vfx-pull-roundtrip"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/vfx-pull-roundtrip/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.color-turnover.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.color-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.color-turnover.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/color-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.color-turnover.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.color-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.color-turnover.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/color-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.mix-turnover.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.mix-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.mix-turnover.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/mix-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.mix-turnover.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.mix-turnover"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.mix-turnover.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/mix-turnover/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.caption-localization-qc.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.caption-localization-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.caption-localization-qc.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/caption-localization-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.caption-localization-qc.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.caption-localization-qc"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.caption-localization-qc.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/caption-localization-qc/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.accessibility-acceptance.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.accessibility-acceptance"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.accessibility-acceptance.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/accessibility-acceptance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.accessibility-acceptance.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.accessibility-acceptance"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.accessibility-acceptance.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/accessibility-acceptance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.multi-locale-delivery.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.multi-locale-delivery"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.multi-locale-delivery.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/multi-locale-delivery/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.multi-locale-delivery.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.multi-locale-delivery"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.multi-locale-delivery.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/multi-locale-delivery/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.platform-export-acceptance.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.platform-export-acceptance"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.platform-export-acceptance.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/platform-export-acceptance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.platform-export-acceptance.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.platform-export-acceptance"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.platform-export-acceptance.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/platform-export-acceptance/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.client-release-approval.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.client-release-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.client-release-approval.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/client-release-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.client-release-approval.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.client-release-approval"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.client-release-approval.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/client-release-approval/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.archive-three-copy-verification.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.archive-three-copy-verification"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.archive-three-copy-verification.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/archive-three-copy-verification/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.archive-three-copy-verification.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.archive-three-copy-verification"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.archive-three-copy-verification.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/archive-three-copy-verification/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.incident-followup-closure.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.incident-followup-closure"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.incident-followup-closure.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/incident-followup-closure/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.incident-followup-closure.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.incident-followup-closure"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.incident-followup-closure.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/incident-followup-closure/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.campaign-release-evidence.cloudflare.en",
+      "work_ids": [
+        "shar.work.verification-workflow.campaign-release-evidence"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.campaign-release-evidence.en"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/campaign-release-evidence/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.verification-workflow.campaign-release-evidence.cloudflare.ru",
+      "work_ids": [
+        "shar.work.verification-workflow.campaign-release-evidence"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.campaign-release-evidence.ru"
+      ],
+      "provider": "Cloudflare Pages",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "public_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/campaign-release-evidence/",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "0c2aa8c7-45d5-458f-bd6c-7ee81d57a0b2@246baf03086da4912f86cf33b3a5a67ede59a476",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Exact localized URL returned HTTP 200 with unique canonical, indexable metadata, SHAR Production and https://sharprod.com/.",
+          "Browser executed the workflow with its synthetic input and returned PASS.",
+          "Chrome 390x900 and 1440x900 passed without horizontal overflow; 100/100 viewport checks passed."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-verification-workflows.github",
+      "work_ids": [
+        "shar.work.verification-workflow.brief-intake-triage",
+        "shar.work.verification-workflow.stakeholder-approval-routing",
+        "shar.work.verification-workflow.rights-window-preflight",
+        "shar.work.verification-workflow.talent-consent-reconciliation",
+        "shar.work.verification-workflow.location-permit-readiness",
+        "shar.work.verification-workflow.supplier-onboarding",
+        "shar.work.verification-workflow.purchase-order-reconciliation",
+        "shar.work.verification-workflow.call-sheet-release",
+        "shar.work.verification-workflow.crew-safety-acknowledgment",
+        "shar.work.verification-workflow.camera-to-dit-handoff",
+        "shar.work.verification-workflow.sound-roll-ingest",
+        "shar.work.verification-workflow.checksum-transfer-verification",
+        "shar.work.verification-workflow.proxy-generation-handoff",
+        "shar.work.verification-workflow.edit-turnover",
+        "shar.work.verification-workflow.vfx-pull-roundtrip",
+        "shar.work.verification-workflow.color-turnover",
+        "shar.work.verification-workflow.mix-turnover",
+        "shar.work.verification-workflow.caption-localization-qc",
+        "shar.work.verification-workflow.accessibility-acceptance",
+        "shar.work.verification-workflow.multi-locale-delivery",
+        "shar.work.verification-workflow.platform-export-acceptance",
+        "shar.work.verification-workflow.client-release-approval",
+        "shar.work.verification-workflow.archive-three-copy-verification",
+        "shar.work.verification-workflow.incident-followup-closure",
+        "shar.work.verification-workflow.campaign-release-evidence"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.brief-intake-triage.en",
+        "shar.representation.verification-workflow.brief-intake-triage.ru",
+        "shar.representation.verification-workflow.stakeholder-approval-routing.en",
+        "shar.representation.verification-workflow.stakeholder-approval-routing.ru",
+        "shar.representation.verification-workflow.rights-window-preflight.en",
+        "shar.representation.verification-workflow.rights-window-preflight.ru",
+        "shar.representation.verification-workflow.talent-consent-reconciliation.en",
+        "shar.representation.verification-workflow.talent-consent-reconciliation.ru",
+        "shar.representation.verification-workflow.location-permit-readiness.en",
+        "shar.representation.verification-workflow.location-permit-readiness.ru",
+        "shar.representation.verification-workflow.supplier-onboarding.en",
+        "shar.representation.verification-workflow.supplier-onboarding.ru",
+        "shar.representation.verification-workflow.purchase-order-reconciliation.en",
+        "shar.representation.verification-workflow.purchase-order-reconciliation.ru",
+        "shar.representation.verification-workflow.call-sheet-release.en",
+        "shar.representation.verification-workflow.call-sheet-release.ru",
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.en",
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.ru",
+        "shar.representation.verification-workflow.camera-to-dit-handoff.en",
+        "shar.representation.verification-workflow.camera-to-dit-handoff.ru",
+        "shar.representation.verification-workflow.sound-roll-ingest.en",
+        "shar.representation.verification-workflow.sound-roll-ingest.ru",
+        "shar.representation.verification-workflow.checksum-transfer-verification.en",
+        "shar.representation.verification-workflow.checksum-transfer-verification.ru",
+        "shar.representation.verification-workflow.proxy-generation-handoff.en",
+        "shar.representation.verification-workflow.proxy-generation-handoff.ru",
+        "shar.representation.verification-workflow.edit-turnover.en",
+        "shar.representation.verification-workflow.edit-turnover.ru",
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.en",
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.ru",
+        "shar.representation.verification-workflow.color-turnover.en",
+        "shar.representation.verification-workflow.color-turnover.ru",
+        "shar.representation.verification-workflow.mix-turnover.en",
+        "shar.representation.verification-workflow.mix-turnover.ru",
+        "shar.representation.verification-workflow.caption-localization-qc.en",
+        "shar.representation.verification-workflow.caption-localization-qc.ru",
+        "shar.representation.verification-workflow.accessibility-acceptance.en",
+        "shar.representation.verification-workflow.accessibility-acceptance.ru",
+        "shar.representation.verification-workflow.multi-locale-delivery.en",
+        "shar.representation.verification-workflow.multi-locale-delivery.ru",
+        "shar.representation.verification-workflow.platform-export-acceptance.en",
+        "shar.representation.verification-workflow.platform-export-acceptance.ru",
+        "shar.representation.verification-workflow.client-release-approval.en",
+        "shar.representation.verification-workflow.client-release-approval.ru",
+        "shar.representation.verification-workflow.archive-three-copy-verification.en",
+        "shar.representation.verification-workflow.archive-three-copy-verification.ru",
+        "shar.representation.verification-workflow.incident-followup-closure.en",
+        "shar.representation.verification-workflow.incident-followup-closure.ru",
+        "shar.representation.verification-workflow.campaign-release-evidence.en",
+        "shar.representation.verification-workflow.campaign-release-evidence.ru"
+      ],
+      "provider": "GitHub",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://github.com/SHARProduction/production-verification-workflows",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "v1.0.0@db405375e4b6418b2a7a3337bbba02a7b016f6ad",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public repository and v1.0.0 release returned HTTP 200 with exact SHAR Production metadata.",
+          "GitHub Actions run 34005977704 completed successfully.",
+          "Release contains 25 deterministic workflows, 50 localized pages, MIT source and CC-BY-4.0 fixtures."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
+    },
+    {
+      "placement_id": "shar.placement.production-verification-workflows.huggingface",
+      "work_ids": [
+        "shar.work.verification-workflow.brief-intake-triage",
+        "shar.work.verification-workflow.stakeholder-approval-routing",
+        "shar.work.verification-workflow.rights-window-preflight",
+        "shar.work.verification-workflow.talent-consent-reconciliation",
+        "shar.work.verification-workflow.location-permit-readiness",
+        "shar.work.verification-workflow.supplier-onboarding",
+        "shar.work.verification-workflow.purchase-order-reconciliation",
+        "shar.work.verification-workflow.call-sheet-release",
+        "shar.work.verification-workflow.crew-safety-acknowledgment",
+        "shar.work.verification-workflow.camera-to-dit-handoff",
+        "shar.work.verification-workflow.sound-roll-ingest",
+        "shar.work.verification-workflow.checksum-transfer-verification",
+        "shar.work.verification-workflow.proxy-generation-handoff",
+        "shar.work.verification-workflow.edit-turnover",
+        "shar.work.verification-workflow.vfx-pull-roundtrip",
+        "shar.work.verification-workflow.color-turnover",
+        "shar.work.verification-workflow.mix-turnover",
+        "shar.work.verification-workflow.caption-localization-qc",
+        "shar.work.verification-workflow.accessibility-acceptance",
+        "shar.work.verification-workflow.multi-locale-delivery",
+        "shar.work.verification-workflow.platform-export-acceptance",
+        "shar.work.verification-workflow.client-release-approval",
+        "shar.work.verification-workflow.archive-three-copy-verification",
+        "shar.work.verification-workflow.incident-followup-closure",
+        "shar.work.verification-workflow.campaign-release-evidence"
+      ],
+      "representation_ids": [
+        "shar.representation.verification-workflow.brief-intake-triage.en",
+        "shar.representation.verification-workflow.brief-intake-triage.ru",
+        "shar.representation.verification-workflow.stakeholder-approval-routing.en",
+        "shar.representation.verification-workflow.stakeholder-approval-routing.ru",
+        "shar.representation.verification-workflow.rights-window-preflight.en",
+        "shar.representation.verification-workflow.rights-window-preflight.ru",
+        "shar.representation.verification-workflow.talent-consent-reconciliation.en",
+        "shar.representation.verification-workflow.talent-consent-reconciliation.ru",
+        "shar.representation.verification-workflow.location-permit-readiness.en",
+        "shar.representation.verification-workflow.location-permit-readiness.ru",
+        "shar.representation.verification-workflow.supplier-onboarding.en",
+        "shar.representation.verification-workflow.supplier-onboarding.ru",
+        "shar.representation.verification-workflow.purchase-order-reconciliation.en",
+        "shar.representation.verification-workflow.purchase-order-reconciliation.ru",
+        "shar.representation.verification-workflow.call-sheet-release.en",
+        "shar.representation.verification-workflow.call-sheet-release.ru",
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.en",
+        "shar.representation.verification-workflow.crew-safety-acknowledgment.ru",
+        "shar.representation.verification-workflow.camera-to-dit-handoff.en",
+        "shar.representation.verification-workflow.camera-to-dit-handoff.ru",
+        "shar.representation.verification-workflow.sound-roll-ingest.en",
+        "shar.representation.verification-workflow.sound-roll-ingest.ru",
+        "shar.representation.verification-workflow.checksum-transfer-verification.en",
+        "shar.representation.verification-workflow.checksum-transfer-verification.ru",
+        "shar.representation.verification-workflow.proxy-generation-handoff.en",
+        "shar.representation.verification-workflow.proxy-generation-handoff.ru",
+        "shar.representation.verification-workflow.edit-turnover.en",
+        "shar.representation.verification-workflow.edit-turnover.ru",
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.en",
+        "shar.representation.verification-workflow.vfx-pull-roundtrip.ru",
+        "shar.representation.verification-workflow.color-turnover.en",
+        "shar.representation.verification-workflow.color-turnover.ru",
+        "shar.representation.verification-workflow.mix-turnover.en",
+        "shar.representation.verification-workflow.mix-turnover.ru",
+        "shar.representation.verification-workflow.caption-localization-qc.en",
+        "shar.representation.verification-workflow.caption-localization-qc.ru",
+        "shar.representation.verification-workflow.accessibility-acceptance.en",
+        "shar.representation.verification-workflow.accessibility-acceptance.ru",
+        "shar.representation.verification-workflow.multi-locale-delivery.en",
+        "shar.representation.verification-workflow.multi-locale-delivery.ru",
+        "shar.representation.verification-workflow.platform-export-acceptance.en",
+        "shar.representation.verification-workflow.platform-export-acceptance.ru",
+        "shar.representation.verification-workflow.client-release-approval.en",
+        "shar.representation.verification-workflow.client-release-approval.ru",
+        "shar.representation.verification-workflow.archive-three-copy-verification.en",
+        "shar.representation.verification-workflow.archive-three-copy-verification.ru",
+        "shar.representation.verification-workflow.incident-followup-closure.en",
+        "shar.representation.verification-workflow.incident-followup-closure.ru",
+        "shar.representation.verification-workflow.campaign-release-evidence.en",
+        "shar.representation.verification-workflow.campaign-release-evidence.ru"
+      ],
+      "provider": "Hugging Face",
+      "ownership_group": "SHARProduction",
+      "public_url": "https://huggingface.co/datasets/SHARProduction/production-verification-workflows",
+      "status": "PUBLISHED_VERIFIED",
+      "verified_at": "2026-09-06T02:17:03Z",
+      "provider_version": "411c0e089611e20401d9052d0249f685ad7e6087",
+      "verification": {
+        "http_status": 200,
+        "content_checked": true,
+        "function_checked": true,
+        "owner_checked": true,
+        "version_checked": true,
+        "details": [
+          "Public dataset page and synthetic-workflows.jsonl returned HTTP 200.",
+          "Dataset card identifies SHAR Production, https://sharprod.com/, CC-BY-4.0 fixtures, MIT source and AI assistance disclosure.",
+          "The dataset exposes 25 distinct workflows with synthetic inputs."
+        ]
+      },
+      "release_id": "shar.release.production-verification-workflows.1.0.0",
+      "counted_in_baseline": true
     }
   ],
   "link_observations": [
@@ -10075,6 +12264,422 @@
       "source_url": "https://huggingface.co/datasets/SHARProduction/production-evidence-records",
       "target_url": "https://sharprod.com/",
       "observed_at": "2026-09-06T02:04:09Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-brief-intake-triage-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/brief-intake-triage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-brief-intake-triage-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/brief-intake-triage/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-stakeholder-approval-routing-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/stakeholder-approval-routing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-stakeholder-approval-routing-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/stakeholder-approval-routing/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-rights-window-preflight-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/rights-window-preflight/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-rights-window-preflight-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/rights-window-preflight/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-talent-consent-reconciliation-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/talent-consent-reconciliation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-talent-consent-reconciliation-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/talent-consent-reconciliation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-location-permit-readiness-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/location-permit-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-location-permit-readiness-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/location-permit-readiness/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-supplier-onboarding-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/supplier-onboarding/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-supplier-onboarding-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/supplier-onboarding/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-purchase-order-reconciliation-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/purchase-order-reconciliation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-purchase-order-reconciliation-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/purchase-order-reconciliation/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-call-sheet-release-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/call-sheet-release/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-call-sheet-release-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/call-sheet-release/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-crew-safety-acknowledgment-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/crew-safety-acknowledgment/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-crew-safety-acknowledgment-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/crew-safety-acknowledgment/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-camera-to-dit-handoff-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/camera-to-dit-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-camera-to-dit-handoff-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/camera-to-dit-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-sound-roll-ingest-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/sound-roll-ingest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-sound-roll-ingest-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/sound-roll-ingest/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-checksum-transfer-verification-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/checksum-transfer-verification/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-checksum-transfer-verification-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/checksum-transfer-verification/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-proxy-generation-handoff-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/proxy-generation-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-proxy-generation-handoff-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/proxy-generation-handoff/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-edit-turnover-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/edit-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-edit-turnover-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/edit-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-vfx-pull-roundtrip-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/vfx-pull-roundtrip/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-vfx-pull-roundtrip-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/vfx-pull-roundtrip/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-color-turnover-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/color-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-color-turnover-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/color-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-mix-turnover-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/mix-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-mix-turnover-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/mix-turnover/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-caption-localization-qc-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/caption-localization-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-caption-localization-qc-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/caption-localization-qc/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-accessibility-acceptance-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/accessibility-acceptance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-accessibility-acceptance-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/accessibility-acceptance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-multi-locale-delivery-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/multi-locale-delivery/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-multi-locale-delivery-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/multi-locale-delivery/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-platform-export-acceptance-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/platform-export-acceptance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-platform-export-acceptance-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/platform-export-acceptance/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-client-release-approval-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/client-release-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-client-release-approval-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/client-release-approval/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-archive-three-copy-verification-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/archive-three-copy-verification/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-archive-three-copy-verification-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/archive-three-copy-verification/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-incident-followup-closure-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/incident-followup-closure/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-incident-followup-closure-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/incident-followup-closure/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-campaign-release-evidence-cloudflare-en.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/en/campaign-release-evidence/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.verification-workflow-campaign-release-evidence-cloudflare-ru.website",
+      "source_url": "https://shar-production-open-tools.pages.dev/verification-workflows/ru/campaign-release-evidence/",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "cloudflare-account-75c1f9254ca84261915fdae717f25395",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-verification-workflows-github.website",
+      "source_url": "https://github.com/SHARProduction/production-verification-workflows",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
+      "ownership_group": "SHARProduction",
+      "independent": false
+    },
+    {
+      "link_observation_id": "shar.link.production-verification-workflows-huggingface.website",
+      "source_url": "https://huggingface.co/datasets/SHARProduction/production-verification-workflows",
+      "target_url": "https://sharprod.com/",
+      "observed_at": "2026-09-06T02:17:03Z",
       "ownership_group": "SHARProduction",
       "independent": false
     }

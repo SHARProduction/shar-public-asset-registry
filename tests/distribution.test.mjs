@@ -10,18 +10,18 @@ const load = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
 test('distribution extension validates inside the canonical Asset Registry', () => {
   const result = spawnSync(process.execPath, ['scripts/validate-distribution.mjs'], { cwd: root, encoding: 'utf8' });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /782 verified counted placements/);
+  assert.match(result.stdout, /834 verified counted placements/);
 });
 
 test('distribution baseline separates works, representations, placements, releases and ownership', () => {
   const data = load('data/distribution.json');
   assert.deepEqual(data.publisher, { name: 'SHAR Production', website: 'https://sharprod.com/' });
   assert.equal(data.incremental_spend_rub, 0);
-  assert.equal(data.counts.verified_counted_placements, 782);
-  assert.equal(data.counts.gap_to_minimum, 718);
-  assert.equal(data.works.length, 92);
-  assert.equal(data.representations.length, 184);
-  assert.equal(data.placements.length, 203);
+  assert.equal(data.counts.verified_counted_placements, 834);
+  assert.equal(data.counts.gap_to_minimum, 666);
+  assert.equal(data.works.length, 117);
+  assert.equal(data.representations.length, 234);
+  assert.equal(data.placements.length, 255);
   for (const key of ['works', 'representations', 'placements', 'releases', 'link_observations']) assert.ok(Array.isArray(data[key]), key);
   const placement = data.placements.find(item => item.placement_id === 'shar.placement.tool-factory.github');
   assert.ok(placement);
@@ -36,6 +36,10 @@ test('distribution baseline separates works, representations, placements, releas
   assert.ok(evidenceRecords);
   assert.equal(evidenceRecords.status, 'PUBLISHED_VERIFIED');
   assert.equal(evidenceRecords.release_id, 'shar.release.production-evidence-records.1.0.0');
+  const workflows = data.placements.find(item => item.placement_id === 'shar.placement.production-verification-workflows.huggingface');
+  assert.ok(workflows);
+  assert.equal(workflows.status, 'PUBLISHED_VERIFIED');
+  assert.equal(workflows.release_id, 'shar.release.production-verification-workflows.1.0.0');
 });
 
 test('distribution schema gates verified placement evidence', () => {
